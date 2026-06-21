@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CoffeeChat — Competitive Strategy Platform</title>
+<meta name="description" content="Interactive competitive landscape & strategic screen for CoffeeChat: career + company intelligence for Nigeria & Kenya." />
+<style>
+  :root{
+    --espresso:#2b1d14;
+    --espresso-2:#3a2719;
+    --crema:#f6efe6;
+    --cream:#fbf7f0;
+    --caramel:#c98a3a;
+    --caramel-soft:#e0a85a;
+    --latte:#a07a55;
+    --ink:#2b1d14;
+    --muted:#7c6655;
+    --line:rgba(43,29,20,.12);
+    --green:#2e9b6b;
+    --amber:#d9962a;
+    --red:#cf4e3a;
+    --shadow:0 10px 30px rgba(43,29,20,.12);
+    --shadow-lg:0 24px 60px rgba(43,29,20,.18);
+    --radius:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+  h1,h2,h3,h4{line-height:1.18;letter-spacing:-.01em}
+  a{color:inherit}
+  .accent{color:var(--caramel)}
+
+  /* ---------- NAV ---------- */
+  nav.top{
+    position:sticky;top:0;z-index:50;
+    background:rgba(43,29,20,.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  nav.top .wrap{display:flex;align-items:center;gap:18px;height:60px}
+  .brand{display:flex;align-items:center;gap:10px;color:var(--crema);font-weight:700;letter-spacing:-.02em}
+  .brand .cup{font-size:22px}
+  nav.top .links{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
+  nav.top .links a{
+    color:#d8c7b6;text-decoration:none;font-size:13.5px;font-weight:600;
+    padding:8px 12px;border-radius:999px;transition:.18s;white-space:nowrap;
+  }
+  nav.top .links a:hover{background:rgba(255,255,255,.10);color:#fff}
+  .menu-btn{display:none;margin-left:auto;background:none;border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:10px;padding:6px 10px;font-size:18px;cursor:pointer}
+
+  /* ---------- HERO ---------- */
+  header.hero{
+    background:
+      radial-gradient(1200px 500px at 80% -10%, rgba(201,138,58,.30), transparent 60%),
+      linear-gradient(160deg,#23170f,#3a2719 70%);
+    color:var(--crema);
+    padding:78px 0 88px;
+    position:relative;overflow:hidden;
+  }
+  .kicker{
+    display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--caramel-soft);border:1px solid rgba(224,168,90,.4);padding:6px 14px;border-radius:999px;margin-bottom:22px;
+  }
+  header.hero h1{font-size:clamp(30px,5vw,52px);font-weight:800;max-width:18ch}
+  header.hero h1 .u{text-decoration:underline;text-decoration-color:var(--caramel);text-underline-offset:6px}
+  header.hero p.sub{margin-top:22px;font-size:clamp(16px,2.2vw,20px);max-width:60ch;color:#e7d8c8}
+  .hero-cta{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;text-decoration:none;font-weight:700;font-size:14.5px;
+    padding:13px 22px;border-radius:999px;cursor:pointer;border:none;transition:.18s;
+  }
+  .btn.primary{background:var(--caramel);color:#1c130c}
+  .btn.primary:hover{background:var(--caramel-soft);transform:translateY(-2px)}
+  .btn.ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.18)}
+  .btn.ghost:hover{background:rgba(255,255,255,.16)}
+  .hero-stats{margin-top:50px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:760px}
+  .hero-stats .s{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:16px}
+  .hero-stats .s b{display:block;font-size:24px;color:#fff}
+  .hero-stats .s span{font-size:12.5px;color:#cdb9a6}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:72px 0;border-bottom:1px solid var(--line)}
+  .sec-head{max-width:62ch;margin-bottom:34px}
+  .sec-tag{font-size:12.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--caramel)}
+  .sec-head h2{font-size:clamp(24px,3.4vw,34px);font-weight:800;margin-top:8px}
+  .sec-head p{margin-top:12px;color:var(--muted);font-size:16.5px}
+
+  .lede{
+    background:linear-gradient(135deg,#fff,#fbf3e7);
+    border:1px solid var(--line);border-left:4px solid var(--caramel);
+    border-radius:var(--radius);padding:26px 28px;box-shadow:var(--shadow);
+  }
+  .lede p{font-size:17px}
+  .lede p + p{margin-top:14px}
+  .lede strong{color:var(--espresso)}
+
+  /* ---------- TABS ---------- */
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+  .tab{
+    background:#fff;border:1px solid var(--line);color:var(--muted);
+    padding:10px 18px;border-radius:999px;font-weight:700;font-size:14px;cursor:pointer;transition:.18s;
+  }
+  .tab:hover{border-color:var(--caramel)}
+  .tab.active{background:var(--espresso);color:var(--crema);border-color:var(--espresso)}
+  .panel{display:none;animation:fade .35s ease}
+  .panel.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  /* ---------- CARDS ---------- */
+  .grid{display:grid;gap:18px}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px;box-shadow:var(--shadow);transition:.2s;
+  }
+  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+  .card h4{font-size:17px;margin-bottom:4px}
+  .card .role{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--caramel);margin-bottom:12px}
+  .card .row{display:flex;gap:10px;padding:9px 0;border-top:1px dashed var(--line)}
+  .card .row .lab{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--latte);min-width:74px;padding-top:2px}
+  .card .row .val{font-size:14px;color:var(--ink)}
+  .pill{display:inline-block;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:999px;background:#f0e6d8;color:#7a5a32}
+
+  .list-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+  .list-card h4{font-size:16px;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+  .list-card ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+  .list-card li{font-size:14.5px;padding-left:18px;position:relative;color:var(--ink)}
+  .list-card li:before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--caramel)}
+  .list-card li b{color:var(--espresso)}
+
+  /* ---------- PORTER ---------- */
+  .forces{display:grid;gap:14px}
+  .force{
+    background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);
+  }
+  .force-head{display:flex;align-items:center;gap:14px;padding:16px 18px;cursor:pointer;user-select:none}
+  .force-head:hover{background:#fbf4ea}
+  .force .ic{font-size:22px;width:40px;height:40px;display:grid;place-items:center;background:#f3e8d8;border-radius:10px;flex-shrink:0}
+  .force .t{font-weight:700;font-size:15.5px}
+  .force .meta{margin-left:auto;display:flex;align-items:center;gap:12px}
+  .level{font-size:11.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:999px;white-space:nowrap}
+  .level.vhigh{background:#fbe2dc;color:#b23a26}
+  .level.high{background:#fde6cf;color:#b9700f}
+  .level.mod{background:#e6f1ea;color:#1f7a52}
+  .chev{transition:.25s;color:var(--latte);font-size:14px}
+  .force.open .chev{transform:rotate(90deg)}
+  .force-body{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .force.open .force-body{max-height:280px}
+  .force-body .inner{padding:0 18px 18px 72px;font-size:14.5px;color:var(--ink)}
+  .force-meter{height:7px;background:#eee2d3;border-radius:999px;margin:10px 0 0;overflow:hidden}
+  .force-meter i{display:block;height:100%;border-radius:999px}
+
+  /* ---------- PESTLE accordion ---------- */
+  .pestle{display:grid;gap:12px}
+  .acc{background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+  .acc-head{display:flex;align-items:center;gap:14px;padding:16px 18px;cursor:pointer}
+  .acc-head:hover{background:#fbf4ea}
+  .acc .letter{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;font-weight:800;color:#fff;flex-shrink:0}
+  .acc .ttl{font-weight:700;font-size:15px}
+  .acc .tag{margin-left:auto;font-size:11.5px;font-weight:700;color:var(--latte);text-transform:uppercase;letter-spacing:.05em}
+  .acc-body{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .acc.open .acc-body{max-height:240px}
+  .acc-body .inner{padding:0 18px 18px 70px;font-size:14.5px}
+
+  /* ---------- SWOT ---------- */
+  .swot{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .quad{border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .quad h4{display:flex;align-items:center;gap:10px;font-size:16px;margin-bottom:14px}
+  .quad .badge{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px}
+  .quad ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+  .quad li{font-size:14px;padding-left:16px;position:relative}
+  .quad li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%}
+  .quad.s{background:#effaf3}.quad.s .badge{background:var(--green)}.quad.s li:before{background:var(--green)}
+  .quad.w{background:#fdf0ec}.quad.w .badge{background:var(--red)}.quad.w li:before{background:var(--red)}
+  .quad.o{background:#fef6e8}.quad.o .badge{background:var(--amber)}.quad.o li:before{background:var(--amber)}
+  .quad.t{background:#f1ecfb}.quad.t .badge{background:#7a5cc4}.quad.t li:before{background:#7a5cc4}
+
+  /* ---------- LIFECYCLE ---------- */
+  .clocks{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .clock{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+  .clock h4{font-size:16px;margin-bottom:6px}
+  .clock .stage{font-size:13px;color:var(--muted);margin-bottom:16px}
+  .track{display:flex;gap:6px;margin-bottom:14px}
+  .track .seg{flex:1;height:9px;border-radius:999px;background:#eee2d3}
+  .track .seg.on{background:var(--caramel)}
+  .track .seg.now{background:var(--espresso);box-shadow:0 0 0 3px rgba(201,138,58,.25)}
+  .stage-labels{display:flex;justify-content:space-between;font-size:10.5px;color:var(--latte);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+  .landgrab{margin-top:20px;background:linear-gradient(135deg,#2b1d14,#4a3220);color:var(--crema);border-radius:var(--radius);padding:22px 24px}
+  .landgrab b{color:var(--caramel-soft)}
+
+  /* ---------- RWW SCREEN ---------- */
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
+  .filters .lbl{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px}
+  .fbtn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:7px;transition:.15s}
+  .fbtn:hover{border-color:var(--caramel)}
+  .fbtn.active{background:var(--espresso);color:#fff;border-color:var(--espresso)}
+  .dot{width:9px;height:9px;border-radius:50%}
+  .dot.g{background:var(--green)}.dot.y{background:var(--amber)}.dot.r{background:var(--red)}
+  .rww-group{margin-top:26px}
+  .rww-group > h3{font-size:18px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+  .rww-group .qn{width:26px;height:26px;border-radius:8px;background:var(--espresso);color:#fff;display:grid;place-items:center;font-size:13px;font-weight:800}
+  .screen-item{
+    background:#fff;border:1px solid var(--line);border-left-width:5px;border-radius:12px;
+    padding:16px 18px;margin-bottom:10px;box-shadow:var(--shadow);transition:.2s;
+  }
+  .screen-item[data-flag="g"]{border-left-color:var(--green)}
+  .screen-item[data-flag="y"]{border-left-color:var(--amber)}
+  .screen-item[data-flag="r"]{border-left-color:var(--red)}
+  .screen-item.hide{display:none}
+  .screen-item .q{font-weight:700;font-size:15px;display:flex;align-items:center;gap:10px}
+  .screen-item .q .fdot{width:11px;height:11px;border-radius:50%;flex-shrink:0}
+  .screen-item .a{font-size:14px;color:var(--ink);margin-top:8px}
+  .screen-item .must{font-size:13.5px;color:var(--muted);margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+  .screen-item .must b{color:var(--caramel)}
+
+  /* ---------- VERDICT ---------- */
+  .verdict-banner{background:linear-gradient(135deg,#23170f,#3a2719);color:var(--crema);border-radius:var(--radius);padding:30px 28px;margin-bottom:28px;box-shadow:var(--shadow-lg)}
+  .verdict-banner h3{font-size:22px;margin-bottom:10px}
+  .verdict-banner .v3{display:flex;gap:24px;flex-wrap:wrap;margin-top:18px}
+  .verdict-banner .v3 div{font-size:14px}
+  .verdict-banner .v3 b{display:block;color:var(--caramel-soft);font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
+  .five{display:grid;gap:14px}
+  .truth{display:flex;gap:18px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:var(--shadow);transition:.2s}
+  .truth:hover{transform:translateX(4px);box-shadow:var(--shadow-lg)}
+  .truth .num{font-size:30px;font-weight:800;color:var(--caramel);line-height:1;flex-shrink:0;min-width:42px}
+  .truth h4{font-size:16px;margin-bottom:4px}
+  .truth p{font-size:14px;color:var(--muted)}
+  .danger{margin-top:24px;background:#fdf0ec;border:1px solid #f3cfc4;border-left:4px solid var(--red);border-radius:14px;padding:20px 22px}
+  .danger b{color:var(--red)}
+
+  footer{background:var(--espresso);color:#c9b5a2;padding:40px 0;text-align:center;font-size:13.5px;border:none}
+  footer .brand{justify-content:center;margin-bottom:10px}
+  footer a{color:var(--caramel-soft)}
+
+  .note{font-size:12.5px;color:var(--latte);margin-top:14px;font-style:italic}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media(max-width:820px){
+    .g2,.g3,.swot,.clocks,.hero-stats{grid-template-columns:1fr}
+    .hero-stats{grid-template-columns:1fr 1fr}
+    nav.top .links{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;background:var(--espresso);padding:12px;gap:4px}
+    nav.top .links.open{display:flex}
+    .menu-btn{display:block}
+    .force-body .inner{padding-left:18px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <div class="brand"><span class="cup">☕</span> CoffeeChat <span style="opacity:.5;font-weight:500">Strategy</span></div>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <div class="links" id="navLinks">
+      <a href="#overview">Overview</a>
+      <a href="#competitors">Competitors</a>
+      <a href="#porter">Five Forces</a>
+      <a href="#pestle">PESTLE</a>
+      <a href="#lifecycle">Lifecycle</a>
+      <a href="#swot">SWOT</a>
+      <a href="#screen">R-W-W Screen</a>
+      <a href="#verdict">Verdict</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <span class="kicker">Career + Company Intelligence · Nigeria & Kenya</span>
+    <h1>Your sharpest competitor isn't Glassdoor or LinkedIn. <span class="u accent">It's your uncle.</span></h1>
+    <p class="sub">CoffeeChat's competitive landscape and strategic screen — turning a relational, oral, trust-based job market into a structured, queryable, currency-honest one.</p>
+    <div class="hero-cta">
+      <a href="#overview" class="btn primary">Explore the analysis →</a>
+      <a href="#verdict" class="btn ghost">Jump to the verdict</a>
+    </div>
+    <div class="hero-stats">
+      <div class="s"><b>~85%</b><span>of jobs found via "who you know" (wasta) in one regional survey</span></div>
+      <div class="s"><b>9×</b><span>more likely a referred candidate is hired — the network gap</span></div>
+      <div class="s"><b>5</b><span>things that must be true for CoffeeChat to win</span></div>
+      <div class="s"><b>B2B</b><span>where the budget sits — consumers expect free</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">The one truth that organises everything</div>
+      <h2>You're not building a better Glassdoor. You're building the registry.</h2>
+    </div>
+    <div class="lede">
+      <p>In Nigeria and Kenya, the dominant "technology" for answering <em>what should I earn, is this company any good, where can this role lead, who's hiring</em> is <strong>relational</strong> — family, old-boy networks, church, professional bodies, WhatsApp groups, "long leg." Most good jobs are never posted; they move through trusted circles first.</p>
+      <p>In Porter's language this relational network is a <strong>substitute</strong>, but it behaves like the <strong>incumbent market leader</strong>: high trust, zero monetary cost, deeply entrenched, and structurally exclusionary. The real job is to <strong>convert a trust-based oral information market into an objective, queryable one</strong> — where the underlying data largely doesn't exist yet. (Zillow without a land registry: the registry <em>is</em> the product; the UI is the easy part.)</p>
+    </div>
+    <div class="grid g2" style="margin-top:18px">
+      <div class="list-card">
+        <h4>🎯 Compete on trust & freshness, not features</h4>
+        <ul>
+          <li>The relational channel wins on <b>trust</b>; free aggregators win on <b>breadth</b>.</li>
+          <li>You win only if data is <b>both</b> trustworthy <b>and</b> broader than a WhatsApp group…</li>
+          <li>…<b>and</b> fresher than a static Glassdoor figure in a 30%-inflation economy.</li>
+        </ul>
+      </div>
+      <div class="list-card">
+        <h4>💸 The person with the problem isn't the one with the budget</h4>
+        <ul>
+          <li>Job seekers expect <b>free</b>.</li>
+          <li>The money sits with <b>employers, recruiters and institutions</b>.</li>
+          <li>That split decides the <b>business model</b> before anything else.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPETITORS -->
+<section id="competitors">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">1 · Competitor map</div>
+      <h2>Who you're really up against</h2>
+      <p>Three layers — and the biggest competitor is the one most scans miss entirely.</p>
+    </div>
+
+    <div class="tabs" id="compTabs">
+      <button class="tab active" data-panel="direct">A · Direct</button>
+      <button class="tab" data-panel="indirect">B · Indirect</button>
+      <button class="tab" data-panel="behavioural">C · Behavioural (the real incumbent)</button>
+    </div>
+
+    <div class="panel active" id="direct">
+      <div class="grid g2">
+        <div class="card">
+          <h4>MySalaryScale</h4><div class="role">Closest direct analogue · NG/KE/Ghana</div>
+          <div class="row"><span class="lab">Does</span><span class="val">Crowdsourced salaries + company reviews (owned by MyJobMag)</span></div>
+          <div class="row"><span class="lab">Strength</span><span class="val">Local-first; first mover on indigenous pay data</span></div>
+          <div class="row"><span class="lab">The gap</span><span class="val">Stalled on funding & trust → thin data, no currency adjustment, no real B2B model</span></div>
+        </div>
+        <div class="card">
+          <h4>Glassdoor</h4><div class="role">Global reviews + salaries</div>
+          <div class="row"><span class="lab">Strength</span><span class="val">Brand, free, familiar</span></div>
+          <div class="row"><span class="lab">The gap</span><span class="val">Doesn't localise; sparse indigenous coverage; stale, diaspora-contaminated salaries; no devaluation handling</span></div>
+        </div>
+        <div class="card">
+          <h4>PayScale / Salary.com / Levels.fyi</h4><div class="role">Comp benchmarking</div>
+          <div class="row"><span class="lab">Strength</span><span class="val">Strong in US/UK/EU</span></div>
+          <div class="row"><span class="lab">The gap</span><span class="val">Effectively no indigenous NG/KE data; Levels is tech-only and absent in Africa</span></div>
+        </div>
+        <div class="card">
+          <h4>LinkedIn</h4><div class="role">+ Premium / Recruiter / Talent Insights</div>
+          <div class="row"><span class="lab">Strength</span><span class="val">Owns the raw role-transition data — the professional graph</span></div>
+          <div class="row"><span class="lab">The gap</span><span class="val">Never surfaces career-pathing for Africa; insights gated behind premium few locals buy</span></div>
+        </div>
+        <div class="card">
+          <h4>Profolio.ng</h4><div class="role">Programmatic SEO salary guides</div>
+          <div class="row"><span class="lab">Strength</span><span class="val">Search visibility</span></div>
+          <div class="row"><span class="lab">The gap</span><span class="val">A content competitor, not a data/trust platform; no proprietary data or tools</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" id="indirect">
+      <div class="grid g2">
+        <div class="list-card"><h4>🧭 Job boards</h4><ul>
+          <li><b>Jobberman</b> (NG, since 2009, ROAM-owned)</li>
+          <li><b>MyJobMag</b> (NG, 35k+ listings)</li>
+          <li><b>BrighterMonday</b> (KE, ROAM)</li>
+          <li><b>Fuzu</b> (KE) — "Africa's largest career platform," AI matching + Learning Hub</li>
+          <li><b>The deficit:</b> all are job-<i>finding</i> tools — no career roadmaps, progression mapping, or company financial-health signals. The real gap is <b>career-transition</b>, not job-listing.</li>
+        </ul></div>
+        <div class="list-card"><h4>🤖 AI job aggregators</h4><ul>
+          <li><b>SwiftKazi, Ikokazi</b> (KE) scrape 30–50 boards and auto-apply</li>
+          <li>Thin-margin commodity layers</li>
+          <li><b>The warning:</b> the listings layer is undefendable</li>
+        </ul></div>
+        <div class="list-card"><h4>📊 Market / company intelligence</h4><ul>
+          <li><b>Stears</b> — the one to watch. Pivoted <i>from consumer to institutional</i> (PE, DFIs, corporates; ~$4.35M raised)</li>
+          <li>They <b>vacated</b> the consumer company-intelligence lane — exactly where your career+company angle sits</li>
+          <li><b>Intelpoint</b>, <b>Briter Bridges / Africa: The Big Deal</b> — funding & report data</li>
+        </ul></div>
+        <div class="list-card"><h4>🌍 Talent-export & supply</h4><ul>
+          <li><b>Marketplaces:</b> Andela, Arc.dev, Turing, Toptal, Deel, Remote, Remote OK — the destination for "globally legible" users (your convertibility layer)</li>
+          <li><b>Credentialing:</b> ALX, AltSchool, Coursera, 3MTT — shape the supply</li>
+          <li><b>Hard financial data:</b> African Financials, AFX, NGX/NSE, Bloomberg/Refinitiv, CAC — your <b>inputs</b> and unfair advantage</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="panel" id="behavioural">
+      <div class="lede" style="border-left-color:var(--red);margin-bottom:18px">
+        <p><strong>The category most scans miss — and the biggest.</strong> These are the substitutes people <em>actually</em> use today. The relational system is free and high-trust, but it manufactures the <strong>"network gap"</strong>: opportunity allocated by who you know, not what you can do (a referred candidate is ~9× more likely to be hired).</p>
+      </div>
+      <div class="grid g3">
+        <div class="list-card"><h4>👨‍👩‍👧 The "uncle" network</h4><ul><li>Family / "long-leg" / "man-know-man" referral hiring</li><li>Named <i>wasta</i> regionally — ~85% say jobs come this way in one Egyptian youth survey</li></ul></div>
+        <div class="list-card"><h4>🎓 Alumni networks</h4><ul><li>Old Students' Associations, university set/year groups, course WhatsApp groups</li><li>Durable and status-coded</li></ul></div>
+        <div class="list-card"><h4>⛪ Religious networks</h4><ul><li>RCCG / Winners / Catholic parishes & mosque communities</li><li>Job and information pipelines</li></ul></div>
+        <div class="list-card"><h4>🏛️ Professional bodies</h4><ul><li>ICAN, CIPM, NBA, NSE</li><li>CIPM membership now near-baseline for TA roles</li></ul></div>
+        <div class="list-card"><h4>🤝 Ethnic / hometown unions</h4><ul><li>Town unions; the Igbo <i>Igba Boi</i> apprenticeship model</li><li>Relational capital as career infrastructure</li></ul></div>
+        <div class="list-card"><h4>💬 Word-of-mouth pay</h4><ul><li>People learn what to earn by quietly asking peers</li><li>Never by checking a site</li></ul></div>
+      </div>
+      <p class="note">The strategic crux: CoffeeChat's deepest reason to exist is to <b>democratise and make objective</b> what's locked inside private networks. The global/remote market is far more merit-based — which is <i>why</i> convertibility is so attractive. For many users, going global is partly an escape from wasta.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTER -->
+<section id="porter">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">2 · Strategic tools</div>
+      <h2>Porter's Five Forces</h2>
+      <p>The NG/KE career-&-company-data market. Tap each force to expand.</p>
+    </div>
+    <div class="forces" id="forces">
+      <!-- filled by JS -->
+    </div>
+    <div class="lede" style="margin-top:20px;border-left-color:var(--espresso)">
+      <p><strong>Net:</strong> an attractive <em>position</em> (open lane) inside a <em>structurally tough</em> industry (high substitutes, low listings barriers). You must compete on the one axis that compounds — <strong>proprietary, trusted, fresh data.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- PESTLE -->
+<section id="pestle">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">2 · Strategic tools</div>
+      <h2>PESTLE — the macro forces</h2>
+      <p>What you're riding, and what you're fighting. Tap to expand each factor.</p>
+    </div>
+    <div class="pestle" id="pestle">
+      <!-- filled by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- LIFECYCLE -->
+<section id="lifecycle">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">2 · Strategic tools</div>
+      <h2>Industry & product lifecycle</h2>
+      <p>Two clocks run at once — and the gap between them is the opportunity.</p>
+    </div>
+    <div class="clocks">
+      <div class="clock">
+        <h4>The relational substitute</h4>
+        <div class="stage">Stage: <b>Maturity</b> — entrenched, "good enough," slow-moving</div>
+        <div class="track">
+          <div class="seg on"></div><div class="seg on"></div><div class="seg on"></div><div class="seg now"></div>
+        </div>
+        <div class="stage-labels"><span>Startup</span><span>Growth</span><span>Mature</span><span>Decline</span></div>
+      </div>
+      <div class="clock">
+        <h4>Digital career-&-company-data (NG/KE)</h4>
+        <div class="stage">Stage: <b>Early Growth — arguably still Startup</b></div>
+        <div class="track">
+          <div class="seg now"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
+        </div>
+        <div class="stage-labels"><span>Startup</span><span>Growth</span><span>Mature</span><span>Decline</span></div>
+      </div>
+    </div>
+    <div class="landgrab">
+      <p>🚩 <b>Land-grab window.</b> Demand and awareness are rising, but the industry is fragmented, data thin, profitability unproven — and there's <b>no category leader</b>. The prize is becoming the <b>default trusted source</b> before the category consolidates. Early-mover advantage here (data accumulation + brand trust) genuinely compounds. The catch: you may be early to a category that monetises slowly on the consumer side — which is exactly why <b>B2B is the bridge</b>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SWOT -->
+<section id="swot">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">2 · Strategic tools</div>
+      <h2>SWOT — CoffeeChat specifically</h2>
+    </div>
+    <div class="swot">
+      <div class="quad s"><h4><span class="badge">S</span> Strengths</h4><ul>
+        <li>Proprietary listed-firm (NGX/NSE) dataset</li>
+        <li>The <b>convertibility</b> IP/framework — genuinely differentiated</li>
+        <li>Deep founder-market fit; cross-market NG/KE/UK network</li>
+        <li>An existing research engine (Kairos) repurposable for company intelligence</li>
+      </ul></div>
+      <div class="quad w"><h4><span class="badge">W</span> Weaknesses</h4><ul>
+        <li>Capital & data-ops headcount vs. funded rivals</li>
+        <li>No contribution flywheel yet (cold-start)</li>
+        <li>Single-founder bandwidth across multiple ventures</li>
+        <li>Brand/distribution from zero</li>
+      </ul></div>
+      <div class="quad o"><h4><span class="badge">O</span> Opportunities</h4><ul>
+        <li>The open "trusted indigenous company + pay intelligence" lane Stears vacated</li>
+        <li>Kenya-first salary seeding</li>
+        <li>Recruiter / DFI / corporate monetisation</li>
+        <li>Career-pathing & convertibility as unserved hero features</li>
+        <li>Verification as a trust moat</li>
+      </ul></div>
+      <div class="quad t"><h4><span class="badge">T</span> Threats</h4><ul>
+        <li>ROAM/Jobberman or a re-funded MySalaryScale bolting on salary</li>
+        <li>Commodity AI aggregators</li>
+        <li>The free relational channel + free Glassdoor</li>
+        <li>Macro / currency shocks</li>
+        <li>A data-privacy misstep eroding trust</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- RWW SCREEN -->
+<section id="screen">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">3 · The R-W-W screen</div>
+      <h2>What needs to be true for us to win</h2>
+      <p>Each item: honest assessment → the condition that must hold → flag. Filter by flag to see strengths, open questions, or weaknesses to fix.</p>
+    </div>
+    <div class="filters" id="filters">
+      <span class="lbl">Filter:</span>
+      <button class="fbtn active" data-f="all">All</button>
+      <button class="fbtn" data-f="g"><span class="dot g"></span> Credible now</button>
+      <button class="fbtn" data-f="y"><span class="dot y"></span> Must validate</button>
+      <button class="fbtn" data-f="r"><span class="dot r"></span> Weakness to fix</button>
+    </div>
+    <div id="rww"><!-- filled by JS --></div>
+  </div>
+</section>
+
+<!-- VERDICT -->
+<section id="verdict" style="border-bottom:none">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-tag">4 · Verdict</div>
+      <h2>The five things that must be true</h2>
+    </div>
+    <div class="verdict-banner">
+      <h3>Real · Can win · Worth doing</h3>
+      <p>The screen's bottom line, in three reads:</p>
+      <div class="v3">
+        <div><b>Real?</b> Yes — but the buyer is B2B, not the consumer.</div>
+        <div><b>Can win?</b> Yes on the data wedge — conditional on resourcing the gap.</div>
+        <div><b>Worth doing?</b> Yes — strongest on strategic fit; remaining work is retiring execution risk.</div>
+      </div>
+    </div>
+    <div class="five">
+      <div class="truth"><div class="num">1</div><div><h4>B2B pays</h4><p>Recruiters/TA teams + corporates/DFIs will pay for benchmarking, talent intelligence and company data — because consumers won't. <i>Test first; it gates the model.</i></p></div></div>
+      <div class="truth"><div class="num">2</div><div><h4>You out-trust the network and out-fresh Glassdoor</h4><p>Verified, currency-honest data beats both "ask my uncle" (objectivity/breadth) and a stale figure (freshness).</p></div></div>
+      <div class="truth"><div class="num">3</div><div><h4>You dodge cold-start with proprietary data</h4><p>Ship company-health + comp signals from NGX/NSE filings and CAC <i>before</i> the crowdsourcing flywheel turns.</p></div></div>
+      <div class="truth"><div class="num">4</div><div><h4>The flywheel seeds — Kenya first</h4><p>Use Kenya's greater pay-openness to prove contribution + verification, then export the playbook to Nigeria with trust scaffolding already working.</p></div></div>
+      <div class="truth"><div class="num">5</div><div><h4>You build a moat that survives copying</h4><p>Proprietary comp + your own transition graph + verified reviews — defensible against commodity aggregators and a ROAM/MySalaryScale salary bolt-on.</p></div></div>
+    </div>
+    <div class="danger">
+      <p>⚠️ <b>The single biggest danger</b> is #1 and #5 together: an open lane that monetises slowly on the consumer side, against incumbents who could copy the salary layer. Both are answered by the same move — <b>anchor on the proprietary, hard data you already hold, sell it to the side with budget, and let the consumer product compound the asset.</b></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand"><span class="cup">☕</span> CoffeeChat Strategy</div>
+    <p>Competitive Landscape & Strategic Screen · Career + company intelligence for Nigeria & Kenya</p>
+    <p style="margin-top:8px;opacity:.7">Interactive platform built from the CoffeeChat Competitive Strategy Analysis.</p>
+  </div>
+</footer>
+
+<script>
+/* ---------- Mobile menu ---------- */
+document.getElementById('menuBtn').addEventListener('click',()=>{
+  document.getElementById('navLinks').classList.toggle('open');
+});
+document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>{
+  document.getElementById('navLinks').classList.remove('open');
+}));
+
+/* ---------- Competitor tabs ---------- */
+document.querySelectorAll('#compTabs .tab').forEach(t=>{
+  t.addEventListener('click',()=>{
+    document.querySelectorAll('#compTabs .tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('#competitors .panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById(t.dataset.panel).classList.add('active');
+  });
+});
+
+/* ---------- Porter's Five Forces ---------- */
+const forces=[
+  {ic:'🚪',t:'Threat of new entrants',lvl:'HIGH',cls:'high',pct:78,col:'#d9962a',
+   body:'Low technical barrier to listings/aggregation (the AI aggregators prove it); a funded ROAM/Jobberman or a re-funded MySalaryScale could bolt on salary data fast. Your only durable barrier is <b>proprietary data + trust, not software.</b>'},
+  {ic:'🛒',t:'Power of buyers',lvl:'HIGH / MODERATE',cls:'high',pct:65,col:'#d9962a',
+   body:'HIGH on the consumer side — they expect free. MODERATE on B2B — recruiters/corporates/DFIs have budget but also alternatives (Stears for macro, agencies for sourcing). You need a wedge they can\'t get elsewhere.'},
+  {ic:'🔌',t:'Power of suppliers (data contributors)',lvl:'HIGH & FRAGILE',cls:'high',pct:72,col:'#d9962a',
+   body:'Your "suppliers" are users submitting salaries/reviews — they can withhold (the trust problem that throttled MySalaryScale). Exchange filings and CAC are <b>non-fragile</b> supply — lean on them first.'},
+  {ic:'🔄',t:'Threat of substitutes',lvl:'VERY HIGH',cls:'vhigh',pct:92,col:'#cf4e3a',
+   body:'The relational network + free Glassdoor/LinkedIn + WhatsApp groups. <b>The force to respect most.</b>'},
+  {ic:'⚔️',t:'Competitive rivalry',lvl:'MODERATE',cls:'mod',pct:45,col:'#2e9b6b',
+   body:'Fragmented. No one owns "trusted, currency-honest, indigenous company + pay intelligence." The lane is genuinely open — but open because it\'s <b>hard</b>, not because no one noticed.'}
+];
+document.getElementById('forces').innerHTML=forces.map(f=>`
+  <div class="force">
+    <div class="force-head">
+      <div class="ic">${f.ic}</div>
+      <div class="t">${f.t}</div>
+      <div class="meta"><span class="level ${f.cls}">${f.lvl}</span><span class="chev">▶</span></div>
+    </div>
+    <div class="force-body"><div class="inner">${f.body}
+      <div class="force-meter"><i style="width:${f.pct}%;background:${f.col}"></i></div>
+    </div></div>
+  </div>`).join('');
+document.querySelectorAll('#forces .force-head').forEach(h=>{
+  h.addEventListener('click',()=>h.parentElement.classList.toggle('open'));
+});
+
+/* ---------- PESTLE ---------- */
+const pestle=[
+  {L:'P',c:'#7a5cc4',t:'Political',tag:'Compliance → trust',body:'Data-protection regimes (Nigeria\'s NDPA, Kenya\'s DPA) govern how you collect/publish personal pay data: a compliance cost, but a <b>trust differentiator</b> if handled well.'},
+  {L:'E',c:'#cf4e3a',t:'Economic',tag:'The defining force',body:'Naira/shilling devaluation + high inflation make any static salary figure decay fast — the precise reason incumbents\' data is useless and your <b>currency-honest model is the wedge</b>. The local-vs-USD pay chasm fuels convertibility demand.'},
+  {L:'S',c:'#d9962a',t:'Social',tag:'Seed in Kenya',body:'Salary taboo (strong in Nigeria, <b>weaker in Kenya</b> where people share pay more openly — a gift for seeding); the "who-you-know" norm; <i>japa</i>/brain-drain ambition.'},
+  {L:'T',c:'#2e9b6b',t:'Technological',tag:'Cuts both ways',body:'AI lowers the cost of building (cuts both ways) and is automating low-end roles, pushing durable <b>convertible</b> skills toward judgment-heavy work (AI/ML, cloud, security, fintech PM).'},
+  {L:'L',c:'#3a78c4',t:'Legal',tag:'Verification opening',body:'Employment law, professional-body gatekeeping, and rampant scam jobs — a <b>verification opportunity</b>.'},
+  {L:'E',c:'#7c6655',t:'Environmental',tag:'Least relevant',body:'Least relevant; minor sector-classification value only.'}
+];
+document.getElementById('pestle').innerHTML=pestle.map(p=>`
+  <div class="acc">
+    <div class="acc-head">
+      <div class="letter" style="background:${p.c}">${p.L}</div>
+      <div class="ttl">${p.t}</div>
+      <div class="tag">${p.tag}</div>
+    </div>
+    <div class="acc-body"><div class="inner">${p.body}</div></div>
+  </div>`).join('');
+document.querySelectorAll('#pestle .acc-head').forEach(h=>{
+  h.addEventListener('click',()=>h.parentElement.classList.toggle('open'));
+});
+
+/* ---------- R-W-W screen ---------- */
+const rww=[
+  {g:'Is it real?',n:'',items:[
+    {f:'g',q:'Is there a need/desire?',a:'Strong, evidenced — both sides blind on pay & company quality; the relational system excludes the unconnected; recruiters lack benchmarks.',m:'The pain is acute enough that users shift away from "ask my network."'},
+    {f:'y',q:'Can the customer buy it?',a:'Split market: seekers expect free; budget sits with employers/recruiters/DFIs.',m:'You build for the B2B buyer; consumers are the data flywheel + funnel, not the revenue.'},
+    {f:'y',q:'Is the market big enough?',a:'Large formal labour markets, but the monetisable slice (TA teams, corporates, DFIs) is narrower; consumer ARPU is low.',m:'The B2B TAM clears your revenue bar alone.'},
+    {f:'g',q:'Clear product concept?',a:'Yes — currency-honest comp + exchange-anchored company health + career-pathing + convertibility.',m:'Concept stays focused; you resist becoming "another job board."'},
+    {f:'y',q:'Can the product be made?',a:'Partly real today (filings → comp bands, company health); partly dependent on accumulated data.',m:'Bootstrap from non-fragile data (NGX/NSE filings, CAC) to ship value before the flywheel turns.'},
+    {f:'y',q:'Will it satisfy the market?',a:'Only if it beats "ask my uncle" on objectivity/breadth and a stale Glassdoor on freshness.',m:'Data is both trusted and fresh — verification + currency-adjustment are non-negotiable.'}
+  ]},
+  {g:'Can we win?',n:'',items:[
+    {f:'g',q:'Competitive advantage?',a:'Yes — exchange-filing-anchored company intelligence is a wedge no one holds; convertibility is unique.',m:'The wedge is felt by users, not just clever — "is this company healthy/legit, what does it really pay, where does it lead."'},
+    {f:'y',q:'Sustainable advantage?',a:'Data moats compound (more contributions → better data → more users), but listings are commodity.',m:'Defensibility comes from proprietary, hard-to-copy data — not listings or UI.'},
+    {f:'y',q:'How will competitors respond?',a:'A re-funded MySalaryScale or a ROAM/Jobberman bolt-on is the real threat; LinkedIn localising is unlikely.',m:'You reach "trusted default" + real data depth before a funded incumbent copies the salary layer.'},
+    {f:'r',q:'Superior resources?',a:'Honest weak point — rivals are funded (Stears ~$4.35M; ROAM is large). Your edge is domain insight + the listed-firm dataset + Kairos, not capital.',m:'Secure capital + a small data-ops/BD team, and/or data partnerships (exchanges, professional bodies). 🔴→🟡'},
+    {f:'y',q:'Appropriate management?',a:'Strong domain/strategy; gap is data engineering + B2B sales.',m:'Add (or partner for) data-engineering and enterprise-sales capability.'},
+    {f:'g',q:'Understand & respond to the market?',a:'Excellent founder-market fit (NG/KE/UK; investing + career + culture).',m:'Stay close to both sides — seekers and TA buyers.'}
+  ]},
+  {g:'Is it worth doing?',n:'',items:[
+    {f:'y',q:'Profitable at acceptable risk?',a:'Plausible via B2B (recruiter SaaS, employer branding, corporate/DFI data); consumer is funnel, not P&L.',m:'B2B unit economics (ACV × retention) work; consumer growth feeds the data asset cheaply.'},
+    {f:'y',q:'Are the risks acceptable?',a:'Material but mitigable — cold-start, trust (killed MySalaryScale), currency/macro, incumbent response, scrape-commoditisation.',m:'Retire the top risks deliberately — proprietary data first, Kenya-first seeding, verification layer, B2B wedge.'},
+    {f:'g',q:'Fits overall growth strategy?',a:'Strongly — it is the "unlock developing-markets data" mission; aligns with convertibility, the Alttene/Novola architecture, and Kairos.',m:'The venture stays coherent with the broader thesis, not a side-bet.'},
+    {f:'y',q:'Will it get top-level support / resourcing?',a:'Depends on bandwidth across ventures.',m:'You either prioritise it or structure it so it isn\'t starved.'}
+  ]}
+];
+const flagDot={g:'var(--green)',y:'var(--amber)',r:'var(--red)'};
+document.getElementById('rww').innerHTML=rww.map((grp,i)=>`
+  <div class="rww-group">
+    <h3><span class="qn">${i+1}</span> ${grp.g}</h3>
+    ${grp.items.map(it=>`
+      <div class="screen-item" data-flag="${it.f}">
+        <div class="q"><span class="fdot" style="background:${flagDot[it.f]}"></span>${it.q}</div>
+        <div class="a">${it.a}</div>
+        <div class="must"><b>To win:</b> ${it.m}</div>
+      </div>`).join('')}
+  </div>`).join('');
+document.querySelectorAll('#filters .fbtn').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('#filters .fbtn').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    const f=b.dataset.f;
+    document.querySelectorAll('.screen-item').forEach(it=>{
+      it.classList.toggle('hide', f!=='all' && it.dataset.flag!==f);
+    });
+    document.querySelectorAll('.rww-group').forEach(g=>{
+      const visible=[...g.querySelectorAll('.screen-item')].some(it=>!it.classList.contains('hide'));
+      g.style.display=visible?'block':'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
