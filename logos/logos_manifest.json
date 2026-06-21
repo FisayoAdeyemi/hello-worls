@@ -1,0 +1,1002 @@
+{
+  "count": 142,
+  "exchanges": [
+    "NGX"
+  ],
+  "logos": [
+    {
+      "exchange": "NGX",
+      "ticker": "ABBEYBDS",
+      "company": "Abbey Mortgage Bank PLC",
+      "website": "https://www.abbeymortgagebank.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ABBEYBDS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ABCTRANS",
+      "company": "ABC Transport PLC",
+      "website": "https://www.abctransport.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ABCTRANS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ACADEMY",
+      "company": "Academy Press PLC",
+      "website": "http://www.academypress-plc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ACADEMY.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ACCESSCORP",
+      "company": "Access Holdings PLC",
+      "website": "https://www.accessbankplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ACCESSCORP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AFRINSURE",
+      "company": "African Alliance Insurance PLC",
+      "website": "https://www.africanallianceplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AFRINSURE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AFRIPRUD",
+      "company": "Africa Prudential PLC",
+      "website": "https://africaprudential.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AFRIPRUD.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AFROMEDIA",
+      "company": "Afromedia PLC",
+      "website": "http://www.afromediaplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AFROMEDIA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AIICO",
+      "company": "AIICO Insurance PLC",
+      "website": "https://www.aiicoplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AIICO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AIRTELAFRI",
+      "company": "Airtel Africa PLC",
+      "website": "https://airtel.africa/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AIRTELAFRI.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ALEX",
+      "company": "Aluminum Extrusion IND PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ALEX.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ARADEL",
+      "company": "ARADEL HOLDINGS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ARADEL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ASOSAVINGS",
+      "company": "ASO SAVINGS AND LOANS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ASOSAVINGS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AUSTINLAZ",
+      "company": "AUSTIN LAZ & COMPANY PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AUSTINLAZ.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "AVAIF",
+      "company": "AVA Infastructure Fund",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/AVAIF.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "BAPLC",
+      "company": "Briclinks Africa PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/BAPLC.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "BERGER",
+      "company": "Berger Paints Nigeria PLC",
+      "website": "https://bergerpaintsnig.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/BERGER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "BETAGLAS",
+      "company": "Beta Glass PLC",
+      "website": "https://www.beta-glass.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/BETAGLAS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "BUACEMENT",
+      "company": "BUA Cement PLC",
+      "website": "https://www.buacement.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/BUACEMENT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "BUAFOODS",
+      "company": "BUA Foods PLC",
+      "website": "https://www.buafoodsplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/BUAFOODS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CADBURY",
+      "company": "Cadbury Nigeria PLC",
+      "website": "https://www.cadburynigeria.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CADBURY.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CAP",
+      "company": "CAP PLC",
+      "website": "https://www.capplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CAP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CAVERTON",
+      "company": "Caverton Offshore Support Group PLC",
+      "website": "https://www.caverton-offshore.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CAVERTON.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CHAMPION",
+      "company": "Champion Breweries PLC",
+      "website": "https://championbreweries.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CHAMPION.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CHAMS",
+      "company": "Chams Holding Company PLC",
+      "website": "https://chamsplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CHAMS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CHELLARAM",
+      "company": "CHELLARAMS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CHELLARAM.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CILEASING",
+      "company": "C & I Leasing PLC",
+      "website": "https://www.c-ileasing.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CILEASING.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CONHALLPLC",
+      "company": "CONSOLIDATED HALLMARK INSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CONHALLPLC.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CONOIL",
+      "company": "Conoil PLC",
+      "website": "http://www.conoilplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CONOIL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CORNERST",
+      "company": "Cornerstone Insurance PLC",
+      "website": "https://www.cornerstone.com.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CORNERST.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CUSTODIAN",
+      "company": "Custodian Investment PLC",
+      "website": "https://custodianplc.com.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CUSTODIAN.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CUTIX",
+      "company": "Cutix PLC",
+      "website": "https://www.cutixplc.com.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CUTIX.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "CWG",
+      "company": "CWG PLC",
+      "website": "https://cwg-plc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/CWG.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "DAARCOMM",
+      "company": "DAAR COMMUNICATIONS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/DAARCOMM.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "DANGCEM",
+      "company": "Dangote Cement PLC",
+      "website": "https://www.dangotecement.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/DANGCEM.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "DANGSUGAR",
+      "company": "Dangote Sugar Refinery PLC",
+      "website": "https://www.dangotesugar.com.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/DANGSUGAR.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "DEAPCAP",
+      "company": "DEAP CAPITAL MANAGEMENT & TRUST PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/DEAPCAP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "DUNLOP",
+      "company": "DN TYRE & RUBBER PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/DUNLOP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "EKOCORP",
+      "company": "EKOCORP PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/EKOCORP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ELLAHLAKES",
+      "company": "ELLAH LAKES PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ELLAHLAKES.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ENAMELWA",
+      "company": "ENAMELWARE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ENAMELWA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ETERNA",
+      "company": "Eterna PLC",
+      "website": "https://www.eternaplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ETERNA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ETI",
+      "company": "Ecobank Transnational Incorporated",
+      "website": "https://ecobank.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ETI.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ETRANZACT",
+      "company": "eTranzact International PLC",
+      "website": "https://www.etranzact.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ETRANZACT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "EUNISELL",
+      "company": "EUNISELL INTERLINKED PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/EUNISELL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "FBNH",
+      "company": "FBN Holdings PLC",
+      "website": "https://www.fbnholdings.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/FBNH.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "FCMB",
+      "company": "FCMB Group Plc",
+      "website": "https://www.fcmb.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/FCMB.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "FIDELITYBK",
+      "company": "Fidelity Bank PLC",
+      "website": "https://www.fidelitybank.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/FIDELITYBK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "FIDSON",
+      "company": "Fidson Healthcare PLC",
+      "website": "https://www.fidson.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/FIDSON.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "FTGINSURE",
+      "company": "FORTIS GLOBAL INSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/FTGINSURE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "FTNCOCOA",
+      "company": "FTN COCOA PROCESSORS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/FTNCOCOA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "GEREGU",
+      "company": "Geregu Power PLC",
+      "website": "https://geregupowerplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/GEREGU.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "GOLDBREW",
+      "company": "GOLDEN GUINEA BREW. PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/GOLDBREW.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "GTCO",
+      "company": "Guaranty Trust Holding Company PLC",
+      "website": "https://www.gtcoplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/GTCO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "GUINEAINS",
+      "company": "GUINEA INSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/GUINEAINS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "GUINNESS",
+      "company": "Guinness Nigeria PLC",
+      "website": "https://www.guinness-nigeria.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/GUINNESS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "HMCALL",
+      "company": "HALDANE MCCALL PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/HMCALL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "HONYFLOUR",
+      "company": "Honeywell Flour Mills PLC",
+      "website": "https://www.honeywellflour.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/HONYFLOUR.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "IKEJAHOTEL",
+      "company": "Ikeja Hotel PLC",
+      "website": "https://ikejahotelplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/IKEJAHOTEL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "INFINITY",
+      "company": "INFINITY TRUST MORTGAGE BANK PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/INFINITY.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "INTBREW",
+      "company": "International Breweries PLC",
+      "website": "https://www.ab-inbev.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/INTBREW.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "JAIZBANK",
+      "company": "Jaiz Bank PLC",
+      "website": "https://jaizbankplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/JAIZBANK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "JAPAULGOLD",
+      "company": "Japaul Gold & Ventures PLC",
+      "website": "https://japaulgroup.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/JAPAULGOLD.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "JBERGER",
+      "company": "Julius Berger Nigeria PLC",
+      "website": "https://www.julius-berger.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/JBERGER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "JOHNHOLT",
+      "company": "JOHN HOLT PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/JOHNHOLT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "JULI",
+      "company": "JULI PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/JULI.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "LASACO",
+      "company": "LASACO ASSURANCE PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/LASACO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "LEARNAFRCA",
+      "company": "LEARN AFRICA PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/LEARNAFRCA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "LINKASSURE",
+      "company": "Linkage Assurance PLC",
+      "website": "https://www.linkageassurance.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/LINKASSURE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "LIVESTOCK",
+      "company": "Livestock Feeds PLC",
+      "website": "http://www.livestockfeedsplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/LIVESTOCK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "LIVINGTRUST",
+      "company": "LIVINGTRUST MORTGAGE BANK PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/LIVINGTRUST.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MANSARD",
+      "company": "AXA Mansard Insurance PLC",
+      "website": "https://www.axamansard.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MANSARD.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MAYBAKER",
+      "company": "May & Baker Nigeria PLC",
+      "website": "https://www.may-baker.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MAYBAKER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MBENEFIT",
+      "company": "MUTUAL BENEFITS ASSURANCE PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MBENEFIT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MCNICHOLS",
+      "company": "MCNICHOLS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MCNICHOLS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MECURE",
+      "company": "MECURE INDUSTRIES PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MECURE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MEYER",
+      "company": "MEYER PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MEYER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MORISON",
+      "company": "MORISON INDUSTRIES PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MORISON.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MRS",
+      "company": "MRS Oil Nigeria PLC",
+      "website": "https://mrsholdings.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MRS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MTNN",
+      "company": "MTN Nigeria Communications PLC",
+      "website": "https://www.mtn.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MTNN.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "MULTITREX",
+      "company": "MULTI-TREX INTEGRATED FOODS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/MULTITREX.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NAHCO",
+      "company": "NAHCO Aviance PLC",
+      "website": "https://www.nahcoaviance.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NAHCO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NASCON",
+      "company": "NASCON Allied Industries PLC",
+      "website": "https://www.nasconplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NASCON.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NB",
+      "company": "Nigerian Breweries PLC",
+      "website": "https://nbplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NB.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NCR",
+      "company": "NCR (NIGERIA) PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NCR.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NEIMETH",
+      "company": "Neimeth International Pharmaceuticals PLC",
+      "website": "https://www.neimethplc.com.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NEIMETH.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NEM",
+      "company": "NEM Insurance PLC",
+      "website": "https://nem-insurance.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NEM.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NESTLE",
+      "company": "Nestle Nigeria PLC",
+      "website": "https://www.nestle-cwa.com/en/nigeria",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NESTLE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NGXGROUP",
+      "company": "NGX Group PLC",
+      "website": "https://ngxgroup.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NGXGROUP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NIDF",
+      "company": "CHAPEL HILL DENHAM NIG. INFRAS DEBT FUND",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NIDF.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NNFM",
+      "company": "NORTHERN NIGERIA FLOUR MILLS PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NNFM.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NPFMCRFBK",
+      "company": "NPF Microfinance Bank PLC",
+      "website": "https://www.npfmicrofinancebank.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NPFMCRFBK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "NSLTECH",
+      "company": "NSL TECH PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/NSLTECH.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "OANDO",
+      "company": "Oando PLC",
+      "website": "https://www.oandoplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/OANDO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "OKOMUOIL",
+      "company": "Okomu Oil Palm PLC",
+      "website": "https://www.okomunigeria.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/OKOMUOIL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "OMATEK",
+      "company": "OMATEK VENTURES PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/OMATEK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "PHARMDEKO",
+      "company": "PHARMA-DEKO PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/PHARMDEKO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "PREMPAINTS",
+      "company": "PREMIER PAINTS PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/PREMPAINTS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "PRESCO",
+      "company": "Presco PLC",
+      "website": "https://www.presco-plc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/PRESCO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "PRESTIGE",
+      "company": "PRESTIGE ASSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/PRESTIGE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "PZ",
+      "company": "PZ Cussons Nigeria PLC",
+      "website": "https://www.pzcussons.com/nigeria/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/PZ.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "REDSTAREX",
+      "company": "Red Star Express PLC",
+      "website": "https://redstarplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/REDSTAREX.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "REGALINS",
+      "company": "REGENCY ASSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/REGALINS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "RONCHESS",
+      "company": "RONCHESS GLOBAL RESOURCES PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/RONCHESS.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ROYALEX",
+      "company": "ROYAL EXCHANGE PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ROYALEX.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "RTBRISCOE",
+      "company": "R T BRISCOE PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/RTBRISCOE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "SCOA",
+      "company": "SCOA NIG PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/SCOA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "SEPLAT",
+      "company": "Seplat Energy PLC",
+      "website": "https://www.seplatenergy.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/SEPLAT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "SFSREIT",
+      "company": "SFS REAL ESTATE INVESTMENT TRUST",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/SFSREIT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "SKYAVN",
+      "company": "SKYWAY AVIATION HANDLING COMPANY PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/SKYAVN.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "SMURFIT",
+      "company": "SMART PRODUCTS NIGERIA PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/SMURFIT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "STACO",
+      "company": "STACO INSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/STACO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "STANBIC",
+      "company": "Stanbic IBTC Holdings PLC",
+      "website": "https://www.stanbicibtc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/STANBIC.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "STERLINGNG",
+      "company": "Sterling Financial Holdings Company PLC",
+      "website": "https://sterling.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/STERLINGNG.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "SUNUASSUR",
+      "company": "SUNU ASSURANCES NIGERIA PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/SUNUASSUR.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "TANTALIZER",
+      "company": "TANTALIZERS PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/TANTALIZER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "THOMASWY",
+      "company": "THOMAS WYATT NIG. PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/THOMASWY.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "TOTAL",
+      "company": "TOTALENERGIES MARKETING NIGERIA PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/TOTAL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "TRANSCOHOT",
+      "company": "Transcorp Hotels PLC",
+      "website": "https://www.transcorphotels.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/TRANSCOHOT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "TRANSCORP",
+      "company": "Transnational Corporation of Nigeria PLC",
+      "website": "https://www.transcorpgroup.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/TRANSCORP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "TRANSEXPR",
+      "company": "TRANS-NATIONWIDE EXPRESS PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/TRANSEXPR.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "TRIPPLEG",
+      "company": "TRIPPLE GEE & COMPANY PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/TRIPPLEG.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UACN",
+      "company": "UAC of Nigeria PLC",
+      "website": "https://www.uacnofnigeria.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UACN.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UBA",
+      "company": "United Bank for Africa PLC",
+      "website": "https://www.ubagroup.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UBA.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UBN",
+      "company": "Union Bank of Nigeria PLC",
+      "website": "https://www.unionbankng.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UBN.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UBN",
+      "company": "Union Bank of Nigeria PLC",
+      "website": "https://www.unionbankng.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UBN.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UCAP",
+      "company": "United Capital PLC",
+      "website": "https://www.unitedcapitalplcgroup.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UCAP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UHOMREIT",
+      "company": "UH REAL ESTATE INVESTMENT TRUST",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UHOMREIT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UNILEVER",
+      "company": "Unilever Nigeria PLC",
+      "website": "https://www.unilever-ewa.com/countries/nigeria/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UNILEVER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UNIONDICON",
+      "company": "UNION DICON SALT PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UNIONDICON.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UNITYBNK",
+      "company": "Unity Bank PLC",
+      "website": "https://www.unitybankng.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UNITYBNK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UNIVINSURE",
+      "company": "UNIVERSAL INSURANCE PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UNIVINSURE.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UPDC",
+      "company": "UPDC PLC",
+      "website": "https://www.updcplc.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UPDC.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UPDCREIT",
+      "company": "UPDC REAL ESTATE INVESTMENT TRUST",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UPDCREIT.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "UPL",
+      "company": "UNIVERSITY PRESS PLC.",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/UPL.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "VANLEER",
+      "company": "GREIF NIGERIA PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/VANLEER.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "VERITASKAP",
+      "company": "VERITAS KAPITAL ASSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/VERITASKAP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "VFDGROUP",
+      "company": "VFD GROUP PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/VFDGROUP.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "VITAFOAM",
+      "company": "Vitafoam Nigeria PLC",
+      "website": "https://www.vitafoamng.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/VITAFOAM.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "WAPCO",
+      "company": "Lafarge Africa PLC",
+      "website": "https://www.lafarge.com.ng/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/WAPCO.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "WAPIC",
+      "company": "WAPIC INSURANCE PLC",
+      "website": "",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/WAPIC.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "WEMABANK",
+      "company": "Wema Bank PLC",
+      "website": "https://www.wemabank.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/WEMABANK.png"
+    },
+    {
+      "exchange": "NGX",
+      "ticker": "ZENITHBANK",
+      "company": "Zenith Bank PLC",
+      "website": "https://www.zenithbank.com/",
+      "logo": "https://fisayoadeyemi.github.io/hello-worls/logos/ngx/ZENITHBANK.png"
+    }
+  ]
+}
