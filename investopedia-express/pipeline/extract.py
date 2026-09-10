@@ -123,15 +123,36 @@ def main() -> int:
         title = clean(ep["title"])
         desc = clean(ep["description"])
         transcript = ""
+        seg_starts = []   # (char offset, seconds) for mapping matches back to audio time
         tfile = tdir / f"{eid}.txt"
-        if tfile.exists():
-            transcript = clean(tfile.read_text(encoding="utf-8"))
+        jfile = tdir / f"{eid}.json"
+        if jfile.exists():
+            try:
+                segs = read_json(jfile).get("segments", [])
+                parts = []
+                pos = 0
+                for st, en, txt in segs:
+                    txt = txt.replace("\n", " ").strip()
+                    seg_starts.append((pos, st))
+                    parts.append(txt)
+                    pos += len(txt) + 1
+                transcript = "\n".join(parts)
+            except Exception:  # noqa: BLE001
+                transcript = ""
+        if not transcript and tfile.exists():
+            transcript = tfile.read_text(encoding="utf-8")
+        transcript = transcript.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
         matches = []
         for src, text in (("title", title), ("description", desc), ("transcript", transcript)):
             if not text:
                 continue
             for ticker, alias, s, e, source in scan(text, date, src):
-                matches.append({"ticker": ticker, "alias": alias, "source": source, "snippet": snippet(text, s, e)})
+                rec = {"ticker": ticker, "alias": alias, "source": source, "snippet": snippet(text, s, e)}
+                if src == "transcript" and seg_starts:
+                    import bisect
+                    k = bisect.bisect_right([o for o, _ in seg_starts], s) - 1
+                    rec["t"] = seg_starts[max(k, 0)][1]
+                matches.append(rec)
         # manual fixes
         for t in add_over.get(eid, []):
             matches.append({"ticker": t, "alias": "(manual)", "source": "manual", "snippet": title})
@@ -142,10 +163,12 @@ def main() -> int:
         order = {"title": 0, "description": 1, "manual": 1, "transcript": 2}
         grouped = {}
         for m in sorted(matches, key=lambda m: order[m["source"]]):
-            g = grouped.setdefault(m["ticker"], {"ticker": m["ticker"], "count": 0, "sources": set(), "snippets": [], "aliases": set()})
+            g = grouped.setdefault(m["ticker"], {"ticker": m["ticker"], "count": 0, "sources": set(), "snippets": [], "aliases": set(), "times": []})
             g["count"] += 1
             g["sources"].add(m["source"])
             g["aliases"].add(m["alias"])
+            if "t" in m:
+                g["times"].append(m["t"])
             if len(g["snippets"]) < 3 and m["snippet"] not in g["snippets"]:
                 g["snippets"].append(m["snippet"])
         recs = []
@@ -156,10 +179,12 @@ def main() -> int:
                 "sources": sorted(g["sources"], key=lambda s: order[s]),
                 "aliases": sorted(g["aliases"]),
                 "snippets": g["snippets"],
+                "times": sorted(g["times"])[:12],
             }
             recs.append(rec)
             by_ticker[t].append({"episode": eid, "date": ep["date"], "title": ep["title"], "count": g["count"],
-                                 "sources": rec["sources"], "snippet": g["snippets"][0] if g["snippets"] else ""})
+                                 "sources": rec["sources"], "snippet": g["snippets"][0] if g["snippets"] else "",
+                                 "times": rec["times"]})
             stats[t] += 1
         per_episode.append({"id": eid, "date": ep["date"], "title": ep["title"], "has_transcript": bool(transcript),
                             "mentions": sorted(recs, key=lambda r: (-r["count"], r["ticker"]))})

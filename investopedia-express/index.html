@@ -236,6 +236,10 @@ tbody tr { cursor: pointer; }
 .mrow .links { margin-top: 5px; font-size: 12px; display: flex; gap: 10px; }
 .mrow .links a { color: var(--ink-2); }
 @media (max-width: 600px) { .mrow { grid-template-columns: 1fr; } .mrow .mp { text-align: left; } }
+.times { display: inline-flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-top: 6px; }
+.playbtn { border: 1px solid var(--border-strong); background: var(--surface-2); color: var(--ink-2); border-radius: 999px; padding: 1px 8px; font-size: 11.5px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.playbtn:hover { border-color: var(--s1); color: var(--ink); }
+.playbtn.playing { background: color-mix(in srgb, var(--s1) 18%, transparent); border-color: var(--s1); color: var(--ink); }
 .empty { color: var(--ink-2); padding: 30px; text-align: center; border: 1px dashed var(--border-strong); border-radius: var(--radius); }
 footer { margin-top: 36px; color: var(--muted); font-size: 12px; line-height: 1.6; }
 footer a { color: var(--ink-2); }
@@ -309,6 +313,30 @@ const fmtMonth = d3.timeFormat('%b %Y');
 const parseDate = d3.timeParse('%Y-%m-%d');
 const fmtUSD = v => v >= 1000 ? d3.format('$,.0f')(v) : v >= 100 ? d3.format('$,.1f')(v) : d3.format('$,.2f')(v);
 const fmtPct = v => (v > 0 ? '+' : '') + d3.format('.1f')(v) + '%';
+const fmtTime = t => { t = Math.max(0, Math.round(t)); const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60; return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(s).padStart(2, '0'); };
+let player = null;
+function playAt(url, seconds, btn) {
+  if (!player) { player = document.createElement('audio'); player.preload = 'none'; player.style.display = 'none'; document.body.appendChild(player); }
+  const same = player.dataset.src === url;
+  if (!same) { player.src = url; player.dataset.src = url; }
+  const seek = () => { try { player.currentTime = seconds; } catch (e) {} player.play().catch(() => {}); };
+  if (same && player.readyState > 0) seek(); else player.addEventListener('loadedmetadata', seek, { once: true }), player.load();
+  document.querySelectorAll('.playbtn.playing').forEach(b => b.classList.remove('playing'));
+  if (btn) btn.classList.add('playing');
+}
+function timeChips(m, e, parent) {
+  if (!m.times || !m.times.length || !e || !e.audio) return;
+  const wrap = document.createElement('span'); wrap.className = 'times';
+  const lab = document.createElement('span'); lab.className = 'count'; lab.textContent = 'said at '; wrap.appendChild(lab);
+  for (const t of m.times.slice(0, 6)) {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'playbtn'; b.textContent = '▶ ' + fmtTime(t);
+    b.title = 'Play the episode from ' + fmtTime(t);
+    b.addEventListener('click', ev => { ev.stopPropagation(); playAt(e.audio, Math.max(0, t - 3), b); });
+    wrap.appendChild(b);
+  }
+  if (m.times.length > 6) { const more = document.createElement('span'); more.className = 'count'; more.textContent = `+${m.times.length - 6} more`; wrap.appendChild(more); }
+  parent.appendChild(wrap);
+}
 const state = { view: 'companies', range: 'all', sector: '', sort: 'mentions', etfs: true, q: '', data: null, priceCache: new Map(), open: null };
 
 // ---------- theme ----------
@@ -373,7 +401,7 @@ function renderStats() {
   const items = [
     ['Episodes scanned', m.episodeCount, `${fmtMonth(parseDate(m.firstDate))} – ${fmtMonth(parseDate(m.lastDate))}`],
     ['Public companies', m.companyCount, `${m.episodesWithMentions} episodes name at least one`],
-    ['Mentions plotted', m.mentionCount, m.episodesWithTranscript ? `${m.episodesWithTranscript} episodes with full transcripts` : 'from titles and show notes'],
+    ['Mentions plotted', m.mentionCount, m.episodesWithTranscript ? `titles, show notes and ${m.episodesWithTranscript} full transcripts` : 'from titles and show notes'],
     ['Prices through', m.pricesFetchedAt ? fmtDate(new Date(m.pricesFetchedAt)) : '—', 'daily closes, Yahoo Finance'],
   ];
   const el = $('#stats'); el.innerHTML = '';
@@ -481,11 +509,11 @@ function renderEpisodes() {
       const c = companyById(m.t); if (!c || (!state.etfs && c.etf)) continue;
       const chip = document.createElement('button'); chip.className = 'chip'; chip.type = 'button';
       chip.appendChild(logoEl(c)); chip.appendChild(document.createTextNode(c.name));
-      chip.title = (m.snippets && m.snippets[0]) || c.name;
+      chip.title = (m.times && m.times.length ? `At ${fmtTime(m.times[0])} · ` : '') + ((m.snippets && m.snippets[0]) || c.name);
       chip.addEventListener('click', () => openCompany(c.t, e.id));
       chips.appendChild(chip);
     }
-    if (!e.mentions.length) { const s = document.createElement('span'); s.className = 'count'; s.textContent = 'No public companies named in the show notes'; chips.appendChild(s); }
+    if (!e.mentions.length) { const s = document.createElement('span'); s.className = 'count'; s.textContent = e.hasTranscript ? 'No public companies named in this episode' : 'No public companies named in the show notes'; chips.appendChild(s); }
     body.appendChild(chips);
     const actions = document.createElement('div'); actions.className = 'actions';
     const more = document.createElement('button'); more.type = 'button'; more.textContent = 'Read more';
@@ -622,6 +650,7 @@ function buildMentionList(ml, c, series, vm) {
     if (e?.audio) { const a = document.createElement('a'); a.href = e.audio; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Listen to episode'; links.appendChild(a); }
     const src = document.createElement('span'); src.className = 'count'; src.textContent = 'found in ' + (m.src || []).join(', ');
     links.appendChild(src); mid.appendChild(links);
+    timeChips(m, e, mid);
     const mp = document.createElement('div'); mp.className = 'mp';
     if (series) {
       const i = nearestIndex(series.dates, parseDate(m.date));
@@ -791,7 +820,7 @@ function buildChart(cc, c, series, bench, vm, prevZoom) {
   function appendMentionTip(o) {
     const e = episodeById(o.m.ep);
     const t1 = document.createElement('div'); t1.className = 'ttitle'; t1.textContent = '● ' + (e?.title || o.m.ep); t1.style.color = 'var(--ink)';
-    const s = document.createElement('div'); s.className = 'tsnip'; s.textContent = o.m.snippet || '';
+    const s = document.createElement('div'); s.className = 'tsnip'; s.textContent = (o.m.times && o.m.times.length ? `At ${fmtTime(o.m.times[0])}${o.m.times.length > 1 ? ` and ${o.m.times.length - 1} more time${o.m.times.length > 2 ? 's' : ''}` : ''}: ` : '') + (o.m.snippet || '');
     tip.append(t1, s);
     if (o.i + 21 < adj.length) { const r = (adj[o.i + 21] / adj[o.i] - 1) * 100; const n = document.createElement('div'); n.className = 'tnext'; n.innerHTML = 'Next 30 days: <b></b>'; const b = n.querySelector('b'); b.textContent = fmtPct(r); b.className = r >= 0 ? 'up' : 'down'; tip.appendChild(n); }
   }
@@ -835,7 +864,7 @@ async function init() {
   for (const s of sectors) { const o = document.createElement('option'); o.value = s; o.textContent = s; $('#sector').appendChild(o); }
   renderStats(); renderView();
   const f = $('#foot');
-  f.innerHTML = `Data: episode titles and show notes from the show's public RSS feed${data.meta.episodesWithTranscript ? ' plus full transcripts where available' : ''}; company mentions found by dictionary matching (see <code>pipeline/companies.py</code>); adjusted daily closes from Yahoo Finance with Stooq as a fallback; logos from company sites and the nvstly/icons project. Rebuilt automatically every Monday by GitHub Actions. Last build: <span></span>. Not investment advice.`;
+  f.innerHTML = `Data: episode titles and show notes from the show's public RSS feed${data.meta.episodesWithTranscript ? `, plus full transcripts of ${data.meta.episodesWithTranscript} episodes generated from the audio with Whisper (timestamps link into the audio)` : ''}; company mentions found by dictionary matching (see <code>pipeline/companies.py</code>); adjusted daily closes from Yahoo Finance with Stooq as a fallback; logos from company sites and the nvstly/icons project. Rebuilt automatically every Monday by GitHub Actions. Last build: <span></span>. Not investment advice.`;
   f.querySelector('span').textContent = data.meta.generatedAt ? fmtDate(new Date(data.meta.generatedAt)) : '—';
   const hash = decodeURIComponent(location.hash.slice(1));
   if (hash && companyById(hash)) openCompany(hash);
