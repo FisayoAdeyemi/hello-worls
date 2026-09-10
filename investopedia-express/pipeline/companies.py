@@ -108,7 +108,7 @@ E("ROKU", "Roku", "Roku", domain="roku.com", sector="Communication Services")
 E("SNAP", "Snap", "Snapchat|Snap Inc|?Snap", domain="snap.com", sector="Communication Services")
 E("PINS", "Pinterest", "Pinterest", domain="pinterest.com", sector="Communication Services")
 E("RDDT", "Reddit", "Reddit@2024-03-21", domain="reddit.com", sector="Communication Services")
-E("TWTR", "Twitter", "Twitter", domain="x.com", sector="Communication Services", delisted="2022-10-27")
+E("TWTR", "Twitter", "?Twitter|Twitter Inc", domain="x.com", sector="Communication Services", delisted="2022-10-27")
 E("RBLX", "Roblox", "Roblox", domain="roblox.com", sector="Communication Services")
 E("EA", "Electronic Arts", "Electronic Arts", domain="ea.com", sector="Communication Services")
 E("TTWO", "Take-Two Interactive", "Take-Two|Take Two Interactive", domain="take2games.com", sector="Communication Services")
@@ -229,7 +229,7 @@ E("DRI", "Darden Restaurants", "Darden|Olive Garden", domain="darden.com", secto
 E("KO", "Coca-Cola", "Coca-Cola|Coca Cola|Coke", domain="coca-colacompany.com", sector="Consumer Staples")
 E("PEP", "PepsiCo", "PepsiCo|Pepsi|Frito-Lay", domain="pepsico.com", sector="Consumer Staples")
 E("MNST", "Monster Beverage", "Monster Beverage", domain="monsterbevcorp.com", sector="Consumer Staples")
-E("CELH", "Celsius Holdings", "Celsius Holdings|?Celsius", domain="celsius.com", sector="Consumer Staples")
+E("CELH", "Celsius Holdings", "Celsius Holdings|Celsius energy", domain="celsius.com", sector="Consumer Staples")
 E("STZ", "Constellation Brands", "Constellation Brands|Corona beer|Modelo", domain="cbrands.com", sector="Consumer Staples")
 E("BUD", "Anheuser-Busch InBev", "Anheuser-Busch|AB InBev|Bud Light|Budweiser", domain="ab-inbev.com", sector="Consumer Staples", country="BE")
 E("TAP", "Molson Coors", "Molson Coors|Coors", domain="molsoncoors.com", sector="Consumer Staples")
@@ -261,7 +261,7 @@ E("SIX", "Six Flags", "Six Flags", domain="sixflags.com", sector="Consumer Discr
 E("FUN", "Cedar Fair", "Cedar Fair", domain="cedarfair.com", sector="Consumer Discretionary")
 
 # --- Travel / leisure --------------------------------------------------------
-E("DAL", "Delta Air Lines", "Delta Air Lines|Delta Airlines|?Delta", domain="delta.com", sector="Industrials")
+E("DAL", "Delta Air Lines", "Delta Air Lines|Delta Airlines|Delta Air|?Delta", domain="delta.com", sector="Industrials")
 E("UAL", "United Airlines", "United Airlines|United Air Lines", domain="united.com", sector="Industrials")
 E("AAL", "American Airlines", "American Airlines", domain="aa.com", sector="Industrials")
 E("LUV", "Southwest Airlines", "Southwest Airlines|?Southwest", domain="southwest.com", sector="Industrials")
@@ -697,6 +697,19 @@ ENTRIES = [e for e in ENTRIES if e[0] != "ABNB.X"]
 # Context patterns that should NOT count as a mention of the company.
 EXCLUDE_PATTERNS = [
     r"Oracle of Omaha",
+    # social-media plugs and platform references rather than the company
+    r"\bon (Twitter|Instagram|Facebook|YouTube|LinkedIn|TikTok|Threads)\b",
+    r"\b(Twitter|Instagram|Facebook|YouTube|LinkedIn) (handle|handles|page|pages|account|accounts|feed|channel|channels|followers|profile|video|videos|live|space|spaces|thread|threads|post|posts|comments?)\b",
+    r"\b(follow|find|catch|join|see|watch|check out|hit|reach|DM|message) (us|me|him|her|them|Caleb|the show|the Express)\b[^.]{0,40}\b(Twitter|Instagram|Facebook|YouTube|LinkedIn|TikTok)\b",
+    r"\b(Twitter|Instagram|YouTube|Facebook)[,/ ]+(and|or|&)? ?(Twitter|Instagram|YouTube|Facebook|TikTok|LinkedIn)\b",
+    r"\btweet(s|ed|ing)?\b",
+    r"Northwestern Kellogg|Kellogg School|Kellogg School of Management",
+    r"Gap (EPS|earnings|accounting|basis|net|operating|measures?|numbers?|results?|profit|income|revenue)",
+    r"non-?Gap\b",
+    r"\b[A-Z][a-z]+ Block\b",
+    r"Delta (variant|strain|wave|surge|cases|COVID|Covid|outbreak|fears|spread|infections|virus)",
+    r"(COVID|Covid|coronavirus|virus|variant|vaccine|infection|pandemic|Omicron)[^.]{0,40}\bDelta\b",
+    r"degrees? Celsius|Celsius (degrees?|warming)",
     r"Big Apple",
     r"Apple pie",
     r"Amazon (rain ?forest|river|basin)",

@@ -30,8 +30,12 @@ def clean(text: str) -> str:
 
 
 def compile_aliases():
-    """Return list of (ticker, alias, regex, ambiguous, valid_from)."""
-    out = []
+    """Build one alternation regex for every alias plus a lookup table.
+
+    Returns (regex, table) where table maps the literal alias text to a list of
+    (ticker, ambiguous, valid_from, valid_until) tuples.
+    """
+    table = {}
     for ticker, name, aliases, opt in C.ENTRIES:
         if not aliases:
             continue
@@ -47,21 +51,14 @@ def compile_aliases():
                 raw, valid_until = raw.split("<", 1)
             if "@" in raw:
                 raw, valid_from = raw.split("@", 1)
-            alias = raw
-            # Case-sensitive for capitalised names, exact for all-caps tickers.
-            pat = re.escape(alias)
-            # Allow optional possessive when the alias does not already end with 's
-            if not alias.endswith("'s"):
-                pat += r"(?:'s)?"
-            # Word boundaries that tolerate punctuation like & and .
-            regex = re.compile(r"(?<![A-Za-z0-9])" + pat + r"(?![A-Za-z0-9])")
-            out.append((ticker, alias, regex, ambiguous, valid_from, valid_until))
-    # Longer aliases first so "Bank of America" wins over "America"
-    out.sort(key=lambda x: -len(x[1]))
-    return out
+            table.setdefault(raw, []).append((ticker, ambiguous, valid_from, valid_until))
+    # Longest first so "Bank of America" wins over "America"; one pass over the text.
+    alts = sorted(table, key=len, reverse=True)
+    pattern = r"(?<![A-Za-z0-9])(" + "|".join(re.escape(a) for a in alts) + r")(?:'s)?(?![A-Za-z0-9])"
+    return re.compile(pattern), table
 
 
-ALIASES = compile_aliases()
+ALIAS_RE, ALIAS_TABLE = compile_aliases()
 
 
 def excluded(text: str, start: int, end: int) -> bool:
@@ -86,24 +83,20 @@ def snippet(text: str, start: int, end: int, width: int = 110) -> str:
 
 
 def scan(text: str, date: str, source: str):
-    """Yield (ticker, alias, start, end) for every accepted match."""
+    """Yield (ticker, alias, start, end, source) for every accepted match."""
     found = []
-    taken = [False] * (len(text) + 1)
-    for ticker, alias, regex, ambiguous, valid_from, valid_until in ALIASES:
-        if valid_from and date < valid_from:
+    for m in ALIAS_RE.finditer(text):
+        alias = m.group(1)
+        s, e = m.start(), m.end()
+        if excluded(text, s, e):
             continue
-        if valid_until and date >= valid_until:
-            continue
-        for m in regex.finditer(text):
-            s, e = m.start(), m.end()
-            if any(taken[s:e]):
-                continue  # already covered by a longer alias
-            if excluded(text, s, e):
+        for ticker, ambiguous, valid_from, valid_until in ALIAS_TABLE[alias]:
+            if valid_from and date < valid_from:
+                continue
+            if valid_until and date >= valid_until:
                 continue
             if ambiguous and not has_cue(text, s, e):
                 continue
-            for i in range(s, e):
-                taken[i] = True
             found.append((ticker, alias, s, e, source))
     return found
 

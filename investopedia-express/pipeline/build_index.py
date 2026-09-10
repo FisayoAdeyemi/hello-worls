@@ -12,7 +12,7 @@ from common import DATA, LOGOS, read_json, write_json, clean_description
 import companies as C
 
 
-def weekly(payload: dict, max_points: int = 320):
+def weekly(payload: dict, max_points: int = 200):
     """Downsample daily closes to weekly (last close of each ISO week)."""
     if not payload:
         return []
@@ -51,7 +51,7 @@ def main() -> int:
             "id": e["id"], "n": e["index"], "date": e["date"], "title": e["title"],
             "description": clean_description(e["description"]), "duration": e["duration"], "audio": e["audio"],
             "link": e["link"], "hasTranscript": m.get("has_transcript", False),
-            "mentions": [{"t": r["ticker"], "n": r["count"], "src": r["sources"], "snippets": r["snippets"], "times": r.get("times", [])} for r in m["mentions"]],
+            "mentions": [{"t": r["ticker"], "n": r["count"], "src": r["sources"], "snippets": r["snippets"][:1], "times": r.get("times", [])[:6]} for r in m["mentions"]],
         })
 
     companies = []
@@ -83,7 +83,7 @@ def main() -> int:
             "priceFile": f"data/prices/{base.replace('^', 'IDX_')}.json" if payload else None,
             "priceSource": pm.get("src"), "firstPrice": first_price, "lastPrice": last_price,
             "changePct": change, "sinceFirstPct": since_first, "spark": spark,
-            "mentions": [{"ep": m["episode"], "date": m["date"], "n": m["count"], "src": m["sources"], "snippet": m["snippet"], "times": m.get("times", [])} for m in mlist],
+            "mentions": [{"ep": m["episode"], "date": m["date"], "n": m["count"], "src": m["sources"], "snippet": m["snippet"][:260], "times": m.get("times", [])[:8]} for m in mlist],
             "mentionCount": len(mlist),
         })
     companies.sort(key=lambda c: (-c["mentionCount"], c["name"]))
