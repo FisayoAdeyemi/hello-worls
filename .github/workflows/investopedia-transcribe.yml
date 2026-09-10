@@ -126,7 +126,7 @@ jobs:
           git fetch origin "${{ github.ref_name }}"
           git reset -q --hard "origin/${{ github.ref_name }}"
           for d in investopedia-express/data investopedia-express/data-raw investopedia-express/logos; do
-            [ -d "$tmp/$d" ] && rm -rf "$d" && mkdir -p "$(dirname $d)" && cp -r "$tmp/$d" "$d"
+            [ -d "$tmp/$d" ] && mkdir -p "$d" && cp -r "$tmp/$d/." "$d/"
           done
           git add -A investopedia-express/data investopedia-express/data-raw investopedia-express/logos
           git diff --cached --quiet && { echo "No changes"; exit 0; }
