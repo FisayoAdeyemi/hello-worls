@@ -725,11 +725,12 @@ function buildChart(cc, c, series, bench, vm, prevZoom) {
   const areaP = g.append('path').attr('clip-path', `url(#${clipId})`).attr('fill', 'var(--s1)').attr('opacity', 0.1);
   const benchP = g.append('path').attr('clip-path', `url(#${clipId})`).attr('fill', 'none').attr('stroke', 'var(--bench)').attr('stroke-width', 1.5).attr('stroke-linejoin', 'round');
   const lineP = g.append('path').attr('clip-path', `url(#${clipId})`).attr('fill', 'none').attr('stroke', 'var(--s1)').attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+  const overlay = g.append('rect').attr('width', iw).attr('height', ih).attr('fill', 'transparent').style('cursor', 'crosshair');
   const rugG = g.append('g').attr('clip-path', `url(#${clipId})`);
   const markG = g.append('g').attr('clip-path', `url(#${clipId})`);
   const xAxisG = g.append('g').attr('transform', `translate(0,${ih})`);
   const yAxisG = g.append('g');
-  const cross = g.append('g').style('display', 'none');
+  const cross = g.insert('g', ':first-child').style('display', 'none');
   cross.append('line').attr('y1', 0).attr('y2', ih).attr('stroke', 'var(--axis)').attr('stroke-width', 1);
   const crossDot = cross.append('circle').attr('r', 4).attr('fill', 'var(--s1)').attr('stroke', 'var(--surface)').attr('stroke-width', 2);
   const crossDotB = cross.append('circle').attr('r', 3.5).attr('fill', 'var(--bench)').attr('stroke', 'var(--surface)').attr('stroke-width', 2).style('display', 'none');
@@ -807,7 +808,6 @@ function buildChart(cc, c, series, bench, vm, prevZoom) {
   const zoom = d3.zoom().scaleExtent([1, 400]).translateExtent([[0, 0], [iw, ih]]).extent([[0, 0], [iw, ih]])
     .filter(ev => !ev.button && !(ev.type === 'wheel' && ev.ctrlKey === false && Math.abs(ev.deltaX) > Math.abs(ev.deltaY)))
     .on('zoom', ev => { x = ev.transform.rescaleX(x0); drawer._zoomState = ev.transform; draw(); });
-  const overlay = g.append('rect').attr('width', iw).attr('height', ih).attr('fill', 'transparent').style('cursor', 'crosshair');
   svg.call(zoom).on('dblclick.zoom', null);
   overlay.on('dblclick', () => svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity));
   reset.addEventListener('click', () => svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity));
@@ -888,6 +888,7 @@ async function init() {
   f.querySelector('span').textContent = data.meta.generatedAt ? fmtDate(new Date(data.meta.generatedAt)) : '—';
   const hash = decodeURIComponent(location.hash.slice(1));
   if (hash && companyById(hash)) openCompany(hash);
+  window.addEventListener('hashchange', () => { const h = decodeURIComponent(location.hash.slice(1)); if (h && companyById(h) && state.open !== h) openCompany(h); });
 }
 init().catch(err => { $('#companies').innerHTML = `<div class="empty">Could not load data: ${err.message}</div>`; });
 })();
