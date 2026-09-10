@@ -521,7 +521,7 @@ function renderEpisodes() {
       const c = companyById(m.t); if (!c || (!state.etfs && c.etf)) continue;
       const chip = document.createElement('button'); chip.className = 'chip'; chip.type = 'button';
       chip.appendChild(logoEl(c)); chip.appendChild(document.createTextNode(c.name));
-      chip.title = (m.times && m.times.length ? `At ${fmtTime(m.times[0])} · ` : '') + ((m.snippets && m.snippets[0]) || c.name);
+      chip.title = `${c.name}${m.n > 1 ? ` · mentioned ${m.n} times` : ''}${m.times && m.times.length ? ` · first at ${fmtTime(m.times[0])}` : ''}`;
       chip.addEventListener('click', () => openCompany(c.t, e.id));
       chips.appendChild(chip);
     }

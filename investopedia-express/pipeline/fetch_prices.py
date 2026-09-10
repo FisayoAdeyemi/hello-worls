@@ -112,6 +112,22 @@ def main() -> int:
             got[s] = sub
         time.sleep(1)
 
+    # Second chance for symbols the batch download skipped (rate limits, odd symbols).
+    for sym in syms:
+        if sym in got and not got[sym].dropna(subset=["Close"]).empty:
+            continue
+        for attempt in range(2):
+            try:
+                h = yf.Ticker(sym).history(start=START, auto_adjust=False)
+                if h is not None and not h.empty and "Close" in h.columns:
+                    if "Adj Close" not in h.columns:
+                        h["Adj Close"] = h["Close"]
+                    got[sym] = h
+                    break
+            except Exception as exc:  # noqa: BLE001
+                print(f"{sym}: single fetch error: {exc}")
+            time.sleep(2)
+
     ok, fallback, failed = 0, 0, []
     for ticker, sym in wanted.items():
         df = got.get(sym)
