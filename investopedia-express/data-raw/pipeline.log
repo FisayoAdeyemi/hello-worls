@@ -4,33 +4,73 @@ Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
 === fetch_feed: ok in 0.7s
 
 === stage: fetch_transcripts ===
-transcripts on disk: 2
+transcripts on disk: 317
 === fetch_transcripts: ok in 0.0s
 
 === stage: extract ===
-episodes: 317 with transcript: 2 with mentions: 116 companies: 66 mentions: 157
-top: SCHW=10, NVDA=8, CMCSA=7, AAPL=7, SOFI=6, BRK-B=6, FRHC=6, SPCX=5, PLTR=4, GOOGL=4, HOOD=4, AMP=4, BLK=4, TSLA=3, LPLA=3, GS=3, BAC=3, AMZN=3, TWTR=3, ETOR=3, JPM=3, STT=3, GM=2, PFE=2, ALIZY=2
-=== extract: ok in 4.1s
+episodes: 317 with transcript: 317 with mentions: 314 companies: 363 mentions: 4764
+top: META=171, AAPL=169, AMZN=159, GOOGL=158, MSFT=137, NVDA=131, TSLA=130, JPM=84, TWTR=82, GS=82, CME=70, NFLX=65, BAC=63, BRK-B=62, WMT=54, BLK=50, CMCSA=50, GME=49, SCHW=48, NWSA=43, AMD=43, KO=42, INTC=40, DIS=40, FDS=39
+=== extract: ok in 99.7s
 
 === stage: fetch_prices ===
-$TWTR: possibly delisted; no timezone found
-$WE: possibly delisted; no timezone found
+$ATVI: possibly delisted; no timezone found
+
+1 Failed download:
+['ATVI']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+$DIDI: possibly delisted; no timezone found
+$CS: possibly delisted; no timezone found
+
+2 Failed downloads:
+['DIDI', 'CS']: possibly delisted; no timezone found
+$FL: possibly delisted; no timezone found
+$FSR: possibly delisted; no timezone found
+$FRC: possibly delisted; no timezone found
+
+3 Failed downloads:
+['FL', 'FSR', 'FRC']: possibly delisted; no timezone found
+$JWN: possibly delisted; no timezone found
+$K: possibly delisted; no timezone found
+
+2 Failed downloads:
+['JWN', 'K']: possibly delisted; no timezone found
+$MRO: possibly delisted; no timezone found
 $NKLA: possibly delisted; no timezone found
+
+2 Failed downloads:
+['MRO', 'NKLA']: possibly delisted; no timezone found
+$RDFN: possibly delisted; no timezone found
+$PACW: possibly delisted; no timezone found
+
+2 Failed downloads:
+['RDFN', 'PACW']: possibly delisted; no timezone found
 $SIVB: possibly delisted; no timezone found
 
-4 Failed downloads:
-['TWTR', 'WE', 'NKLA', 'SIVB']: possibly delisted; no timezone found
-Fetching prices for 68 symbols since 2020-06-01
-prices: yahoo=64 stooq=0 missing=4 ['NKLA', 'SIVB', 'TWTR', 'WE']
-=== fetch_prices: ok in 10.5s
+1 Failed download:
+['SIVB']: possibly delisted; no timezone found
+$WBA: possibly delisted; no timezone found
+$X: possibly delisted; no timezone found
+$WE: possibly delisted; no timezone found
+$TWTR: possibly delisted; no timezone found
+$VSCO: possibly delisted; no timezone found
+
+5 Failed downloads:
+['WBA', 'X', 'WE', 'TWTR', 'VSCO']: possibly delisted; no timezone found
+Fetching prices for 365 symbols since 2020-06-01
+prices: yahoo=346 stooq=0 missing=19 ['ATVI', 'BK', 'CS', 'DIDI', 'FL', 'FRC', 'FSR', 'JWN', 'K', 'MRO', 'NKLA', 'PACW', 'RDFN', 'SIVB', 'TWTR', 'VSCO', 'WBA', 'WE', 'X']
+=== fetch_prices: ok in 73.8s
 
 === stage: fetch_logos ===
-logos: colour 65 mono 57 of 68
-=== fetch_logos: ok in 16.8s
+logos: colour 330 mono 334 of 363
+=== fetch_logos: ok in 182.8s
 
 === stage: build_index ===
-app.json: 317 episodes, 66 companies, 2 benchmarks
-=== build_index: ok in 0.3s
+app.json: 317 episodes, 363 companies, 2 benchmarks
+=== build_index: ok in 0.8s
 
 Summary:
   fetch_feed         ok
