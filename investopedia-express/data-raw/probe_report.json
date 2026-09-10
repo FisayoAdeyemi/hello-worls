@@ -1,0 +1,62 @@
+[
+ {
+  "url": "https://www.investopedia.com/the-investopedia-express-podcast-5220453",
+  "final_url": "https://www.investopedia.com/the-investopedia-express-podcast-5220453",
+  "status": 404,
+  "length": 388236,
+  "mentions_transcript": 0,
+  "transcript_context": null,
+  "text_length": 285564,
+  "file": "data-raw/probe/page00.html"
+ },
+ {
+  "url": "https://itunes.apple.com/lookup?id=1529322197&entity=podcastEpisode&limit=5",
+  "final_url": "https://itunes.apple.com/lookup?id=1529322197&entity=podcastEpisode&limit=5",
+  "status": 200,
+  "length": 13969,
+  "mentions_transcript": 0,
+  "transcript_context": null,
+  "text_length": 13961,
+  "file": "data-raw/probe/page01.html"
+ },
+ {
+  "url": "https://podscripts.co/podcasts/the-investopedia-express-with-caleb-silver",
+  "final_url": "https://podscripts.co",
+  "status": 200,
+  "length": 327622,
+  "mentions_transcript": 21,
+  "transcript_context": "g\">\n    <head>\n        <meta charset=\"utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>PodScripts.co - Podcast transcripts and discussion</title>\n\n    <meta name=\"description\" content=\"Find Podcast transcripts and discussion of your favourite podcasts. Wide selection of Podcast transcripts updated daily.\">\n    <link rel=\"stylesheet\" href=\"https://podscripts.co/css/vue-select.css\">\n    <!-- critical css -->\n    <style>\n        @charset \"UTF-8\";a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,c",
+  "text_length": 76576,
+  "file": "data-raw/probe/page02.html"
+ },
+ {
+  "url": "https://www.podscribe.com/",
+  "final_url": "https://podscribe.com/",
+  "status": 200,
+  "length": 1220158,
+  "mentions_transcript": 2,
+  "transcript_context": "div>\n  <div class=\"faq-item\">\n    <p class=\"faq-question\">Does Podscribe use AI in its podcast advertising measurement?\n</p>\n    <div class=\"faq-answer\">Yes, AI and machine learning power Podscribe’s transcription, airchecks, and verification. Automated speech recognition converts podcast content into transcripts, then 18+ checks validate ad placement, duration, and talking points. This automation gives advertisers transparency without manual review, ensuring ads run as promised and measurement data is trustworthy.</div>\n  </div>\n  <div class=\"faq-item\">\n    <p class=\"faq-question\">What are Po",
+  "text_length": 285925,
+  "file": "data-raw/probe/page03.html"
+ },
+ {
+  "url": "https://shows.acast.com/the-investopedia-express/episodes/welcome-to-the-investopedia-express-with-caleb-silver",
+  "final_url": "https://shows.acast.com/the-investopedia-express/episodes/welcome-to-the-investopedia-express-with-caleb-silver",
+  "status": 404,
+  "length": 4031,
+  "mentions_transcript": 0,
+  "transcript_context": null,
+  "text_length": 1446,
+  "file": "data-raw/probe/page04.html"
+ },
+ {
+  "url": "https://shows.acast.com/the-investopedia-express/episodes/the-return-of-volatility-and-gut-check-for-technology-invest",
+  "final_url": "https://shows.acast.com/the-investopedia-express/episodes/the-return-of-volatility-and-gut-check-for-technology-invest",
+  "status": 404,
+  "length": 4038,
+  "mentions_transcript": 0,
+  "transcript_context": null,
+  "text_length": 1453,
+  "file": "data-raw/probe/page05.html"
+ }
+]

@@ -1,0 +1,17 @@
+
+=== stage: fetch_feed ===
+Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
+=== fetch_feed: ok in 0.5s
+
+=== stage: probe_pages ===
+{"url": "https://www.investopedia.com/the-investopedia-express-podcast-5220453", "status": 404, "length": 388236, "mentions_transcript": 0, "text_length": 285564}
+{"url": "https://itunes.apple.com/lookup?id=1529322197&entity=podcastEpisode&limit=5", "status": 200, "length": 13969, "mentions_transcript": 0, "text_length": 13961}
+{"url": "https://podscripts.co/podcasts/the-investopedia-express-with-caleb-silver", "status": 200, "length": 327622, "mentions_transcript": 21, "text_length": 76576}
+{"url": "https://www.podscribe.com/", "status": 200, "length": 1220158, "mentions_transcript": 2, "text_length": 285925}
+{"url": "https://shows.acast.com/the-investopedia-express/episodes/welcome-to-the-investopedia-express-with-caleb-silver", "status": 404, "length": 4031, "mentions_transcript": 0, "text_length": 1446}
+{"url": "https://shows.acast.com/the-investopedia-express/episodes/the-return-of-volatility-and-gut-check-for-technology-invest", "status": 404, "length": 4038, "mentions_transcript": 0, "text_length": 1453}
+=== probe_pages: ok in 1.5s
+
+Summary:
+  fetch_feed         ok
+  probe_pages        ok
