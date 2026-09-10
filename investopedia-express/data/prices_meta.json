@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-10T07:09:37+00:00",
+ "fetched_at": "2026-09-10T07:14:28+00:00",
  "start": "2020-06-01",
  "symbols": {
   "AAPL": {
@@ -429,6 +429,18 @@
    "first": "2020-06-01",
    "last": "2026-09-09",
    "n": 1577
+  },
+  "ETSY": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "ETSY",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "NKLA": {
+   "status": "missing",
+   "yf": "NKLA"
   }
  },
  "benchmarks": {

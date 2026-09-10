@@ -1,4 +1,19 @@
 {
- "sources": {},
- "episodes": {}
+ "episodes": {
+  "ep001": {
+   "source": "whisper",
+   "model": "small.en",
+   "audio_seconds": 131.0,
+   "segments": 17
+  },
+  "ep002": {
+   "source": "whisper",
+   "model": "small.en",
+   "audio_seconds": 1244.3,
+   "segments": 329
+  }
+ },
+ "sources": {
+  "whisper": "faster-whisper on the episode audio"
+ }
 }

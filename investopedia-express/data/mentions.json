@@ -1,19 +1,91 @@
 {
- "generated_at": "2026-09-10T07:13:45+00:00",
+ "generated_at": "2026-09-10T07:14:17+00:00",
  "episodes": [
   {
    "id": "ep001",
    "date": "2020-08-26",
    "title": "Welcome to the Investopedia Express with Caleb Silver",
-   "has_transcript": false,
+   "has_transcript": true,
    "mentions": []
   },
   {
    "id": "ep002",
    "date": "2020-09-08",
    "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
-   "has_transcript": false,
-   "mentions": []
+   "has_transcript": true,
+   "mentions": [
+    {
+     "ticker": "TSLA",
+     "count": 7,
+     "sources": [
+      "transcript"
+     ],
+     "aliases": [
+      "Tesla"
+     ],
+     "snippets": [
+      "…ome headlines for Tuesday morning, September the 8th. The S&P 500 index has some new players at the table and Tesla is not one of them. Late last Friday, test equipment maker Terradine, pharmaceutical company Catalint, and e-…",
+      "…mpany Catalint, and e-commerce site Etsy were welcomed into the index by the S&P 500 Index Committee, but not Tesla, which many thought was a guarantee. The company recently split its shares five to one last month. It issued …",
+      "…nt highs. That's a correction, but it's up nearly 400% in 2020. So perspective is everything when it comes to Tesla. The recent run-up in Tesla stock post split, which is kind of unusual, may have driven a lot of index fund i…"
+     ]
+    },
+    {
+     "ticker": "NKLA",
+     "count": 3,
+     "sources": [
+      "transcript"
+     ],
+     "aliases": [
+      "Nikola"
+     ],
+     "snippets": [
+      "… stock is selling off. General Motors announced this morning it is taking a 10% stake in electric truck maker Nikola. Nikola, also named after Nikola Tesla, but not connected to Elon Musk Tesla, has been one of the hot unicorn…",
+      "…s selling off. General Motors announced this morning it is taking a 10% stake in electric truck maker Nikola. Nikola, also named after Nikola Tesla, but not connected to Elon Musk Tesla, has been one of the hot unicorn stocks …",
+      "…tors announced this morning it is taking a 10% stake in electric truck maker Nikola. Nikola, also named after Nikola Tesla, but not connected to Elon Musk Tesla, has been one of the hot unicorn stocks of 2020. It's introduced …"
+     ]
+    },
+    {
+     "ticker": "GM",
+     "count": 2,
+     "sources": [
+      "transcript"
+     ],
+     "aliases": [
+      "GM",
+      "General Motors"
+     ],
+     "snippets": [
+      "…at may have forced it to hold the stock as well. That's not happening this year and the stock is selling off. General Motors announced this morning it is taking a 10% stake in electric truck maker Nikola. Nikola, also named after Niko…",
+      "…the Badger pickup truck, but it has yet to sell one vehicle. Shares are up 30% Tuesday morning on news of the GM investment. And nine US and European drug makers working on coronavirus vaccines pledged to uphold the scient…"
+     ]
+    },
+    {
+     "ticker": "ETSY",
+     "count": 1,
+     "sources": [
+      "transcript"
+     ],
+     "aliases": [
+      "Etsy"
+     ],
+     "snippets": [
+      "… them. Late last Friday, test equipment maker Terradine, pharmaceutical company Catalint, and e-commerce site Etsy were welcomed into the index by the S&P 500 Index Committee, but not Tesla, which many thought was a guarante…"
+     ]
+    },
+    {
+     "ticker": "PFE",
+     "count": 1,
+     "sources": [
+      "transcript"
+     ],
+     "aliases": [
+      "Pfizer"
+     ],
+     "snippets": [
+      "…yment of vaccines before they might be ready for safe public use. In a joint statement, drug makers including Pfizer, AstraZeneca, and GlaxoSmithKline, among others, issued, quote, a historic pledge to uphold the integrity of …"
+     ]
+    }
+   ]
   },
   {
    "id": "ep003",
@@ -110,21 +182,7 @@
    "date": "2020-10-19",
    "title": "Investing Opportunities Beyond the Election and the Harsh Truth About the Unemployment Crisis",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "LPLA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "LPL"
-     ],
-     "snippets": [
-      "…nties around the pandemic, the elections and the economy. We look at what investors see over the horizon with LPL's Chief Market Strategist Ryan Detrick. The economic recovery is happening everywhere we look except in the lab…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep009",
@@ -179,21 +237,7 @@
    "date": "2020-11-16",
    "title": "Investors stampede into stocks, but the scars of the pandemic are deep",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "ALIZY",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Allianz"
-     ],
-     "snippets": [
-      "…f the virus in the U.S. Mohamed El-Erian, President of Queens College, Cambridge, and Chief Economic Adviser, Allianz, joins the Express to talk about the economic and psychological scars from the pandemic, and how individual i…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep013",
@@ -283,21 +327,7 @@
    "date": "2021-01-11",
    "title": "The Rise of the Individual Investor in Uncertain Times",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "AMTD",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "TD Ameritrade"
-     ],
-     "snippets": [
-      "…me volatility and passion stocks lured stuck-at-home consumers into the fray. JJ Kinahan, Chief Strategist at TD Ameritrade joins the show to look at how much impact they really had on markets, and what they are buying and selling no…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep020",
@@ -344,19 +374,6 @@
      ],
      "snippets": [
       "How Will the GameStop Game End?"
-     ]
-    },
-    {
-     "ticker": "LPLA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "LPL Research"
-     ],
-     "snippets": [
-      "…ets, and what history can teach us about the clash of institutional and individual investors. Ryan Detrick of LPL Research joins the show to look at how this might play out, and Jamie Catherwood of Investor Amnesia is back with less…"
      ]
     }
    ]
@@ -520,21 +537,7 @@
    "date": "2021-06-07",
    "title": "The Trouble with Bubbles",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "FOXA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Fox Business"
-     ],
-     "snippets": [
-      "Liz Claman, anchor of The Claman Countdown on Fox Business News, joins the show to talk about what's different about the mania around 'meme' stocks this time compared t…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep040",
@@ -631,19 +634,6 @@
    "title": "The incredible rise and spectacular collapse of WeWork",
    "has_transcript": false,
    "mentions": [
-    {
-     "ticker": "NWSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Wall Street Journal"
-     ],
-     "snippets": [
-      "Maureen Farrell of the Wall Street Journal and co-author of \"The Cult of We\", joins the show to unpack how the unicorn office rental/real estate company…"
-     ]
-    },
     {
      "ticker": "WE",
      "count": 1,
@@ -895,21 +885,7 @@
    "date": "2021-11-08",
    "title": "How the \"Apes\" Cracked Wall Street",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "CNBC"
-     ],
-     "snippets": [
-      "Melissa Lee, host of CNBC's Fast Money, joins the show to talk about her recent documentary on the Meme-Stock revolution, and the new reg…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep062",
@@ -1052,17 +1028,14 @@
    "mentions": [
     {
      "ticker": "LPLA",
-     "count": 2,
+     "count": 1,
      "sources": [
-      "title",
       "description"
      ],
      "aliases": [
-      "LPL",
       "LPL Financial"
      ],
      "snippets": [
-      "Breaking Down Walls of Worry with LPL's Ryan Detrick",
       "Ryan Detrick, The Chief Market Strategist for LPL Financial rejoins The Express to put the market's recent volatility into perspective... long term perspective, and why …"
      ]
     }
@@ -1112,19 +1085,6 @@
    "has_transcript": false,
    "mentions": [
     {
-     "ticker": "NYT",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "New York Times"
-     ],
-     "snippets": [
-      "Ron Lieber, the personal finance columnist for the New York Times, and author of \"The Price You Pay for College\", joins the show just in time as millions of high school senior…"
-     ]
-    },
-    {
      "ticker": "TWTR",
      "count": 1,
      "sources": [
@@ -1134,7 +1094,7 @@
       "Twitter"
      ],
      "snippets": [
-      "… investment decisions a family can make, Plus, we unpack Elon Musk's crazy past two weeks amid his bid to buy Twitter and take it private, and how a new poison pill could derail his plans."
+      "… investment decisions a family can make, Plus, we unpack Elon Musk's crazy past two weeks amid his bid to buy Twitter and take it private, and how a new poison pill could derail his plans. Links for show notes: https://ronliebe…"
      ]
     }
    ]
@@ -1155,7 +1115,7 @@
       "Disney"
      ],
      "snippets": [
-      "…, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes:"
+      "…, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Bo…"
      ]
     },
     {
@@ -1168,7 +1128,20 @@
       "Netflix"
      ],
      "snippets": [
-      "…stock market, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes:"
+      "…stock market, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967…"
+     ]
+    },
+    {
+     "ticker": "TWTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Twitter"
+     ],
+     "snippets": [
+      "…and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Board#from_embed https://data-central.conference-board.org/ https://www.sec.gov/Archives/edgar/data/1418091/0…"
      ]
     }
    ]
@@ -1290,7 +1263,7 @@
      ],
      "snippets": [
       "…orst and most dynamic stories of the first half of the year. Plus, Elon Musk is pulling out of his bid to buy Twitter and the lawsuits are about to start flying. We break down what happened, and what's next for Musk and Twitter…",
-      "…Twitter and the lawsuits are about to start flying. We break down what happened, and what's next for Musk and Twitter."
+      "…Twitter and the lawsuits are about to start flying. We break down what happened, and what's next for Musk and Twitter. LINKS REFERENCED: https://www.tker.co/ https://www.atlantafed.org/cqer/research/gdpnow https://advantage.fac…"
      ]
     }
    ]
@@ -1370,30 +1343,28 @@
    "date": "2022-09-12",
    "title": "eToro Charges on Through the Crypto Winter",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "ETOR",
-     "count": 2,
-     "sources": [
-      "title",
-      "description"
-     ],
-     "aliases": [
-      "eToro"
-     ],
-     "snippets": [
-      "eToro Charges on Through the Crypto Winter",
-      "Lule Demissie, CEO of eToro U.S., joins the show from the Future Proof Wealth festival to talk about how its customers are braving the cr…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep105",
    "date": "2022-09-19",
    "title": "Avoiding the Bear Trap - Live from Future Proof",
    "has_transcript": false,
-   "mentions": []
+   "mentions": [
+    {
+     "ticker": "FDX",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "FedEx"
+     ],
+     "snippets": [
+      "…s/countdown-to-fomc.html https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Reports-Preliminary-First-Quarter-Financial-Results-and-Provides-Update-on-Outlook/default.aspx https://futur…"
+     ]
+    }
+   ]
   },
   {
    "id": "ep106",
@@ -1435,21 +1406,7 @@
    "date": "2022-10-17",
    "title": "Live from the Floor of the NYSE with Bob Pisani",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "CNBC"
-     ],
-     "snippets": [
-      "Bob Pisani, the legendary business news broadcaster and CNBC's Senior Markets Correspondent joins the show live from the floor of the New York Stock Exchange to talk about …"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep110",
@@ -1463,21 +1420,7 @@
    "date": "2022-10-31",
    "title": "The Bumpy Road to an Economic Recovery with Mohamed El-Erian",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "ALIZY",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Allianz"
-     ],
-     "snippets": [
-      "Mohamed El-Erian, the President of Queens College, Cambridge, and Sr. Economic Adviser at Allianz, on the economic scars of the pandemic, the bumpy road to a healthy recovery, and reasons for investors to be…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep112",
@@ -1531,7 +1474,7 @@
      ],
      "snippets": [
       "Liz Ann Sonders, the Chief Investment Strategist for Charles Schwab, rejoins the Express to explain why we need to stop hoping for a Fed pivot, and why we need good old-fashione…",
-      "…te the new normal in capital markets. Plus, what are the top concerns among financial advisors at this year's Schwab Impact Conference. And, why lotteries like Powerball are considered a regressive tax."
+      "…te the new normal in capital markets. Plus, what are the top concerns among financial advisors at this year's Schwab Impact Conference. And, why lotteries like Powerball are considered a regressive tax. LINKS FOR SHOW NOTES: h…"
      ]
     }
    ]
@@ -1562,7 +1505,21 @@
    "date": "2022-11-21",
    "title": "What Financial Advisors are Telling Their Clients Today",
    "has_transcript": false,
-   "mentions": []
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Schwab"
+     ],
+     "snippets": [
+      "…t time of the year? LINKS FOR SHOW NOTES: https://pressroom.aboutschwab.com/press-releases/press-release/2022/Schwab-Q4-Trader-Sentiment-Survey-A-Recession-May-Already-Be-Here-But-Traders-Say-It-Will-Be-Short-Lived/default.asp…"
+     ]
+    }
+   ]
   },
   {
    "id": "ep116",
@@ -1765,19 +1722,6 @@
    "has_transcript": false,
    "mentions": [
     {
-     "ticker": "ETOR",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "eToro"
-     ],
-     "snippets": [
-      "Callie Cox, eToro's Investment Analyst, joins the show to talk about the social online broker's new deal with Twitter to allow us…"
-     ]
-    },
-    {
      "ticker": "TWTR",
      "count": 1,
      "sources": [
@@ -1927,6 +1871,19 @@
    "has_transcript": false,
    "mentions": [
     {
+     "ticker": "CVNA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Carvana"
+     ],
+     "snippets": [
+      "…index-special-rebalance-to-be-effective-july-24-2023-2023-07-07 https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-earning-release-q2-2023.pdf https://teamster.org/ https://www.investopedia.com/terms/p/payo…"
+     ]
+    },
+    {
      "ticker": "UPS",
      "count": 1,
      "sources": [
@@ -1936,7 +1893,7 @@
       "UPS"
      ],
      "snippets": [
-      "…nce is changing the industry forever. Plus, the summer of Big Labor's discontent heats up as auto workers and UPS employees threaten to strike just as the economy starts to stabilize."
+      "…nce is changing the industry forever. Plus, the summer of Big Labor's discontent heats up as auto workers and UPS employees threaten to strike just as the economy starts to stabilize. https://www.nasdaq.com/press-release/th…"
      ]
     }
    ]
@@ -2068,7 +2025,7 @@
      ],
      "snippets": [
       "…echnical indicators like the DeMark Indicator and MACD. Plus, it's a huge week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for the week ahe…",
-      "…week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for the week ahead."
+      "…week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for the week ahead. Links for show notes: https://www.justice.gov/opa/pr/justice-departm…"
      ]
     },
     {
@@ -2391,7 +2348,21 @@
    "date": "2024-04-01",
    "title": "Claudia Sahm on the \"Sahm Rule\", and the Health of the Economy Today",
    "has_transcript": false,
-   "mentions": []
+   "mentions": [
+    {
+     "ticker": "DIS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Disney"
+     ],
+     "snippets": [
+      "…/ https://www.investopedia.com/bitcoin-halving-4843769 https://restorethemagic.com/wp-content/uploads/2024/03/Disney-Trian-White-Paper-2024.pdf https://stayathomemacro.substack.com/ https://www.investopedia.com/what-to-expect-…"
+     ]
+    }
+   ]
   },
   {
    "id": "ep184",
@@ -2492,7 +2463,7 @@
       "Nvidia"
      ],
      "snippets": [
-      "…aults is sending our warning winds. And, while the stock market makes new record highs behind the strength of Nvidia, consumer discretionary stocks have not been invited to the party."
+      "…aults is sending our warning winds. And, while the stock market makes new record highs behind the strength of Nvidia, consumer discretionary stocks have not been invited to the party. Links for show notes: https://www.investop…"
      ]
     }
    ]
@@ -2631,7 +2602,7 @@
       "Apple"
      ],
      "snippets": [
-      "… and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple."
+      "… and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.investopedia.com/what-is-the-sahm-rule-8637564 https://www.investopedia.com…"
      ]
     },
     {
@@ -2644,20 +2615,7 @@
       "Berkshire Hathaway"
      ],
      "snippets": [
-      "… strengthens against the U.S. Dollar, and it's impacting other markets around the world, and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple."
-     ]
-    },
-    {
-     "ticker": "NWSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Barron's"
-     ],
-     "snippets": [
-      "…are unwinding amid worries about overvaluation and signs of weakness in the U.S. economy. Paul La Monica from Barron's joins The Express to help us find the key similarities and differences between the Internet Bubble of 1999 an…"
+      "… strengthens against the U.S. Dollar, and it's impacting other markets around the world, and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.…"
      ]
     }
    ]
@@ -2765,21 +2723,7 @@
    "date": "2024-10-06",
    "title": "The Brain Behind the Biggest Breaking News Stories of Our Generation",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "CNBC"
-     ],
-     "snippets": [
-      "David Faber, co-host of CNBC's Squawk on the Street, and the creator of The Faber Report, takes us through how he has broken some of the big…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep211",
@@ -2811,7 +2755,7 @@
       "Goldman Sachs"
      ],
      "snippets": [
-      "…nterest rate regime. Plus, why are yields for long term bonds spiking just as the Fed lowers rates, what made Goldman Sachs curb our expectations for future equity returns, and where are the hedge fund whales swimming lately?"
+      "…nterest rate regime. Plus, why are yields for long term bonds spiking just as the Fed lowers rates, what made Goldman Sachs curb our expectations for future equity returns, and where are the hedge fund whales swimming lately? LINKS F…"
      ]
     }
    ]
@@ -3091,7 +3035,7 @@
       "Invesco QQQ"
      ],
      "snippets": [
-      "…place at Future Proof CityWide in Miami Beach in March, as part of the Recipe for Innovation Live series from Invesco QQQ, in partnership with Investopedia and Food and Wine. Resources:"
+      "…place at Future Proof CityWide in Miami Beach in March, as part of the Recipe for Innovation Live series from Invesco QQQ, in partnership with Investopedia and Food and Wine. Resources: https://www.invesco.com/qqq-etf/en/recipe-for…"
      ]
     }
    ]
@@ -3133,24 +3077,7 @@
    "date": "2025-05-15",
    "title": "eToro CEO Yoni Assia on the Long Road to its IPO",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "ETOR",
-     "count": 3,
-     "sources": [
-      "title",
-      "description"
-     ],
-     "aliases": [
-      "eToro"
-     ],
-     "snippets": [
-      "eToro CEO Yoni Assia on the Long Road to its IPO",
-      "You Can Now Trade eToro on the eToro online brokerage platform as the company joined the capital markets through an IPO on the Nasdaq…",
-      "You Can Now Trade eToro on the eToro online brokerage platform as the company joined the capital markets through an IPO on the Nasdaq. Co-founder …"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep247",
@@ -3518,19 +3445,6 @@
      ]
     },
     {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "CNBC"
-     ],
-     "snippets": [
-      "…ents are prevalent at the end of 2025. Andrew Ross Sorkin, the best-selling author, New York Times writer and CNBC Anchor, joins The Express to talk about what really caused the Great Crash of 1929, the key players behind it…"
-     ]
-    },
-    {
      "ticker": "GOOGL",
      "count": 1,
      "sources": [
@@ -3541,19 +3455,6 @@
      ],
      "snippets": [
       "…y in the stock market and the economy. Plus, blowout earnings from the biggest tech companies like Amazon and Alphabet are keeping the bulls running into the best six months of the year."
-     ]
-    },
-    {
-     "ticker": "NYT",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "New York Times"
-     ],
-     "snippets": [
-      "… and many of those ingredients are prevalent at the end of 2025. Andrew Ross Sorkin, the best-selling author, New York Times writer and CNBC Anchor, joins The Express to talk about what really caused the Great Crash of 1929, the key p…"
      ]
     }
    ]
@@ -3667,21 +3568,7 @@
    "date": "2025-12-22",
    "title": "Jim Cramer’s Lessons for Investing in Any Market",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "CNBC"
-     ],
-     "snippets": [
-      "Jim Cramer, the legendary investor, educator, best-selling author, host of CNBC's Mad Money and Squawk on the Street, joins the Express with lessons for investing in any market, and his uniqu…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep282",
@@ -3785,21 +3672,7 @@
    "date": "2026-02-16",
    "title": "Looking for a Reason to Believe",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "CNBC"
-     ],
-     "snippets": [
-      "…, investors continue to believe better times are ahead. Guy Adami, co-founder of Risk Reversal and co-star of CNBC's Fast Money, drops in to give us a reality check on the health of the market, and how to pick the right stocks…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep289",
@@ -3890,21 +3763,7 @@
    "date": "2026-04-06",
    "title": "Crude Outlook for the Future of Oil",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "SPCX",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "SpaceX"
-     ],
-     "snippets": [
-      "…st nowhere to hide inside the volatile stock market. Maybe that's why investors are lining up to blast off on SpaceX's future IPO which could value the company at an astronomical $2 Trillion. We break down the long journey ahead…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep296",
@@ -4012,21 +3871,7 @@
    "date": "2026-05-25",
    "title": "The Risk v. Reward Paradox",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "SPCX",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Space X"
-     ],
-     "snippets": [
-      "… with the latest examples of common sense investing and time-tested strategies that work in any market. Plus, Space X has made its IPO plans public, and its $24 trillion ambitions go way beyond space."
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep303",
@@ -4061,21 +3906,7 @@
    "date": "2026-06-15",
    "title": "Empire of Trillions",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "SPCX",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "SpaceX"
-     ],
-     "snippets": [
-      "SpaceX completed the largest IPO in history, valuing Elon Musk's space exploration company at more than $2 Trillion,…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep306",
@@ -4110,42 +3941,14 @@
    "date": "2026-07-06",
    "title": "Breaking Investing Rules with the Ultimate Fool",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "SPCX",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Space X"
-     ],
-     "snippets": [
-      "…h some of his favorite investing lessons and why he thinks we are still in the golden age of investing. Plus, Space X jumps the line and joins the Nasdaq 100 and several other indexes less than one month from its IPO. Like it o…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep309",
    "date": "2026-07-13",
    "title": "Is The Stock Market Too Big To Fail?",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "SPCX",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "Space X"
-     ],
-     "snippets": [
-      "… if the next government bailout will be in the stock market, which may be becoming too big to fail. Plus, the Space X IPO and the pending listings of Open AI and Anthropic are ushering in a new wave of highly leveraged and vola…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep310",
@@ -4208,21 +4011,7 @@
    "date": "2026-08-17",
    "title": "What Is the “Real Feel” of the Economy?",
    "has_transcript": false,
-   "mentions": [
-    {
-     "ticker": "CMCSA",
-     "count": 1,
-     "sources": [
-      "description"
-     ],
-     "aliases": [
-      "NBC News"
-     ],
-     "snippets": [
-      "…ore Americans are being left behind and finding their version of the so-called 'American Dream' out of reach. NBC News Chief Business Correspondent, Christine Romans, joins the show with her diagnosis, and parenting advice for t…"
-     ]
-    }
-   ]
+   "mentions": []
   },
   {
    "id": "ep315",
@@ -4289,6 +4078,106 @@
   }
  ],
  "companies": {
+  "GM": [
+   {
+    "episode": "ep002",
+    "date": "2020-09-08",
+    "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
+    "count": 2,
+    "sources": [
+     "transcript"
+    ],
+    "snippet": "…at may have forced it to hold the stock as well. That's not happening this year and the stock is selling off. General Motors announced this morning it is taking a 10% stake in electric truck maker Nikola. Nikola, also named after Niko…"
+   },
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ff in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdow…"
+   }
+  ],
+  "NKLA": [
+   {
+    "episode": "ep002",
+    "date": "2020-09-08",
+    "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
+    "count": 3,
+    "sources": [
+     "transcript"
+    ],
+    "snippet": "… stock is selling off. General Motors announced this morning it is taking a 10% stake in electric truck maker Nikola. Nikola, also named after Nikola Tesla, but not connected to Elon Musk Tesla, has been one of the hot unicorn…"
+   }
+  ],
+  "PFE": [
+   {
+    "episode": "ep002",
+    "date": "2020-09-08",
+    "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
+    "count": 1,
+    "sources": [
+     "transcript"
+    ],
+    "snippet": "…yment of vaccines before they might be ready for safe public use. In a joint statement, drug makers including Pfizer, AstraZeneca, and GlaxoSmithKline, among others, issued, quote, a historic pledge to uphold the integrity of …"
+   },
+   {
+    "episode": "ep016",
+    "date": "2020-12-14",
+    "title": "Investors Face High Anxiety on Vaccine Rollout, and the History of Pandemics and Markets",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "As the first truckloads of Pfizer's vaccine hit the highways, investors are feeling high anxiety as markets touch new records. Ben Carlson from R…"
+   }
+  ],
+  "TSLA": [
+   {
+    "episode": "ep002",
+    "date": "2020-09-08",
+    "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
+    "count": 7,
+    "sources": [
+     "transcript"
+    ],
+    "snippet": "…ome headlines for Tuesday morning, September the 8th. The S&P 500 index has some new players at the table and Tesla is not one of them. Late last Friday, test equipment maker Terradine, pharmaceutical company Catalint, and e-…"
+   },
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…of the recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent re…"
+   },
+   {
+    "episode": "ep249",
+    "date": "2025-06-08",
+    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…coin. Proximity to power is everything under this administration and in this stock market, and offenders like Tesla get punished when they cross the lines at Pennsylvania Ave. Plus, Silver prices hit a 13-year high as the Gol…"
+   }
+  ],
+  "ETSY": [
+   {
+    "episode": "ep002",
+    "date": "2020-09-08",
+    "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
+    "count": 1,
+    "sources": [
+     "transcript"
+    ],
+    "snippet": "… them. Late last Friday, test equipment maker Terradine, pharmaceutical company Catalint, and e-commerce site Etsy were welcomed into the index by the S&P 500 Index Committee, but not Tesla, which many thought was a guarante…"
+   }
+  ],
   "RELIANCE.NS": [
    {
     "episode": "ep003",
@@ -4341,6 +4230,16 @@
      "description"
     ],
     "snippet": "Liz Ann Sonders, the Chief Investment Strategist for Charles Schwab, rejoins the Express to explain why we need to stop hoping for a Fed pivot, and why we need good old-fashione…"
+   },
+   {
+    "episode": "ep115",
+    "date": "2022-11-21",
+    "title": "What Financial Advisors are Telling Their Clients Today",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…t time of the year? LINKS FOR SHOW NOTES: https://pressroom.aboutschwab.com/press-releases/press-release/2022/Schwab-Q4-Trader-Sentiment-Survey-A-Recession-May-Already-Be-Here-But-Traders-Say-It-Will-Be-Short-Lived/default.asp…"
    },
    {
     "episode": "ep140",
@@ -4457,39 +4356,6 @@
     "snippet": "…h Investopedia's James Chen, and how individual investors should embrace the uncertainty with Lindsey Bell of Ally Invest. Plus, how a contested U.S. presidential election impacted the stock market back in 1876, and what you need t…"
    }
   ],
-  "LPLA": [
-   {
-    "episode": "ep008",
-    "date": "2020-10-19",
-    "title": "Investing Opportunities Beyond the Election and the Harsh Truth About the Unemployment Crisis",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…nties around the pandemic, the elections and the economy. We look at what investors see over the horizon with LPL's Chief Market Strategist Ryan Detrick. The economic recovery is happening everywhere we look except in the lab…"
-   },
-   {
-    "episode": "ep022",
-    "date": "2021-02-01",
-    "title": "How Will the GameStop Game End?",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…ets, and what history can teach us about the clash of institutional and individual investors. Ryan Detrick of LPL Research joins the show to look at how this might play out, and Jamie Catherwood of Investor Amnesia is back with less…"
-   },
-   {
-    "episode": "ep079",
-    "date": "2022-03-21",
-    "title": "Breaking Down Walls of Worry with LPL's Ryan Detrick",
-    "count": 2,
-    "sources": [
-     "title",
-     "description"
-    ],
-    "snippet": "Breaking Down Walls of Worry with LPL's Ryan Detrick"
-   }
-  ],
   "GS": [
    {
     "episode": "ep009",
@@ -4519,7 +4385,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "…nterest rate regime. Plus, why are yields for long term bonds spiking just as the Fed lowers rates, what made Goldman Sachs curb our expectations for future equity returns, and where are the hedge fund whales swimming lately?"
+    "snippet": "…nterest rate regime. Plus, why are yields for long term bonds spiking just as the Fed lowers rates, what made Goldman Sachs curb our expectations for future equity returns, and where are the hedge fund whales swimming lately? LINKS F…"
    }
   ],
   "GOOGL": [
@@ -4564,28 +4430,6 @@
     "snippet": "…y in the stock market and the economy. Plus, blowout earnings from the biggest tech companies like Amazon and Alphabet are keeping the bulls running into the best six months of the year."
    }
   ],
-  "ALIZY": [
-   {
-    "episode": "ep012",
-    "date": "2020-11-16",
-    "title": "Investors stampede into stocks, but the scars of the pandemic are deep",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…f the virus in the U.S. Mohamed El-Erian, President of Queens College, Cambridge, and Chief Economic Adviser, Allianz, joins the Express to talk about the economic and psychological scars from the pandemic, and how individual i…"
-   },
-   {
-    "episode": "ep111",
-    "date": "2022-10-31",
-    "title": "The Bumpy Road to an Economic Recovery with Mohamed El-Erian",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Mohamed El-Erian, the President of Queens College, Cambridge, and Sr. Economic Adviser at Allianz, on the economic scars of the pandemic, the bumpy road to a healthy recovery, and reasons for investors to be…"
-   }
-  ],
   "GBTC": [
    {
     "episode": "ep015",
@@ -4618,30 +4462,6 @@
      "description"
     ],
     "snippet": "…stments to see who's buying Bitcoin, and what the future looks like. The unicorns have returned for winter as Doordash and AirBnB are set to make their public debuts at fantasy-level valuations. What investors need to know about…"
-   }
-  ],
-  "PFE": [
-   {
-    "episode": "ep016",
-    "date": "2020-12-14",
-    "title": "Investors Face High Anxiety on Vaccine Rollout, and the History of Pandemics and Markets",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "As the first truckloads of Pfizer's vaccine hit the highways, investors are feeling high anxiety as markets touch new records. Ben Carlson from R…"
-   }
-  ],
-  "AMTD": [
-   {
-    "episode": "ep019",
-    "date": "2021-01-11",
-    "title": "The Rise of the Individual Investor in Uncertain Times",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…me volatility and passion stocks lured stuck-at-home consumers into the fray. JJ Kinahan, Chief Strategist at TD Ameritrade joins the show to look at how much impact they really had on markets, and what they are buying and selling no…"
    }
   ],
   "MORN": [
@@ -4750,18 +4570,6 @@
      "description"
     ],
     "snippet": "… ease and the headline economic data eases recession fears, a new bull market is picking up speed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Pr…"
-   }
-  ],
-  "FOXA": [
-   {
-    "episode": "ep039",
-    "date": "2021-06-07",
-    "title": "The Trouble with Bubbles",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Liz Claman, anchor of The Claman Countdown on Fox Business News, joins the show to talk about what's different about the mania around 'meme' stocks this time compared t…"
    }
   ],
   "META": [
@@ -4877,7 +4685,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "… and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple."
+    "snippet": "… and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.investopedia.com/what-is-the-sahm-rule-8637564 https://www.investopedia.com…"
    },
    {
     "episode": "ep298",
@@ -4901,28 +4709,6 @@
      "title"
     ],
     "snippet": "The incredible rise and spectacular collapse of WeWork"
-   }
-  ],
-  "NWSA": [
-   {
-    "episode": "ep045",
-    "date": "2021-07-19",
-    "title": "The incredible rise and spectacular collapse of WeWork",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Maureen Farrell of the Wall Street Journal and co-author of \"The Cult of We\", joins the show to unpack how the unicorn office rental/real estate company…"
-   },
-   {
-    "episode": "ep201",
-    "date": "2024-08-05",
-    "title": "Market Meltdown: Is This 1999 All Over Again?",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…are unwinding amid worries about overvaluation and signs of weakness in the U.S. economy. Paul La Monica from Barron's joins The Express to help us find the key similarities and differences between the Internet Bubble of 1999 an…"
    }
   ],
   "AMP": [
@@ -4965,78 +4751,6 @@
      "description"
     ],
     "snippet": "…tually in it. All that and more on this week's Investopedia Express. The Investopedia Express is sponsored by Ameriprise Financial Services."
-   }
-  ],
-  "CMCSA": [
-   {
-    "episode": "ep061",
-    "date": "2021-11-08",
-    "title": "How the \"Apes\" Cracked Wall Street",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Melissa Lee, host of CNBC's Fast Money, joins the show to talk about her recent documentary on the Meme-Stock revolution, and the new reg…"
-   },
-   {
-    "episode": "ep109",
-    "date": "2022-10-17",
-    "title": "Live from the Floor of the NYSE with Bob Pisani",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Bob Pisani, the legendary business news broadcaster and CNBC's Senior Markets Correspondent joins the show live from the floor of the New York Stock Exchange to talk about …"
-   },
-   {
-    "episode": "ep210",
-    "date": "2024-10-06",
-    "title": "The Brain Behind the Biggest Breaking News Stories of Our Generation",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "David Faber, co-host of CNBC's Squawk on the Street, and the creator of The Faber Report, takes us through how he has broken some of the big…"
-   },
-   {
-    "episode": "ep271",
-    "date": "2025-11-03",
-    "title": "What Really Caused the Stock Market Crash of 1929?",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…ents are prevalent at the end of 2025. Andrew Ross Sorkin, the best-selling author, New York Times writer and CNBC Anchor, joins The Express to talk about what really caused the Great Crash of 1929, the key players behind it…"
-   },
-   {
-    "episode": "ep281",
-    "date": "2025-12-22",
-    "title": "Jim Cramer’s Lessons for Investing in Any Market",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Jim Cramer, the legendary investor, educator, best-selling author, host of CNBC's Mad Money and Squawk on the Street, joins the Express with lessons for investing in any market, and his uniqu…"
-   },
-   {
-    "episode": "ep288",
-    "date": "2026-02-16",
-    "title": "Looking for a Reason to Believe",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…, investors continue to believe better times are ahead. Guy Adami, co-founder of Risk Reversal and co-star of CNBC's Fast Money, drops in to give us a reality check on the health of the market, and how to pick the right stocks…"
-   },
-   {
-    "episode": "ep314",
-    "date": "2026-08-17",
-    "title": "What Is the “Real Feel” of the Economy?",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…ore Americans are being left behind and finding their version of the so-called 'American Dream' out of reach. NBC News Chief Business Correspondent, Christine Romans, joins the show with her diagnosis, and parenting advice for t…"
    }
   ],
   "SOFI": [
@@ -5101,6 +4815,18 @@
     "snippet": "…ion of Venezuela and a bull market charging into its fourth year testing investors' confidence. Liz Thomas of SoFi comes back aboard the Express to share her outlook for the new year and specific risk factors that could chal…"
    }
   ],
+  "LPLA": [
+   {
+    "episode": "ep079",
+    "date": "2022-03-21",
+    "title": "Breaking Down Walls of Worry with LPL's Ryan Detrick",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Ryan Detrick, The Chief Market Strategist for LPL Financial rejoins The Express to put the market's recent volatility into perspective... long term perspective, and why …"
+   }
+  ],
   "IVZ": [
    {
     "episode": "ep080",
@@ -5114,28 +4840,6 @@
     "snippet": "Decoding Mixed Signals in the Economy and Markets with Invesco's Kristina Hooper"
    }
   ],
-  "NYT": [
-   {
-    "episode": "ep083",
-    "date": "2022-04-18",
-    "title": "The Price We Really Pay for College, with Ron Lieber",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "Ron Lieber, the personal finance columnist for the New York Times, and author of \"The Price You Pay for College\", joins the show just in time as millions of high school senior…"
-   },
-   {
-    "episode": "ep271",
-    "date": "2025-11-03",
-    "title": "What Really Caused the Stock Market Crash of 1929?",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "… and many of those ingredients are prevalent at the end of 2025. Andrew Ross Sorkin, the best-selling author, New York Times writer and CNBC Anchor, joins The Express to talk about what really caused the Great Crash of 1929, the key p…"
-   }
-  ],
   "TWTR": [
    {
     "episode": "ep083",
@@ -5145,7 +4849,17 @@
     "sources": [
      "description"
     ],
-    "snippet": "… investment decisions a family can make, Plus, we unpack Elon Musk's crazy past two weeks amid his bid to buy Twitter and take it private, and how a new poison pill could derail his plans."
+    "snippet": "… investment decisions a family can make, Plus, we unpack Elon Musk's crazy past two weeks amid his bid to buy Twitter and take it private, and how a new poison pill could derail his plans. Links for show notes: https://ronliebe…"
+   },
+   {
+    "episode": "ep084",
+    "date": "2022-04-25",
+    "title": "Charting the Hot Mess Inside the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Board#from_embed https://data-central.conference-board.org/ https://www.sec.gov/Archives/edgar/data/1418091/0…"
    },
    {
     "episode": "ep095",
@@ -5177,7 +4891,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "…stock market, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes:"
+    "snippet": "…stock market, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967…"
    }
   ],
   "DIS": [
@@ -5189,7 +4903,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "…, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes:"
+    "snippet": "…, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Bo…"
    },
    {
     "episode": "ep152",
@@ -5200,6 +4914,16 @@
      "description"
     ],
     "snippet": "…icture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdown in Chinese real estate, and the n…"
+   },
+   {
+    "episode": "ep183",
+    "date": "2024-04-01",
+    "title": "Claudia Sahm on the \"Sahm Rule\", and the Health of the Economy Today",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…/ https://www.investopedia.com/bitcoin-halving-4843769 https://restorethemagic.com/wp-content/uploads/2024/03/Disney-Trian-White-Paper-2024.pdf https://stayathomemacro.substack.com/ https://www.investopedia.com/what-to-expect-…"
    }
   ],
   "BRK-B": [
@@ -5232,7 +4956,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "… strengthens against the U.S. Dollar, and it's impacting other markets around the world, and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple."
+    "snippet": "… strengthens against the U.S. Dollar, and it's impacting other markets around the world, and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.…"
    },
    {
     "episode": "ep244",
@@ -5291,38 +5015,16 @@
     "snippet": "…of the world's greatest investors that separate them from the rest of us? David Rubenstein, co-founder of The Carlyle Group, and best-selling author, joins The Express to talk about the legends of the game and his new book, \"Ho…"
    }
   ],
-  "ETOR": [
+  "FDX": [
    {
-    "episode": "ep104",
-    "date": "2022-09-12",
-    "title": "eToro Charges on Through the Crypto Winter",
-    "count": 2,
-    "sources": [
-     "title",
-     "description"
-    ],
-    "snippet": "eToro Charges on Through the Crypto Winter"
-   },
-   {
-    "episode": "ep135",
-    "date": "2023-04-17",
-    "title": "Trading and Investing Goes Hyper-Social",
+    "episode": "ep105",
+    "date": "2022-09-19",
+    "title": "Avoiding the Bear Trap - Live from Future Proof",
     "count": 1,
     "sources": [
      "description"
     ],
-    "snippet": "Callie Cox, eToro's Investment Analyst, joins the show to talk about the social online broker's new deal with Twitter to allow us…"
-   },
-   {
-    "episode": "ep246",
-    "date": "2025-05-15",
-    "title": "eToro CEO Yoni Assia on the Long Road to its IPO",
-    "count": 3,
-    "sources": [
-     "title",
-     "description"
-    ],
-    "snippet": "eToro CEO Yoni Assia on the Long Road to its IPO"
+    "snippet": "…s/countdown-to-fomc.html https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Reports-Preliminary-First-Quarter-Financial-Results-and-Provides-Update-on-Outlook/default.aspx https://futur…"
    }
   ],
   "UAL": [
@@ -5489,6 +5191,18 @@
     "snippet": "…es are at all time highs as investors hold on to hopes that rising earnings will keep on rising. Jay Woods of Freedom Capital Markets tells us what could go wrong, or keep going right in the last few months of the year. Plus, the Pentagon is b…"
    }
   ],
+  "CVNA": [
+   {
+    "episode": "ep148",
+    "date": "2023-07-24",
+    "title": "Hollywood is Burning as Dual Strikes and A.I. Threaten&nbsp;Tinseltown",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…index-special-rebalance-to-be-effective-july-24-2023-2023-07-07 https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-earning-release-q2-2023.pdf https://teamster.org/ https://www.investopedia.com/terms/p/payo…"
+   }
+  ],
   "UPS": [
    {
     "episode": "ep148",
@@ -5498,41 +5212,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "…nce is changing the industry forever. Plus, the summer of Big Labor's discontent heats up as auto workers and UPS employees threaten to strike just as the economy starts to stabilize."
-   }
-  ],
-  "TSLA": [
-   {
-    "episode": "ep152",
-    "date": "2023-08-21",
-    "title": "The Present and Future Prospects for Big Tech Stocks",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…of the recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent re…"
-   },
-   {
-    "episode": "ep249",
-    "date": "2025-06-08",
-    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…coin. Proximity to power is everything under this administration and in this stock market, and offenders like Tesla get punished when they cross the lines at Pennsylvania Ave. Plus, Silver prices hit a 13-year high as the Gol…"
-   }
-  ],
-  "GM": [
-   {
-    "episode": "ep152",
-    "date": "2023-08-21",
-    "title": "The Present and Future Prospects for Big Tech Stocks",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…ff in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdow…"
+    "snippet": "…nce is changing the industry forever. Plus, the summer of Big Labor's discontent heats up as auto workers and UPS employees threaten to strike just as the economy starts to stabilize. https://www.nasdaq.com/press-release/th…"
    }
   ],
   "MSFT": [
@@ -5590,7 +5270,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "…aults is sending our warning winds. And, while the stock market makes new record highs behind the strength of Nvidia, consumer discretionary stocks have not been invited to the party."
+    "snippet": "…aults is sending our warning winds. And, while the stock market makes new record highs behind the strength of Nvidia, consumer discretionary stocks have not been invited to the party. Links for show notes: https://www.investop…"
    },
    {
     "episode": "ep226",
@@ -5750,7 +5430,7 @@
     "sources": [
      "description"
     ],
-    "snippet": "…place at Future Proof CityWide in Miami Beach in March, as part of the Recipe for Innovation Live series from Invesco QQQ, in partnership with Investopedia and Food and Wine. Resources:"
+    "snippet": "…place at Future Proof CityWide in Miami Beach in March, as part of the Recipe for Innovation Live series from Invesco QQQ, in partnership with Investopedia and Food and Wine. Resources: https://www.invesco.com/qqq-etf/en/recipe-for…"
    }
   ],
   "MCO": [
@@ -5823,58 +5503,6 @@
     "snippet": "…d finally cool down the momentum in the stock market. Plus, is AI really going to eat our jobs in the future? ADP's Chief Economist, Nela Richardson forecasts the future of employment, and gives this current labor market a he…"
    }
   ],
-  "SPCX": [
-   {
-    "episode": "ep295",
-    "date": "2026-04-06",
-    "title": "Crude Outlook for the Future of Oil",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…st nowhere to hide inside the volatile stock market. Maybe that's why investors are lining up to blast off on SpaceX's future IPO which could value the company at an astronomical $2 Trillion. We break down the long journey ahead…"
-   },
-   {
-    "episode": "ep302",
-    "date": "2026-05-25",
-    "title": "The Risk v. Reward Paradox",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "… with the latest examples of common sense investing and time-tested strategies that work in any market. Plus, Space X has made its IPO plans public, and its $24 trillion ambitions go way beyond space."
-   },
-   {
-    "episode": "ep305",
-    "date": "2026-06-15",
-    "title": "Empire of Trillions",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "SpaceX completed the largest IPO in history, valuing Elon Musk's space exploration company at more than $2 Trillion,…"
-   },
-   {
-    "episode": "ep308",
-    "date": "2026-07-06",
-    "title": "Breaking Investing Rules with the Ultimate Fool",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "…h some of his favorite investing lessons and why he thinks we are still in the golden age of investing. Plus, Space X jumps the line and joins the Nasdaq 100 and several other indexes less than one month from its IPO. Like it o…"
-   },
-   {
-    "episode": "ep309",
-    "date": "2026-07-13",
-    "title": "Is The Stock Market Too Big To Fail?",
-    "count": 1,
-    "sources": [
-     "description"
-    ],
-    "snippet": "… if the next government bailout will be in the stock market, which may be becoming too big to fail. Plus, the Space X IPO and the pending listings of Open AI and Anthropic are ushering in a new wave of highly leveraged and vola…"
-   }
-  ],
   "APO": [
    {
     "episode": "ep317",
@@ -5890,9 +5518,9 @@
  },
  "summary": {
   "episodes": 317,
-  "episodes_with_transcript": 0,
-  "episodes_with_mentions": 115,
-  "companies": 59,
-  "total_mentions": 147
+  "episodes_with_transcript": 2,
+  "episodes_with_mentions": 101,
+  "companies": 55,
+  "total_mentions": 132
  }
 }

@@ -311,5 +311,17 @@
   "mono": "nvstly",
   "has_colour": true,
   "has_mono": true
+ },
+ "ETSY": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "NKLA": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
  }
 }
