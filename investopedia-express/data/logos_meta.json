@@ -2147,5 +2147,317 @@
   "mono": "nvstly",
   "has_colour": true,
   "has_mono": true
+ },
+ "ACHR": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "ADI": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "AXON": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "AZN": {
+  "has_colour": true,
+  "has_mono": true
+ },
+ "BAH": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "BAYRY": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "BB": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "BE": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "BULL": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "CAH": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "CGC": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "CHYM": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "CLOV": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "CMA": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "CRWV": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "DEO": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "DIN": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "DJT": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "EIX": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "ERIC": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "FAST": {
+  "colour": null,
+  "mono": "nvstly",
+  "has_colour": false,
+  "has_mono": true
+ },
+ "FIG": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "GEMI": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "GLW": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "GPRO": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "GSK": {
+  "has_colour": true,
+  "has_mono": true
+ },
+ "GWW": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "JNPR": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "JOBY": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "KLAR": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "LEVI": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "NOK": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "NRG": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "PLD": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "PSNY": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "PZZA": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "QBTS": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "RGTI": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "RIDE": {
+  "colour": null,
+  "mono": "nvstly",
+  "has_colour": false,
+  "has_mono": true
+ },
+ "S": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "SAP": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "SNDK": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "SONO": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "SPCE": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "SPG": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "SRE": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "STX": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "TKO": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "TLRY": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "TXRH": {
+  "has_colour": true,
+  "has_mono": true
+ },
+ "VSNT": {
+  "has_colour": true,
+  "has_mono": false
+ },
+ "WDC": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "WING": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "WMG": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "ZION": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
  }
 }
