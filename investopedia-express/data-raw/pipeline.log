@@ -1,16 +1,26 @@
 
 === stage: fetch_feed ===
 Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
-=== fetch_feed: ok in 0.5s
+=== fetch_feed: ok in 0.3s
 
 === stage: probe_pages ===
-{"url": "https://www.investopedia.com/the-investopedia-express-podcast-5220453", "status": 404, "length": 388236, "mentions_transcript": 0, "text_length": 285564}
-{"url": "https://itunes.apple.com/lookup?id=1529322197&entity=podcastEpisode&limit=5", "status": 200, "length": 13969, "mentions_transcript": 0, "text_length": 13961}
-{"url": "https://podscripts.co/podcasts/the-investopedia-express-with-caleb-silver", "status": 200, "length": 327622, "mentions_transcript": 21, "text_length": 76576}
-{"url": "https://www.podscribe.com/", "status": 200, "length": 1220158, "mentions_transcript": 2, "text_length": 285925}
-{"url": "https://shows.acast.com/the-investopedia-express/episodes/welcome-to-the-investopedia-express-with-caleb-silver", "status": 404, "length": 4031, "mentions_transcript": 0, "text_length": 1446}
-{"url": "https://shows.acast.com/the-investopedia-express/episodes/the-return-of-volatility-and-gut-check-for-technology-invest", "status": 404, "length": 4038, "mentions_transcript": 0, "text_length": 1453}
-=== probe_pages: ok in 1.5s
+{"url": "https://rephonic.com/podcasts/the-investopedia-express", "status": 200, "length": 205511, "transcript_word_count": 3, "text_length": 76641} links: 22
+sitemap https://podscripts.co/sitemap.xml {"status": 404, "matches": []}
+{"url": "https://podscripts.co/search?q=investopedia+express", "status": 404, "length": 224672, "transcript_word_count": 17, "text_length": 61236} links: 0
+{"url": "https://podcasts.musixmatch.com/search?q=investopedia%20express", "status": 200, "length": 24402, "transcript_word_count": 5, "text_length": 20019} links: 0
+{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947", "status": 200, "length": 328123, "transcript_word_count": 0, "text_length": 230614} links: 9
+{"url": "https://www.investopedia.com/podcast", "status": null, "length": 315, "transcript_word_count": 0, "text_length": 315} links: 0
+{"url": "https://www.investopedia.com/search?q=investopedia%20express", "status": 200, "length": 569806, "transcript_word_count": 0, "text_length": 426725} links: 60
+{"url": "https://podcasts.apple.com/us/podcast/the-investopedia-express-with-caleb-silver/id1529322197", "status": 200, "length": 535176, "transcript_word_count": 0, "text_length": 328365} links: 5
+{"url": "https://open.spotify.com/show/1TwnoxxgCIGK8mF7szI6j9", "status": 200, "length": 162861, "transcript_word_count": 0, "text_length": 158503} links: 0
+{"url": "https://app.podscribe.ai/series?query=investopedia", "status": 200, "length": 19102, "transcript_word_count": 1, "text_length": 3340} links: 0
+{"url": "https://app.podscribe.ai/api/series/search?q=investopedia", "status": 404, "length": 156, "transcript_word_count": 0, "text_length": 35} links: 0
+{"url": "https://steno.ai/search?q=investopedia%20express", "status": 404, "length": 58436, "transcript_word_count": 0, "text_length": 19794} links: 0
+{"url": "https://www.listennotes.com/podcasts/the-investopedia-express-with-caleb-silver-R0tNVmrUcBC/", "status": 403, "length": 726501, "transcript_word_count": 0, "text_length": 424915} links: 0
+{"url": "https://podtail.com/en/podcast/the-investopedia-express/", "status": 200, "length": 151309, "transcript_word_count": 0, "text_length": 22535} links: 60
+{"url": "https://www.podbean.com/podcast-detail/fmryq-e2ce0/The-Investopedia-Express-with-Caleb-Silver-Podcast", "status": 403, "length": 5955, "transcript_word_count": 0, "text_length": 4059} links: 0
+youtube: {"count": 30, "items": [{"title": "The Real Reason Stocks Keep Going Up (ft. Caleb Silver from Investopedia)", "duration": 1900, "channel": "WOLF Financial", "url": "https://www.youtube.com/watch?v=ACVAkZb6Qts", "id": "ACVAkZb6Qts"}, {"title": "How to Express Yourself with Caleb Silver", "duration": 1427, "channel": "LifeBlood", "url": "https://www.youtube.com/watch?v=mfiwZ9HKXqw", "id": "mfiwZ9HKXqw"}, {"title": "goRIA with Caleb Silver, Investopedia", "duration": 263, "channel": "Sovereign Financial Group, Inc.", "url": "https://www.youtube.com/watch?v=0vsZGBZ2LFE", "id": "0vsZGBZ2LFE"}, {"title": "Maximizing Impact with Caleb Silver", "duration": 1273, "channel": "george grombacher", "url": "https://www.youtube.com/watch?v=Z7EUJZlbMhc", "id": "Z7EUJZlbMhc"}, {"title": "Caleb Silver | FP
+=== probe_pages: ok in 10.5s
 
 Summary:
   fetch_feed         ok
