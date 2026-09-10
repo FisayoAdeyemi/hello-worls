@@ -46,7 +46,7 @@ jobs:
 
       - name: Run pipeline
         env:
-          PIPELINE_MODE: ${{ github.event.inputs.mode || 'probe' }}
+          PIPELINE_MODE: ${{ github.event.inputs.mode || 'full' }}
         run: |
           cd investopedia-express/pipeline
           python run.py --mode "$PIPELINE_MODE" 2>&1 | tee ../data-raw/pipeline.log
