@@ -323,5 +323,77 @@
   "mono": "nvstly",
   "has_colour": true,
   "has_mono": true
+ },
+ "ABNB": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "ALIZY": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "AMTD": {
+  "colour": null,
+  "mono": "nvstly",
+  "has_colour": false,
+  "has_mono": true
+ },
+ "AZN": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "CMCSA": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "ETOR": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "FOXA": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "GSK": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "NWSA": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "NYT": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "SPCX": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
+ },
+ "TXRH": {
+  "colour": "clearbit",
+  "mono": "nvstly",
+  "has_colour": true,
+  "has_mono": true
+ },
+ "VSNT": {
+  "colour": "clearbit",
+  "has_colour": true,
+  "has_mono": false
  }
 }

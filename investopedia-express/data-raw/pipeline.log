@@ -3,17 +3,39 @@
 Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
 === fetch_feed: ok in 0.7s
 
-=== stage: probe_pages ===
-{"url": "https://rephonic.com/episodes/a7xye-the-investopedia-express-with-caleb-silver-t", "status": 200, "length": 12477, "transcript_word_count": 0, "text_length": 7168} links: 0
-{"url": "https://rephonic.com/episodes/mfg6d-the-investopedia-express-with-caleb-silver-t", "status": 200, "length": 12477, "transcript_word_count": 0, "text_length": 7168} links: 0
-{"url": "https://rephonic.com/podcasts/the-investopedia-express/episodes", "status": 404, "length": 14882, "transcript_word_count": 0, "text_length": 7860} links: 0
-{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/what-might-topple-the-private-308376370", "status": 200, "length": 407991, "transcript_word_count": 31, "text_length": 309317} links: 7
-{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/what-might-topple-the-private-308376370/transcript", "status": 200, "length": 323691, "transcript_word_count": 14, "text_length": 226160} links: 8
-{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/recent", "status": 200, "length": 459920, "transcript_word_count": 28, "text_length": 325682} links: 9
-{"url": "https://podcasts.musixmatch.com/podcast/the-investopedia-express-with-caleb-silver-01hhx5xpzrz6r3vgfd2xkvwq3s", "status": 200, "length": 32126, "transcript_word_count": 0, "text_length": 28831} links: 0
-{"url": "https://app.podscribe.ai/series/1529322197", "status": 200, "length": 19102, "transcript_word_count": 1, "text_length": 3340} links: 0
-=== probe_pages: ok in 2.4s
+=== stage: fetch_transcripts ===
+transcripts on disk: 2
+=== fetch_transcripts: ok in 0.0s
+
+=== stage: extract ===
+episodes: 317 with transcript: 2 with mentions: 116 companies: 66 mentions: 157
+top: SCHW=10, NVDA=8, CMCSA=7, AAPL=7, SOFI=6, BRK-B=6, FRHC=6, SPCX=5, PLTR=4, GOOGL=4, HOOD=4, AMP=4, BLK=4, TSLA=3, LPLA=3, GS=3, BAC=3, AMZN=3, TWTR=3, ETOR=3, JPM=3, STT=3, GM=2, PFE=2, ALIZY=2
+=== extract: ok in 4.1s
+
+=== stage: fetch_prices ===
+$TWTR: possibly delisted; no timezone found
+$WE: possibly delisted; no timezone found
+$NKLA: possibly delisted; no timezone found
+$SIVB: possibly delisted; no timezone found
+
+4 Failed downloads:
+['TWTR', 'WE', 'NKLA', 'SIVB']: possibly delisted; no timezone found
+Fetching prices for 68 symbols since 2020-06-01
+prices: yahoo=64 stooq=0 missing=4 ['NKLA', 'SIVB', 'TWTR', 'WE']
+=== fetch_prices: ok in 10.5s
+
+=== stage: fetch_logos ===
+logos: colour 65 mono 57 of 68
+=== fetch_logos: ok in 16.8s
+
+=== stage: build_index ===
+app.json: 317 episodes, 66 companies, 2 benchmarks
+=== build_index: ok in 0.3s
 
 Summary:
   fetch_feed         ok
-  probe_pages        ok
+  fetch_transcripts  ok
+  extract            ok
+  fetch_prices       ok
+  fetch_logos        ok
+  build_index        ok
