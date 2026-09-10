@@ -1,0 +1,438 @@
+{
+ "fetched_at": "2026-09-10T07:09:37+00:00",
+ "start": "2020-06-01",
+ "symbols": {
+  "AAPL": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "AAPL",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "ADP": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "ADP",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "ALLY": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "ALLY",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "AMP": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "AMP",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "AMZN": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "AMZN",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "ANF": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "ANF",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "APO": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "APO",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "ARKK": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "ARKK",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "BAC": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "BAC",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "BLK": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "BLK",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "BRK-B": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "BRK-B",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "BYND": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "BYND",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "CG": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "CG",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "COIN": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "COIN",
+   "first": "2021-04-14",
+   "last": "2026-09-09",
+   "n": 1358
+  },
+  "CVNA": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "CVNA",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "CVS": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "CVS",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "DASH": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "DASH",
+   "first": "2020-12-09",
+   "last": "2026-09-09",
+   "n": 1443
+  },
+  "DIS": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "DIS",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "FDX": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "FDX",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "FRHC": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "FRHC",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "GBTC": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "GBTC",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "GM": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "GM",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "GME": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "GME",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "GOOGL": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "GOOGL",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "GS": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "GS",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "HOOD": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "HOOD",
+   "first": "2021-07-29",
+   "last": "2026-09-09",
+   "n": 1284
+  },
+  "IVZ": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "IVZ",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "JPM": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "JPM",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "LPLA": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "LPLA",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "MCO": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "MCO",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "META": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "META",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "MORN": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "MORN",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "MS": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "MS",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "MSFT": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "MSFT",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "NFLX": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "NFLX",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "NVDA": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "NVDA",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "PFE": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "PFE",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "PLTR": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "PLTR",
+   "first": "2020-09-30",
+   "last": "2026-09-09",
+   "n": 1492
+  },
+  "QQQ": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "QQQ",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "RDDT": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "RDDT",
+   "first": "2024-03-21",
+   "last": "2026-09-09",
+   "n": 619
+  },
+  "RELIANCE.NS": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "RELIANCE.NS",
+   "first": "2020-06-01",
+   "last": "2026-09-10",
+   "n": 1562
+  },
+  "SCHW": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "SCHW",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "SIVB": {
+   "status": "missing",
+   "yf": "SIVB"
+  },
+  "SMCI": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "SMCI",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "SOFI": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "SOFI",
+   "first": "2021-01-04",
+   "last": "2026-09-09",
+   "n": 1427
+  },
+  "SQ": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "XYZ",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "STT": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "STT",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "TFC": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "TFC",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "TSLA": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "TSLA",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "TWTR": {
+   "status": "missing",
+   "yf": "TWTR"
+  },
+  "UAL": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "UAL",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "UPS": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "UPS",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "WE": {
+   "status": "missing",
+   "yf": "WE"
+  },
+  "^GSPC": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "^GSPC",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  },
+  "^IXIC": {
+   "status": "ok",
+   "src": "yahoo",
+   "yf": "^IXIC",
+   "first": "2020-06-01",
+   "last": "2026-09-09",
+   "n": 1577
+  }
+ },
+ "benchmarks": {
+  "^GSPC": "S&P 500",
+  "^IXIC": "Nasdaq Composite"
+ }
+}
