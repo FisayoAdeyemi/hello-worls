@@ -1,0 +1,5400 @@
+{
+ "generated_at": "2026-09-10T06:57:51+00:00",
+ "episodes": [
+  {
+   "id": "ep001",
+   "date": "2020-08-26",
+   "title": "Welcome to the Investopedia Express with Caleb Silver",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep002",
+   "date": "2020-09-08",
+   "title": "The Return of Volatility and Gut-Check for Technology Investors as Anxiety Returns to the Stock Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep003",
+   "date": "2020-09-14",
+   "title": "Navigating the widening disconnect between markets and the economy",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "RELIANCE.NS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Reliance Industries"
+     ],
+     "snippets": [
+      "…the Federal Reserve at its last meeting before the U.S. elections, U.S. tech giants are cozying up to India's Reliance Industries, how individual investors should interpret volatility, with Liz Ann Sonders, the Chief Investment strategist …"
+     ]
+    },
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "…ow individual investors should interpret volatility, with Liz Ann Sonders, the Chief Investment strategist at Charles Schwab, and why quadruple witching can scare this market this Friday."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep004",
+   "date": "2020-09-21",
+   "title": "Investors Rotate out of Tech as Economic Recovery Accelerates",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep005",
+   "date": "2020-09-29",
+   "title": "Election Anxiety Brings out the Animal Spirits",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "PLTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Palantir Technologies"
+     ],
+     "snippets": [
+      "…Jurrien Timmer to find out. 2020 has been a banner year for IPO's, and one of the biggest is about to drop as Palantir Technologies prepares for its debut. We'll tell you what you need to know about the data mining software company. Plus, wh…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep006",
+   "date": "2020-10-05",
+   "title": "President's Health Scare Adds New Dimension to Investing Paradox",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep007",
+   "date": "2020-10-12",
+   "title": "The Individual Investor Playbook as Sentiment See-Saws Around Risk",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "ALLY",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Ally Invest"
+     ],
+     "snippets": [
+      "…h Investopedia's James Chen, and how individual investors should embrace the uncertainty with Lindsey Bell of Ally Invest. Plus, how a contested U.S. presidential election impacted the stock market back in 1876, and what you need t…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep008",
+   "date": "2020-10-19",
+   "title": "Investing Opportunities Beyond the Election and the Harsh Truth About the Unemployment Crisis",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep009",
+   "date": "2020-10-26",
+   "title": "The Paradox Facing Investors Preparing for Retirement, and the Future of Big Tech",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GOOGL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Google"
+     ],
+     "snippets": [
+      "…rsonal Financial Management helps us plot the course for the near term. Big Tech is back in the crosshairs as Google faces an antitrust lawsuit, which is likely to be the first of many facing the mega-cap technology giants. Ra…"
+     ]
+    },
+    {
+     "ticker": "GS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Goldman Sachs"
+     ],
+     "snippets": [
+      "…d income securities, investors preparing for retirement are caught between risk and low returns. Joe Duran of Goldman Sachs Personal Financial Management helps us plot the course for the near term. Big Tech is back in the crosshairs …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep010",
+   "date": "2020-11-02",
+   "title": "How to Keep Your Head During the Election and Pandemic Volatility, with Josh Brown",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep011",
+   "date": "2020-11-09",
+   "title": "Investors prepare for a post-election world as equity markets charge ahead",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep012",
+   "date": "2020-11-16",
+   "title": "Investors stampede into stocks, but the scars of the pandemic are deep",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep013",
+   "date": "2020-11-23",
+   "title": "Behind the Remedy Rally and What Could Hold it Back",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep014",
+   "date": "2020-11-30",
+   "title": "Inside the High-Speed Business Cycle, and Private Equity Prepares for a Feast",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep015",
+   "date": "2020-12-07",
+   "title": "Behind Bitcoin's Magical Rise and the Return of the Unicorns",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "DASH",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Doordash"
+     ],
+     "snippets": [
+      "…stments to see who's buying Bitcoin, and what the future looks like. The unicorns have returned for winter as Doordash and AirBnB are set to make their public debuts at fantasy-level valuations. What investors need to know about…"
+     ]
+    },
+    {
+     "ticker": "GBTC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Grayscale"
+     ],
+     "snippets": [
+      "…ashing all-time records along the way. We go behind the cryptocurrency's momentum with Michael Sonnenshein of Grayscale Investments to see who's buying Bitcoin, and what the future looks like. The unicorns have returned for winte…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep016",
+   "date": "2020-12-14",
+   "title": "Investors Face High Anxiety on Vaccine Rollout, and the History of Pandemics and Markets",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "PFE",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Pfizer's"
+     ],
+     "snippets": [
+      "As the first truckloads of Pfizer's vaccine hit the highways, investors are feeling high anxiety as markets touch new records. Ben Carlson from R…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep017",
+   "date": "2020-12-21",
+   "title": "Investing in the Age of Aquarius and How Advisors are Guiding Their Clients into 2021",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep018",
+   "date": "2021-01-04",
+   "title": "Digesting 2020's winners and losers, and looking into 2021 through the ETF crystal ball",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep019",
+   "date": "2021-01-11",
+   "title": "The Rise of the Individual Investor in Uncertain Times",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep020",
+   "date": "2021-01-19",
+   "title": "The Great Reset and Your Investments in 2021",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "MORN",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Morningstar"
+     ],
+     "snippets": [
+      "…lding their plans and portfolios to take advantage of the economic recovery that is expected later this year? Morningstar's Christine Benz joins the show with strategies to adapt to the new reality. And it's a big week for corporate …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep021",
+   "date": "2021-01-25",
+   "title": "The Dean of Valuation has a Warning for Value Investors and Bitcoin Lovers",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep022",
+   "date": "2021-02-01",
+   "title": "How Will the GameStop Game End?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GME",
+     "count": 1,
+     "sources": [
+      "title"
+     ],
+     "aliases": [
+      "GameStop"
+     ],
+     "snippets": [
+      "How Will the GameStop Game End?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep023",
+   "date": "2021-02-08",
+   "title": "Addressing Income Inequality as Asset Prices Soar",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep024",
+   "date": "2021-02-15",
+   "title": "The Future for Cannabis Investing After the Day Trading Frenzy",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "HOOD",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Robinhood"
+     ],
+     "snippets": [
+      "…gislative landscape looks like for cannabis and how long-term investors should value its most popular stocks. Robinhood, Citadel, and the hedge funds caught up in the recent short-selling frenzy are called to testify on Capitol H…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep025",
+   "date": "2021-02-22",
+   "title": "SPAC Dreams and Bubbly Wishes",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep026",
+   "date": "2021-03-01",
+   "title": "Surfing Waves of Worry as Bond Yields Roil the Stock Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep027",
+   "date": "2021-03-08",
+   "title": "Staying Grounded as Yields and Prices Rise",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BAC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "BofA"
+     ],
+     "snippets": [
+      "…correction in tech stocks may have seemed like it came out of nowhere, but Savita Subramanian and her team at BofA Securities have been talking about it for months. Savita joins the show to make sense of the current market a…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep028",
+   "date": "2021-03-15",
+   "title": "Who Will Run the Future of Finance?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep029",
+   "date": "2021-03-22",
+   "title": "Springing into Recovery Amid Virtual Bubbles",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep030",
+   "date": "2021-03-29",
+   "title": "Where in the World to Invest Right Now",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "On this week's show Jeff Kleintop, the Chief Global Investment Strategist for Charles Schwab joins the show to talk about which global markets still have strength, and where the recovery may have petere…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep031",
+   "date": "2021-04-05",
+   "title": "Charting the Markets Next Course at All-Time Highs",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep032",
+   "date": "2021-04-12",
+   "title": "Confronting our Scariest Personal Finance Fears",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep033",
+   "date": "2021-04-19",
+   "title": "Your Trickiest Investing Questions Answered and Beware of Bright Shiny Things",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep034",
+   "date": "2021-04-26",
+   "title": "Inside the Mind of a Day Trader",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep035",
+   "date": "2021-05-03",
+   "title": "The Biggest Mistakes Investors Make",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep036",
+   "date": "2021-05-10",
+   "title": "What it Really Means to 'Earn Your Leisure'",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep037",
+   "date": "2021-05-17",
+   "title": "Avoiding Headline Risk as the Recovery Intensifies",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep038",
+   "date": "2021-05-24",
+   "title": "The Crime of the Century",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep039",
+   "date": "2021-06-07",
+   "title": "The Trouble with Bubbles",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep040",
+   "date": "2021-06-14",
+   "title": "The World According to Mario Gabelli",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep041",
+   "date": "2021-06-21",
+   "title": "Decoding the Massive Moves in Mass Media",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AAPL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "…he flurry of deals, spinoffs and media platform launches in the past several months, and how tech giants like Apple, Amazon and Facebook are preparing for a long battle. Plus, we read between the lines of the Fed's latest sta…"
+     ]
+    },
+    {
+     "ticker": "AMZN",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Amazon"
+     ],
+     "snippets": [
+      "…ry of deals, spinoffs and media platform launches in the past several months, and how tech giants like Apple, Amazon and Facebook are preparing for a long battle. Plus, we read between the lines of the Fed's latest statement a…"
+     ]
+    },
+    {
+     "ticker": "META",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Facebook"
+     ],
+     "snippets": [
+      "…, spinoffs and media platform launches in the past several months, and how tech giants like Apple, Amazon and Facebook are preparing for a long battle. Plus, we read between the lines of the Fed's latest statement as investor se…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep042",
+   "date": "2021-06-28",
+   "title": "The Mid-Year Money Check Up",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "Liz Ann Sonders, the Chief Investment Strategist for Charles Schwab rejoins the Express to take the temperature of the economic recovery, inflation, stock prices and our portfol…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep043",
+   "date": "2021-07-06",
+   "title": "Can we train our investing brains?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep044",
+   "date": "2021-07-12",
+   "title": "What are the common traits of the world's greatest executives and investors?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep045",
+   "date": "2021-07-19",
+   "title": "The incredible rise and spectacular collapse of WeWork",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "WE",
+     "count": 1,
+     "sources": [
+      "title"
+     ],
+     "aliases": [
+      "WeWork"
+     ],
+     "snippets": [
+      "The incredible rise and spectacular collapse of WeWork"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep046",
+   "date": "2021-07-26",
+   "title": "The Real Deal in the U.S. Real Estate Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep047",
+   "date": "2021-08-02",
+   "title": "Robinhood's IPO and the Future of Trading",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "HOOD",
+     "count": 1,
+     "sources": [
+      "title"
+     ],
+     "aliases": [
+      "Robinhood's"
+     ],
+     "snippets": [
+      "Robinhood's IPO and the Future of Trading"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep048",
+   "date": "2021-08-09",
+   "title": "Myth-busting the Oldest Rules in Investing",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep049",
+   "date": "2021-08-16",
+   "title": "How to Manage Sudden Wealth Syndrome",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep050",
+   "date": "2021-08-23",
+   "title": "The Greatest Risks Facing the Global Economy",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep051",
+   "date": "2021-08-30",
+   "title": "Charting the Next Moves for Stocks and Cryptocurrencies",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep052",
+   "date": "2021-09-07",
+   "title": "How to Invest in a Softening Economy, and Financial Literacy for Kids",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep053",
+   "date": "2021-09-13",
+   "title": "Inside the Mysterious Multi-Trillion World of Private Equity",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AAPL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "… through private equity right now, who's behind it, and where it is being deployed. Also, it's a big week for Apple, and an even bigger year for sports betting. Plus the investing term we need to know this week."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep054",
+   "date": "2021-09-20",
+   "title": "How Financial Stress affects our Health",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep055",
+   "date": "2021-09-27",
+   "title": "How Healthy is the Global Economic Recovery?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BAC",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Bank of America",
+      "Merrill Lynch"
+     ],
+     "snippets": [
+      "Ethan Harris, Head of Global Economics at Bank of America Merrill Lynch, joins the show to take a stethoscope to economies around the world for health checks. Plus, th…",
+      "Ethan Harris, Head of Global Economics at Bank of America Merrill Lynch, joins the show to take a stethoscope to economies around the world for health checks. Plus, the markets bent…"
+     ]
+    },
+    {
+     "ticker": "AMP",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Ameriprise"
+     ],
+     "snippets": [
+      "… And, the term of the week that the educated investor needs to know. The Investopedia Express is sponsored by Ameriprise Financial"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep056",
+   "date": "2021-10-04",
+   "title": "How a Top Stock Picker Sees the Market Right Now",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AMP",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Ameriprise"
+     ],
+     "snippets": [
+      "…ace yourselves for another wave of corporate debt to hit the market. The Investopedia Express is sponsored by Ameriprise Financial"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep057",
+   "date": "2021-10-11",
+   "title": "The World According to Gary Vaynerchuk",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AMP",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Ameriprise"
+     ],
+     "snippets": [
+      "…the capital markets as the economic warning signs continue to mount. The Investopedia Express is sponsored by Ameriprise Financial Services."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep058",
+   "date": "2021-10-18",
+   "title": "The Federal Reserve and the Future of Digital Currency",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AMP",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Ameriprise"
+     ],
+     "snippets": [
+      "…tually in it. All that and more on this week's Investopedia Express. The Investopedia Express is sponsored by Ameriprise Financial Services."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep059",
+   "date": "2021-10-25",
+   "title": "The View from Hedgeye's Perch",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep060",
+   "date": "2021-11-01",
+   "title": "The Voice of American Business News",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AAPL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "…d what he hears from Marketplace's 14 million listeners. Plus, the harder they come, the harder they fall, as Apple and Amazon fall victim to supply chain constraints, and consumers curb their enthusiasm. We look into what th…"
+     ]
+    },
+    {
+     "ticker": "AMZN",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Amazon"
+     ],
+     "snippets": [
+      "…hears from Marketplace's 14 million listeners. Plus, the harder they come, the harder they fall, as Apple and Amazon fall victim to supply chain constraints, and consumers curb their enthusiasm. We look into what that means fo…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep061",
+   "date": "2021-11-08",
+   "title": "How the \"Apes\" Cracked Wall Street",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep062",
+   "date": "2021-11-15",
+   "title": "Betterment Comes of Age",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep063",
+   "date": "2021-11-22",
+   "title": "Inflation and the Stock Market: A complicated history",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep064",
+   "date": "2021-11-29",
+   "title": "Trapping stocks with the Wall Street Trapper",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep065",
+   "date": "2021-12-06",
+   "title": "Crypto Myth-Busting with Ric Edelman",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep066",
+   "date": "2021-12-13",
+   "title": "The Golden Age for Individual Investors",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep067",
+   "date": "2021-12-20",
+   "title": "What’s the Deal, with Kristin Myers",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep068",
+   "date": "2022-01-03",
+   "title": "What's in Store for ETF Investors in 2022?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep069",
+   "date": "2022-01-10",
+   "title": "The Great Portfolio Reset",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SOFI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SoFi"
+     ],
+     "snippets": [
+      "Liz Young, Head of Investment Strategy at SoFi, joins the show to help investors reset their portfolios in the face of rising interest rates, red-hot inflat…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep070",
+   "date": "2022-01-17",
+   "title": "Ray Dalio on the Rise and Fall of Economic Empires",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep071",
+   "date": "2022-01-24",
+   "title": "Eli Manning Goes Long Private Equity",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep072",
+   "date": "2022-01-31",
+   "title": "Tactical investing in a Tricky market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep073",
+   "date": "2022-02-07",
+   "title": "Ultra long-Term Investing with Jeremy Siegel",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep074",
+   "date": "2022-02-14",
+   "title": "Trading and Traveling the world with Teri Ijeoma",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep075",
+   "date": "2022-02-21",
+   "title": "Finding Financial Motivation Through Hip Hop with Ash Cash",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep076",
+   "date": "2022-02-28",
+   "title": "Strategic Investing in Turbulent Times",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep077",
+   "date": "2022-03-07",
+   "title": "Breaking down the Energy Price Shock and What May Happen Next",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep078",
+   "date": "2022-03-14",
+   "title": "Examining the 'Special Characters', who became today's Tech Titans",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep079",
+   "date": "2022-03-21",
+   "title": "Breaking Down Walls of Worry with LPL's Ryan Detrick",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "LPLA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "LPL Financial"
+     ],
+     "snippets": [
+      "Ryan Detrick, The Chief Market Strategist for LPL Financial rejoins The Express to put the market's recent volatility into perspective... long term perspective, and why …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep080",
+   "date": "2022-03-28",
+   "title": "Decoding Mixed Signals in the Economy and Markets with Invesco's Kristina Hooper",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "IVZ",
+     "count": 2,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "Invesco"
+     ],
+     "snippets": [
+      "Decoding Mixed Signals in the Economy and Markets with Invesco's Kristina Hooper",
+      "Kristina Hooper. Invesco's Chief Global Market Strategist joins the Express to help us understand how inflation, rising interest rates, …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep081",
+   "date": "2022-04-04",
+   "title": "Why the Best Advice may be to 'Just Keep Buying'",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep082",
+   "date": "2022-04-11",
+   "title": "The New Age of Financial Literacy with Kyla Scanlon",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep083",
+   "date": "2022-04-18",
+   "title": "The Price We Really Pay for College, with Ron Lieber",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "TWTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Twitter"
+     ],
+     "snippets": [
+      "… investment decisions a family can make, Plus, we unpack Elon Musk's crazy past two weeks amid his bid to buy Twitter and take it private, and how a new poison pill could derail his plans. Links for show notes: https://ronliebe…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep084",
+   "date": "2022-04-25",
+   "title": "Charting the Hot Mess Inside the Stock Market",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "DIS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Disney"
+     ],
+     "snippets": [
+      "…, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Bo…"
+     ]
+    },
+    {
+     "ticker": "NFLX",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Netflix"
+     ],
+     "snippets": [
+      "…stock market, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967…"
+     ]
+    },
+    {
+     "ticker": "TWTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Twitter"
+     ],
+     "snippets": [
+      "…and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Board#from_embed https://data-central.conference-board.org/ https://www.sec.gov/Archives/edgar/data/1418091/0…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep085",
+   "date": "2022-05-02",
+   "title": "Inside the Berkshire Hathaway Annual Meeting",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BRK-B",
+     "count": 1,
+     "sources": [
+      "title"
+     ],
+     "aliases": [
+      "Berkshire Hathaway"
+     ],
+     "snippets": [
+      "Inside the Berkshire Hathaway Annual Meeting"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep086",
+   "date": "2022-05-16",
+   "title": "Keeping it Real with Real Vision's Raoul Pal",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep087",
+   "date": "2022-05-23",
+   "title": "The Legend of Jack Bogle, and the Future of ETFs",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep088",
+   "date": "2022-05-31",
+   "title": "Searching for Signs of a Market Bottom",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep089",
+   "date": "2022-06-06",
+   "title": "Michael Kitces on the Myth of Retirement and the Rise of Financial Independence",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep090",
+   "date": "2022-06-13",
+   "title": "Reading the Warnings Signs for the Next Recession",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep091",
+   "date": "2022-06-21",
+   "title": "Investing in Wine with the NBA's elite Players",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep092",
+   "date": "2022-06-21",
+   "title": "Investing in Wine, Live from the Food & Wine Classic in Aspen",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep093",
+   "date": "2022-06-27",
+   "title": "What the Business Cycle is Telling us About a Recession",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep094",
+   "date": "2022-07-05",
+   "title": "Building a 2nd Half Playbook with Morgan Stanley's Mike Wilson",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "MS",
+     "count": 2,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "Morgan Stanley"
+     ],
+     "snippets": [
+      "Building a 2nd Half Playbook with Morgan Stanley's Mike Wilson",
+      "Mike Wilson, the Chief U.S. Equity Strategist for Morgan Stanley, says the market could fall further as corporate earnings roll over and the chances of a recession increase. …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep095",
+   "date": "2022-07-11",
+   "title": "Introducing the Express-o Awards with Sam Ro",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "TWTR",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Twitter"
+     ],
+     "snippets": [
+      "…orst and most dynamic stories of the first half of the year. Plus, Elon Musk is pulling out of his bid to buy Twitter and the lawsuits are about to start flying. We break down what happened, and what's next for Musk and Twitter…",
+      "…Twitter and the lawsuits are about to start flying. We break down what happened, and what's next for Musk and Twitter. LINKS REFERENCED: https://www.tker.co/ https://www.atlantafed.org/cqer/research/gdpnow https://advantage.fac…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep096",
+   "date": "2022-07-18",
+   "title": "Exploring the Depths of the Downturn with Dan Niles",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep097",
+   "date": "2022-07-25",
+   "title": "Untangling the Economic Enigma that is Argentina",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep098",
+   "date": "2022-08-01",
+   "title": "Examining the Health of the Stock Market with Dr. Ed Yardeni",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep099",
+   "date": "2022-08-08",
+   "title": "Live from InvestFest with Downtown Josh Brown, BitBoy Crypto, and Lamar Wilson",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep100",
+   "date": "2022-08-15",
+   "title": "Going Back to School with Stock Market Fundamentals",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep101",
+   "date": "2022-08-22",
+   "title": "The Measure of Financial Influence with Mrs. Dow Jones",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep102",
+   "date": "2022-08-29",
+   "title": "Technicals, Fundamentals and Freestyle Finance Ring in our 100th Episode",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep103",
+   "date": "2022-09-06",
+   "title": "The Secret Sauce Behind the World's Greatest Investors",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "CG",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Carlyle"
+     ],
+     "snippets": [
+      "…of the world's greatest investors that separate them from the rest of us? David Rubenstein, co-founder of The Carlyle Group, and best-selling author, joins The Express to talk about the legends of the game and his new book, \"Ho…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep104",
+   "date": "2022-09-12",
+   "title": "eToro Charges on Through the Crypto Winter",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep105",
+   "date": "2022-09-19",
+   "title": "Avoiding the Bear Trap - Live from Future Proof",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FDX",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "FedEx"
+     ],
+     "snippets": [
+      "…s/countdown-to-fomc.html https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Reports-Preliminary-First-Quarter-Financial-Results-and-Provides-Update-on-Outlook/default.aspx https://futur…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep106",
+   "date": "2022-09-26",
+   "title": "The Great Portfolio Reset - Live from Investor Connection",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "MORN",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Morningstar"
+     ],
+     "snippets": [
+      "…e circling as asset prices are being reset amid higher interest rates. Christine Benz and John Rekenthaler of Morningstar, and Anastasia Amoroso of iCapital, join Caleb at Investor Connection, a live event last week, for a conversa…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep107",
+   "date": "2022-10-03",
+   "title": "What Could Stop the Bear Market in its Tracks, with Ryan Detrick",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep108",
+   "date": "2022-10-10",
+   "title": "The Case Against Stakeholder Capitalism",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep109",
+   "date": "2022-10-17",
+   "title": "Live from the Floor of the NYSE with Bob Pisani",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep110",
+   "date": "2022-10-24",
+   "title": "Going Back to School with The Master Investor",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep111",
+   "date": "2022-10-31",
+   "title": "The Bumpy Road to an Economic Recovery with Mohamed El-Erian",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep112",
+   "date": "2022-11-02",
+   "title": "Bonus Episode - A Conversation with the Masters of Marketing",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "CVS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "CVS Health"
+     ],
+     "snippets": [
+      "…s bonus episode of the Express, we sit down with the chief marketing officers of United Airlines, Reckitt and CVS Health, as well as Bob Liodice, the CEO of the Assoc. of National Advertisers, for their take on the advertising mar…"
+     ]
+    },
+    {
+     "ticker": "UAL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "United Airlines"
+     ],
+     "snippets": [
+      "In this bonus episode of the Express, we sit down with the chief marketing officers of United Airlines, Reckitt and CVS Health, as well as Bob Liodice, the CEO of the Assoc. of National Advertisers, for their tak…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep113",
+   "date": "2022-11-07",
+   "title": "A Wake-Up Call for Investors to the New, New Normal",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab",
+      "Schwab"
+     ],
+     "snippets": [
+      "Liz Ann Sonders, the Chief Investment Strategist for Charles Schwab, rejoins the Express to explain why we need to stop hoping for a Fed pivot, and why we need good old-fashione…",
+      "…te the new normal in capital markets. Plus, what are the top concerns among financial advisors at this year's Schwab Impact Conference. And, why lotteries like Powerball are considered a regressive tax. LINKS FOR SHOW NOTES: h…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep114",
+   "date": "2022-11-14",
+   "title": "Investing in Innovation with Cathie Wood, and The Collapse of FTX",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "ARKK",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Ark Invest"
+     ],
+     "snippets": [
+      "Cathie Wood, the CEO and CIO of Ark Invest, joins the show to talk about her team's vision for a digital, decentralized future, and how she manages her …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep115",
+   "date": "2022-11-21",
+   "title": "What Financial Advisors are Telling Their Clients Today",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Schwab"
+     ],
+     "snippets": [
+      "…t time of the year? LINKS FOR SHOW NOTES: https://pressroom.aboutschwab.com/press-releases/press-release/2022/Schwab-Q4-Trader-Sentiment-Survey-A-Recession-May-Already-Be-Here-But-Traders-Say-It-Will-Be-Short-Lived/default.asp…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep116",
+   "date": "2022-11-28",
+   "title": "How to Create Your Financial Plan on Purpose",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep117",
+   "date": "2022-12-05",
+   "title": "Strategic Investing in the Home Stretch of 2022",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SIVB",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SVB"
+     ],
+     "snippets": [
+      "Shannon Sacoccia, the CIO of SVB Private Bank, helps us decipher the mixed signals in the economy and capital markets as we reset our portfoli…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep118",
+   "date": "2022-12-12",
+   "title": "A 'Random Walk Down Wall Street' Turns 50, and Our Top Terms of the Year",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep119",
+   "date": "2022-12-19",
+   "title": "Searching for the Soul of Wealth with Brian Portnoy",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep120",
+   "date": "2023-01-03",
+   "title": "Barreling into 2023 with Bond ETFs",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BLK",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "BlackRock",
+      "iShares"
+     ],
+     "snippets": [
+      "…kets, and the outlook for the year ahead. Plus, Salim Ramji, Global Head of iShares and Index Investments for BlackRock, joins the show to talk about why 2023 will be big for bond ETFs, and why the overall market for exchange tra…",
+      "…ear's historically challenging markets, and the outlook for the year ahead. Plus, Salim Ramji, Global Head of iShares and Index Investments for BlackRock, joins the show to talk about why 2023 will be big for bond ETFs, and why…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep121",
+   "date": "2023-01-09",
+   "title": "The Power of the Plan in an Uncertain Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep122",
+   "date": "2023-01-17",
+   "title": "Inside the Rise and Fall of America's Greatest Corporate Empire",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep123",
+   "date": "2023-01-23",
+   "title": "What Really Happens Inside the Federal Reserve",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep124",
+   "date": "2023-01-30",
+   "title": "Principles for Living and Investing in a Dynamic World, with Ray Dalio",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep125",
+   "date": "2023-02-06",
+   "title": "What Really Happens on the Floor of the NYSE",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep126",
+   "date": "2023-02-13",
+   "title": "There is an ETF for That!",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep127",
+   "date": "2023-02-20",
+   "title": "Why Investors May be Irrationally Exuberant Right Now",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SOFI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SoFi"
+     ],
+     "snippets": [
+      "Liz Young, Chief Investment Strategist at SoFi, climbs back aboard The Express to explain why investors may be overly optimistic right now, and what key sig…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep128",
+   "date": "2023-02-27",
+   "title": "The Good, The Bad, and The Beautiful of Spain's Economy in 2023",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep129",
+   "date": "2023-03-06",
+   "title": "The Journey to Investing and Financial Wellness with Phil Pearlman",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep130",
+   "date": "2023-03-13",
+   "title": "What Really Brought Down Silicon Valley Bank and What Happens Next",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SIVB",
+     "count": 2,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "SVB",
+      "Silicon Valley Bank"
+     ],
+     "snippets": [
+      "What Really Brought Down Silicon Valley Bank and What Happens Next",
+      "…halen Global Advisors, and author of the Institutional Risk Analyst newsletter, joins the show to explain how SVB's mismanagement and the Fed's lack of awareness of the impact of rising interest rates, brought the 40-year fin…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep131",
+   "date": "2023-03-20",
+   "title": "Looking at the Glass Half-Full as the Fed Meets on Rates",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep132",
+   "date": "2023-03-27",
+   "title": "Decoding the Fed's Latest Decision for Clues to the Future",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep133",
+   "date": "2023-04-03",
+   "title": "Riding the Thin Edge of a Rail with Risk Reversal",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep134",
+   "date": "2023-04-10",
+   "title": "Inside the Eye of the Fiscal and Monetary Policy Storm",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep135",
+   "date": "2023-04-17",
+   "title": "Trading and Investing Goes Hyper-Social",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "TWTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Twitter"
+     ],
+     "snippets": [
+      "Callie Cox, eToro's Investment Analyst, joins the show to talk about the social online broker's new deal with Twitter to allow users to trade directly from the platform, how young investors are behaving, and why they are so mis…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep136",
+   "date": "2023-04-24",
+   "title": "What Happens When an Economist Turns Financial Advice Upside Down?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep137",
+   "date": "2023-05-01",
+   "title": "Breaking Down Money Myths and Discovering Wealth Hacks with Mrs. Dow Jones",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep138",
+   "date": "2023-05-08",
+   "title": "Inside Brazil's Experiment to Transform its Economy",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep139",
+   "date": "2023-05-15",
+   "title": "Inside the Most Important Charts in the World as the Debt Ceiling Deadline Looms",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep140",
+   "date": "2023-05-22",
+   "title": "What Cardboard Box Demand and Movie Tickets Tell Us About the Markets",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "Jeff Kleintop, the Chief Global Investment Strategist for Charles Schwab rejoins The Express to share his favorite economic and market indicators, what to watch out for in the debt-c…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep141",
+   "date": "2023-05-29",
+   "title": "Reexamining Our Perceptions About The Best Long Term Investments",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep142",
+   "date": "2023-06-05",
+   "title": "Going Back to the Future to See How A.I. and ChatGPT Are Changing Finance",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep143",
+   "date": "2023-06-12",
+   "title": "Riding the Skinny Bull Market From the Floor of the NYSE",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FRHC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Freedom Capital Markets"
+     ],
+     "snippets": [
+      "Jay Woods, NYSE veteran and Chief Global Strategist for Freedom Capital Markets, joins the Express from the floor of the NYSE to examine the new bull market. It looks a little thin, but it …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep144",
+   "date": "2023-06-20",
+   "title": "The Business of Great Food and Wine from the Classic in Aspen",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep145",
+   "date": "2023-06-26",
+   "title": "Vanguard Makes the Case for Muted Expectations in the Future",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep146",
+   "date": "2023-07-10",
+   "title": "Resetting our Money Mindset with a Financial Therapist",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep147",
+   "date": "2023-07-17",
+   "title": "Behind Bitcoin's Rise, and BlackRock's Bid to Launch an ETF",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BLK",
+     "count": 2,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "BlackRock"
+     ],
+     "snippets": [
+      "Behind Bitcoin's Rise, and BlackRock's Bid to Launch an ETF",
+      "…xpress to breakdown Bitcoin's incredible rise this year, and why the biggest asset managers in the world like BlackRock have filed to launch Bitcoin ETFs. Has crypto-regulation peaked? Plus, consumer discretionary stocks have bee…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep148",
+   "date": "2023-07-24",
+   "title": "Hollywood is Burning as Dual Strikes and A.I. Threaten&nbsp;Tinseltown",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "CVNA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Carvana"
+     ],
+     "snippets": [
+      "…index-special-rebalance-to-be-effective-july-24-2023-2023-07-07 https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-earning-release-q2-2023.pdf https://teamster.org/ https://www.investopedia.com/terms/p/payo…"
+     ]
+    },
+    {
+     "ticker": "UPS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "UPS"
+     ],
+     "snippets": [
+      "…nce is changing the industry forever. Plus, the summer of Big Labor's discontent heats up as auto workers and UPS employees threaten to strike just as the economy starts to stabilize. https://www.nasdaq.com/press-release/th…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep149",
+   "date": "2023-07-31",
+   "title": "Now That We Know What We Know, What Could Go Wrong?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep150",
+   "date": "2023-08-07",
+   "title": "Taking Investors' Temperatures as the U.S. loses its AAA Credit Rating",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep151",
+   "date": "2023-08-14",
+   "title": "Diving Deep into Value Investing with Rob Arnott",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep152",
+   "date": "2023-08-21",
+   "title": "The Present and Future Prospects for Big Tech Stocks",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AAPL",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "… stake of the recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the re…",
+      "…ts a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdown in Chinese real estate, and …"
+     ]
+    },
+    {
+     "ticker": "DIS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "ESPN"
+     ],
+     "snippets": [
+      "…icture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdown in Chinese real estate, and the n…"
+     ]
+    },
+    {
+     "ticker": "GM",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "GM"
+     ],
+     "snippets": [
+      "…ff in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdow…"
+     ]
+    },
+    {
+     "ticker": "PLTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Palantir"
+     ],
+     "snippets": [
+      "…recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate …"
+     ]
+    },
+    {
+     "ticker": "TSLA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Tesla"
+     ],
+     "snippets": [
+      "…of the recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent re…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep153",
+   "date": "2023-08-28",
+   "title": "Live from Invest Fest 2023 with Real Life Lessons in Wealth Building",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep154",
+   "date": "2023-09-05",
+   "title": "Organized Labor's Summer Uprising and the Future of Unions",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep155",
+   "date": "2023-09-11",
+   "title": "What the Most Important Charts in the Stock Market are Telling Us Right Now",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GOOGL",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Alphabet",
+      "Google"
+     ],
+     "snippets": [
+      "…echnical indicators like the DeMark Indicator and MACD. Plus, it's a huge week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for the week ahe…",
+      "…week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for the week ahead. Links for show notes: https://www.justice.gov/opa/pr/justice-departm…"
+     ]
+    },
+    {
+     "ticker": "AAPL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "…ough key technical indicators like the DeMark Indicator and MACD. Plus, it's a huge week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep156",
+   "date": "2023-09-18",
+   "title": "Jay Williams and Joe McLean on Investing in Sports and Building Brands Outside the Lines",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GBTC",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Grayscale"
+     ],
+     "snippets": [
+      "…esting in sports is exploding as teams and athletes become securities and the athlete is now the asset. Plus, Grayscale Investments prepares for the SEC to greenlight its ETF. Dave Lavalle, head of ETFs at Grayscale tells us what…",
+      "… asset. Plus, Grayscale Investments prepares for the SEC to greenlight its ETF. Dave Lavalle, head of ETFs at Grayscale tells us what to expect if, and when that happens. And more and more investors are preparing for no landing a…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep157",
+   "date": "2023-09-25",
+   "title": "The Real Story of the Taming of Wall Street Amid its Darkest Days",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep158",
+   "date": "2023-10-02",
+   "title": "Permission to Dream with the CEO of Happyness",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep159",
+   "date": "2023-10-09",
+   "title": "Facing our Fears in Money and Life",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep160",
+   "date": "2023-10-16",
+   "title": "The Geopolitical and Economic Impact of the War in Israel on the Middle East",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep161",
+   "date": "2023-10-23",
+   "title": "Redefining Retirement as Peak 65 Approaches",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep162",
+   "date": "2023-10-30",
+   "title": "Searching for Signs of Hope Amid the Selloff",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep163",
+   "date": "2023-11-06",
+   "title": "Setting up for the Stock Market's Best Six-Month Stretch",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep164",
+   "date": "2023-11-13",
+   "title": "The Driving Forces Pushing Financial Literacy into America's Public Schools",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep165",
+   "date": "2023-11-20",
+   "title": "Reimagining Retirement and the Meaning of Wealth in the&nbsp;New Economic Normal",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep166",
+   "date": "2023-11-27",
+   "title": "As The Bulls Run Wild, Long-term Investors Stay the Course",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BLK",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Blackrock"
+     ],
+     "snippets": [
+      "…ement investors have mostly maintained their composure, according to Anne Ackerley, the Head of Retirement at Blackrock. She joins The Express to talk about how we have been behaving inside the $8.5 Trillion Asset Managers retire…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep167",
+   "date": "2023-12-04",
+   "title": "The Money Advice No One Ever Told Us From Your Rich BFF",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep168",
+   "date": "2023-12-11",
+   "title": "Investopedia's Top Terms of the Year, and What's Behind Bitcoin's Mega-Rally",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep169",
+   "date": "2023-12-18",
+   "title": "Breaking out the 2024 Investing Playbook as Stocks Touch New Highs",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "Liz Ann Sonders, the Chief Investment Strategist at Charles Schwab, tells us what to expect next year for the markets and the economy, and how investors should prepare. Plus, t…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep170",
+   "date": "2024-01-01",
+   "title": "Resetting our Long-Term Expectations for the Markets as \"Sound Money\" Returns",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep171",
+   "date": "2024-01-08",
+   "title": "Where to Find Opportunities in Unusual Places in 2024",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep172",
+   "date": "2024-01-15",
+   "title": "Big Deals, Little Deals and No Deals for Investors as the Year Begins",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep173",
+   "date": "2024-01-22",
+   "title": "The Future of Financial Planning",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep174",
+   "date": "2024-01-29",
+   "title": "Looking Long Term Inside the Post Modern Economic Cycle for Investing Clues",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Goldman Sachs"
+     ],
+     "snippets": [
+      "Peter Oppenheimer, the Chief Equity Global Strategist and head of Macro Research at Goldman Sachs in Europe, explains the new Post Modern Cycle investors are living in, and what it means for our future retur…"
+     ]
+    },
+    {
+     "ticker": "MSFT",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Microsoft"
+     ],
+     "snippets": [
+      "…re living in, and what it means for our future returns. Plus, we are investing in the land of giants again as Microsoft tops the $3 Trillion in market value and several other companies join the Trillionaires Club. But that's not …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep175",
+   "date": "2024-02-05",
+   "title": "How to Prepare for the Thawing of the Real Estate Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep176",
+   "date": "2024-02-12",
+   "title": "Demystifying A.I. and How to Harness it to Learn and Earn More",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep177",
+   "date": "2024-02-19",
+   "title": "Mining the Charts for Weaknesses in the Stock Market",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "ANF",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Abercrombie"
+     ],
+     "snippets": [
+      "…ries to know what will happen next to the stock market. Plus, are we witnessing Meme Stock 2.0 as stocks like Abercrombie & Fitch, Super Micro Computer, Texas Roadhouse and WingStop have been on head-spinning rallies? What's simila…"
+     ]
+    },
+    {
+     "ticker": "SMCI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Super Micro Computer"
+     ],
+     "snippets": [
+      "…l happen next to the stock market. Plus, are we witnessing Meme Stock 2.0 as stocks like Abercrombie & Fitch, Super Micro Computer, Texas Roadhouse and WingStop have been on head-spinning rallies? What's similar, but very different about th…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep178",
+   "date": "2024-02-26",
+   "title": "What the Non-Consensus View is Telling us About Capital Markets Today",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "…ypto with other frothy periods in history and explains how these usually play out. Plus, the meteoric rise of Nvidia and other chip stocks has brought out the options army in full force. They are calling for much higher prices…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep179",
+   "date": "2024-03-04",
+   "title": "Record Highs Everywhere, and Spot Bitcoin ETFs Rake in Cash",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep180",
+   "date": "2024-03-11",
+   "title": "Digging for Answers on Why Gold is at a Record High",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep181",
+   "date": "2024-03-18",
+   "title": "Can Cannabis Tourism Save California's Cannabis Industry?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep182",
+   "date": "2024-03-25",
+   "title": "A New Wave of Optimism Reawakens the Bulls",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep183",
+   "date": "2024-04-01",
+   "title": "Claudia Sahm on the \"Sahm Rule\", and the Health of the Economy Today",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "DIS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Disney"
+     ],
+     "snippets": [
+      "…/ https://www.investopedia.com/bitcoin-halving-4843769 https://restorethemagic.com/wp-content/uploads/2024/03/Disney-Trian-White-Paper-2024.pdf https://stayathomemacro.substack.com/ https://www.investopedia.com/what-to-expect-…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep184",
+   "date": "2024-04-08",
+   "title": "Putting Stock Market Pullbacks into Perspective",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep185",
+   "date": "2024-04-15",
+   "title": "A Century Year-Old Financial Advice Business Faces the Future",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep186",
+   "date": "2024-04-22",
+   "title": "Is Capitalism Broken, and Can it Be Fixed?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep187",
+   "date": "2024-04-29",
+   "title": "How Short Sellers Look Through the Muddy Waters of Filings for Fraud",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SQ",
+     "count": 2,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Block"
+     ],
+     "snippets": [
+      "Carson Block, CEO of Muddy Waters Research, joins The Express to explain how one of the most influential short sellers ide…",
+      "…s the frauds, the lies, the half-truths and the warning signs that companies sometimes use to dupe investors. Block discusses why his firm and others are looking deep into the commercial and residential real estate markets fo…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep188",
+   "date": "2024-05-06",
+   "title": "Inside the 60th Berkshire Hathaway Annual Meeting Among the Buffett Faithful",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BRK-B",
+     "count": 4,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "Berkshire",
+      "Berkshire Hathaway",
+      "Berkshire's"
+     ],
+     "snippets": [
+      "Inside the 60th Berkshire Hathaway Annual Meeting Among the Buffett Faithful",
+      "The Express returns to Omaha, Nebraska where tens of thousands of Berkshire Hathaway shareholders have gathered for 60 years to hear words of wisdom from Warren Buffett and listen to how he inte…",
+      "…d listen to how he intends to keep growing their investment. Absent this year, of course, was Charlie Munger, Berkshire's former Vice-Chairman and Buffett's partner in building the conglomerate, who passed away last November just o…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep189",
+   "date": "2024-05-13",
+   "title": "Redefining Risk, and the Future of Trading Technology",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep190",
+   "date": "2024-05-20",
+   "title": "How the Pros are Constructing Portfolios for the Future",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep191",
+   "date": "2024-05-27",
+   "title": "Why the U.S. Real Estate Market Might Be Healthier Than We Think",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "…aults is sending our warning winds. And, while the stock market makes new record highs behind the strength of Nvidia, consumer discretionary stocks have not been invited to the party. Links for show notes: https://www.investop…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep192",
+   "date": "2024-06-03",
+   "title": "Checking in on the Vibe Economy with Kyla Scanlon",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep193",
+   "date": "2024-06-10",
+   "title": "Taking a Hard Look at the Aftermath of Rate Cuts and Election Years for Investors",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep194",
+   "date": "2024-06-17",
+   "title": "Making the Case Against the 401(k)",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep195",
+   "date": "2024-06-24",
+   "title": "Unlocking the Super Powers of Supercommunicators",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep196",
+   "date": "2024-07-01",
+   "title": "How the Trolls Took Over Wall Street, and Where They are Now",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "HOOD",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Robinhood"
+     ],
+     "snippets": [
+      "…unity in the stock market. Popper draws the through-line from the Great Financial Crisis through the birth of Robinhood, Reddit and ultimately wallstreetbets, where trolling is the language of trading. If you thought this communi…"
+     ]
+    },
+    {
+     "ticker": "RDDT",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Reddit"
+     ],
+     "snippets": [
+      "…e stock market. Popper draws the through-line from the Great Financial Crisis through the birth of Robinhood, Reddit and ultimately wallstreetbets, where trolling is the language of trading. If you thought this community of tr…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep197",
+   "date": "2024-07-07",
+   "title": "How to Find the Next Unicorn Wines",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep198",
+   "date": "2024-07-14",
+   "title": "Investors' Great Expectations Meet the Economic Realities of the 2nd Half of 2024",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SOFI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SoFi"
+     ],
+     "snippets": [
+      "…estors have been reinvigorated by the prospect of interest rate cuts in September as inflation slows. But, as SoFi's Liz Young Thomas explains, interest rate cuts into a slowing economy are not always followed by great returns…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep199",
+   "date": "2024-07-21",
+   "title": "Behind the Historic Small Cap Breakout, and Investing Lessons for Millennials",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep200",
+   "date": "2024-07-28",
+   "title": "Political Chaos and Our Portfolios: What Investors Really Need to Pay Attention to in this Election",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Schwab's"
+     ],
+     "snippets": [
+      "…r weeks in U.S. political history, and the election is still over three months away. Michael Townsend, Chares Schwab's political analyst and a long-time Washington watcher, joins The Express to explain what's next in the politic…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep201",
+   "date": "2024-08-05",
+   "title": "Market Meltdown: Is This 1999 All Over Again?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AAPL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "… and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.investopedia.com/what-is-the-sahm-rule-8637564 https://www.investopedia.com…"
+     ]
+    },
+    {
+     "ticker": "BRK-B",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Berkshire Hathaway"
+     ],
+     "snippets": [
+      "… strengthens against the U.S. Dollar, and it's impacting other markets around the world, and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep202",
+   "date": "2024-08-11",
+   "title": "What Broke, and What Got Stronger Amid the Market's Summer Storm",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep203",
+   "date": "2024-08-18",
+   "title": "WIll Regulators Really Break Up Big Tech, or Are They Already Too Late?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GOOGL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Google"
+     ],
+     "snippets": [
+      "With the Dept. of Justice's recent antitrust victory over Google and its online advertising practices ruled monopolistic, the breakup of the biggest technology companies in t…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep204",
+   "date": "2024-08-25",
+   "title": "The ABC's of Alternative Investing",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep205",
+   "date": "2024-09-03",
+   "title": "Investopedia Celebrates 25 Years, and The Investor Post-Summer Playbook",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FRHC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Freedom Capital Markets"
+     ],
+     "snippets": [
+      "…ons, financial events and terms of the past quarter century. Plus, Jay Woods, the Chief Global Strategist for Freedom Capital Markets helps us prep our playbooks for the rest of the year as the stock market dances near record highs ahead of in…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep206",
+   "date": "2024-09-08",
+   "title": "Secrets Every Investor Should Know with Downtown Josh Brown",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep207",
+   "date": "2024-09-15",
+   "title": "Rebuilding the 'American Dream' Through Real Estate",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep208",
+   "date": "2024-09-22",
+   "title": "The Fed's Big Recalibration, and the Most Important Macro Trends in the Economy Today",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "JPM",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "JP Morgan"
+     ],
+     "snippets": [
+      "…d highs last week - when the Fed gets this aggressive. Plus, Dr. David Kelly, the Chief Global Strategist for JP Morgan Asset Management, joins The Express from the Future Proof Wealth Festival, to share the most important macro …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep209",
+   "date": "2024-09-29",
+   "title": "Inside the Front Lines of a Modern Day Whiskey Rebellion",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep210",
+   "date": "2024-10-06",
+   "title": "The Brain Behind the Biggest Breaking News Stories of Our Generation",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep211",
+   "date": "2024-10-13",
+   "title": "How to Have the Most Challenging Financial Conversations in Our Lives",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep212",
+   "date": "2024-10-20",
+   "title": "How to Really Get Better With Our Money",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep213",
+   "date": "2024-10-27",
+   "title": "What Actually Happened to the Investors Who Joined the Market During Meme Stock Mania?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "GS",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Goldman Sachs"
+     ],
+     "snippets": [
+      "…nterest rate regime. Plus, why are yields for long term bonds spiking just as the Fed lowers rates, what made Goldman Sachs curb our expectations for future equity returns, and where are the hedge fund whales swimming lately? LINKS F…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep214",
+   "date": "2024-11-04",
+   "title": "Why the Federal Budget Deficit Could Trigger the Next Financial Crisis",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep215",
+   "date": "2024-11-11",
+   "title": "Breaking Down the Election Mega-Rally as the Bond Vigilantes Circle",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep216",
+   "date": "2024-11-18",
+   "title": "Ray Dalio and His Principles For This New World Order",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep217",
+   "date": "2024-11-25",
+   "title": "The ETF Industry in Search of the Next $10 Trillion",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "STT",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "State Street"
+     ],
+     "snippets": [
+      "Anna Paglia, the Chief Business Officer for State Street Global Advisors, joins The Express to help uncover where the next $10 Trillion in assets under management for…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep218",
+   "date": "2024-12-02",
+   "title": "Setting Longer Tables with Chef José Andrés",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep219",
+   "date": "2024-12-09",
+   "title": "Investopedia's Top Terms of the Year and Yet More Reasons to Be Bullish",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep220",
+   "date": "2024-12-16",
+   "title": "Austin Hankwitz Wants to Show You His Portfolio",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep221",
+   "date": "2024-12-23",
+   "title": "Why the Bitcoin Bonanza Might Just Be Getting Started",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep222",
+   "date": "2025-01-06",
+   "title": "What to Expect Across the Capital Markets in 2025",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SOFI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SoFi"
+     ],
+     "snippets": [
+      "….S. economy continues to grow and consumers are feeling as confident as they have in years? Liz Young Thomas, SoFi's Head of Investment Strategy, rejoins The Express to share her outlook for 2025, including the biggest risks a…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep223",
+   "date": "2025-01-13",
+   "title": "Reasons to Remain Bullish as the Bond Vigilantes Circle",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep224",
+   "date": "2025-01-20",
+   "title": "The New Economic Policy Playbook and the Future of TikTok",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep225",
+   "date": "2025-01-27",
+   "title": "The Upcoming Showdown at the Fed, and Making Cents out of Eliminating the Penny",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep226",
+   "date": "2025-02-03",
+   "title": "DeepSeek, A.I., Tariffs, and the Future of Economic Security",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "A jam-packed January full of news also brought DeepSeek into the future of A.I. conversation, deep-seating Nvidia as the world's most valuable company, and calling into question the hundreds of billions of dollars of spendi…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep227",
+   "date": "2025-02-09",
+   "title": "The Securitization of the \"America First\" Agenda",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep228",
+   "date": "2025-02-17",
+   "title": "The Bull Goes Global, and Welcome to the Age of Electricity",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep229",
+   "date": "2025-02-24",
+   "title": "Sentiment Shaken, Stocks Stirred, and Retail Traders Rush In",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep230",
+   "date": "2025-03-03",
+   "title": "Momentum Loses its MoJo, and the Risk Trade Gets Wrecked",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep231",
+   "date": "2025-03-09",
+   "title": "Tech Gets Corrected Triggering the Titanic Syndrome",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep232",
+   "date": "2025-03-16",
+   "title": "The Correction Cometh as the Fed Put Goes into High Gear",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep233",
+   "date": "2025-03-17",
+   "title": "Seema Shah on How to Invest Through Policy Chaos",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep234",
+   "date": "2025-03-23",
+   "title": "The Fed Said the \"T\" Word, and Individual Investors Buy the Dip",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep235",
+   "date": "2025-03-30",
+   "title": "Bracing for 'Liberation Day', and the Dizzying Decline of the Dollar",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep236",
+   "date": "2025-04-06",
+   "title": "Powell Preaches Patience as Trump Tariffs Topple the Bull",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep237",
+   "date": "2025-04-10",
+   "title": "Why The Big Short is Not Short Right Now",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep238",
+   "date": "2025-04-13",
+   "title": "Tariff Flip Flops Supercharge Our Animal Spirits",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep239",
+   "date": "2025-04-18",
+   "title": "Trying to Catch Falling Knives, Retail Investors Rush In",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "PLTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Palantir"
+     ],
+     "snippets": [
+      "…ic lockdowns. Vanda Research reported record inflows into the Magnificent 7 and other widely-held stocks like Palantir after April 2nd, and buying the dip has proved very painful during this correction. Marco Iachini, the S.V.P.…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep240",
+   "date": "2025-04-20",
+   "title": "The 7th Circle of Uncertainty and Sanctity of the Fed",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep241",
+   "date": "2025-04-23",
+   "title": "David Booth on the Birth of Big Data and Dimensional Funds",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep242",
+   "date": "2025-04-27",
+   "title": "The De-escalation Trade Roars Back, but Halloween May Get Ghosted",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep243",
+   "date": "2025-04-30",
+   "title": "What is Behind Chef Kwame Onwuachi's Recipe for Innovation",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "QQQ",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Invesco QQQ"
+     ],
+     "snippets": [
+      "…place at Future Proof CityWide in Miami Beach in March, as part of the Recipe for Innovation Live series from Invesco QQQ, in partnership with Investopedia and Food and Wine. Resources: https://www.invesco.com/qqq-etf/en/recipe-for…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep244",
+   "date": "2025-05-04",
+   "title": "Inside the Berkshire Shareholder Meeting as Buffett Says He's Stepping Down",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BRK-B",
+     "count": 3,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "Berkshire",
+      "Berkshire Hathaway"
+     ],
+     "snippets": [
+      "Inside the Berkshire Shareholder Meeting as Buffett Says He's Stepping Down",
+      "It may have come as a surprise to those of us in attendance at the Berkshire Hathaway meeting in Omaha this Saturday, but Warren Buffett gracefully said he'll be stepping aside as CEO at the end …",
+      "…business history. The 94-year old paved the way for his successor, Greg Abel, but reassured investors and the Berkshire faithful that he'll be hanging around to provide his infinite wisdom to the new leadership team, and to the r…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep245",
+   "date": "2025-05-11",
+   "title": "Playing With Our Patience as the Rally Resets",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep246",
+   "date": "2025-05-15",
+   "title": "eToro CEO Yoni Assia on the Long Road to its IPO",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep247",
+   "date": "2025-05-18",
+   "title": "A New Bull is Born and the U.S. Gets a Downgrade",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "MCO",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Moody's"
+     ],
+     "snippets": [
+      "…, Is there any conviction behind this rally, or is it simply short covering ahead of the summer season? Plus, Moody's downgrades the U.S. credit rating on concerns about rising debt levels, but investors have plenty of other co…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep248",
+   "date": "2025-06-01",
+   "title": "The New Age of Cryptocurrency is Here - Get On-Chain!",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "JPM",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "JP Morgan"
+     ],
+     "snippets": [
+      "…our trading partners and he's used them before. The tariff war is far from over, but CEOs like Jamie Dimon of JP Morgan are more worried about the war we are waging with the 'enemy within'. Listen to Dimon's comments from the Rea…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep249",
+   "date": "2025-06-08",
+   "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BAC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Bank of America"
+     ],
+     "snippets": [
+      "… ease and the headline economic data eases recession fears, a new bull market is picking up speed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Pr…"
+     ]
+    },
+    {
+     "ticker": "COIN",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Coinbase"
+     ],
+     "snippets": [
+      "… by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Proximity to power is everything under this administration and in this stock market, and offende…"
+     ]
+    },
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "…peed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Proximity to power is everything under this administration and in this stock market, a…"
+     ]
+    },
+    {
+     "ticker": "PLTR",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Palantir"
+     ],
+     "snippets": [
+      "…cking up speed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Proximity to power is everything under this administration and in this stock m…"
+     ]
+    },
+    {
+     "ticker": "TSLA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Tesla"
+     ],
+     "snippets": [
+      "…coin. Proximity to power is everything under this administration and in this stock market, and offenders like Tesla get punished when they cross the lines at Pennsylvania Ave. Plus, Silver prices hit a 13-year high as the Gol…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep250",
+   "date": "2025-06-16",
+   "title": "Event Risk Rattles the Rally as Middle East Tensions Rise",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep251",
+   "date": "2025-06-23",
+   "title": "Why the A.I. Revolution is Just Getting Started",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep252",
+   "date": "2025-06-30",
+   "title": "Fear and Loathing on the Way to New Record Highs",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep253",
+   "date": "2025-07-07",
+   "title": "High Anxiety Inside the Everything Rally",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep254",
+   "date": "2025-07-14",
+   "title": "Testing the Limits of American Exceptionalism",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep255",
+   "date": "2025-07-21",
+   "title": "Investing Through a Regulatory Overhaul",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "…market to new record highs. Michael Townsend, the Managing Director of Legislative and Regulatory Affairs for Charles Schwab tells us which policies will impact investors the most, and what new regulatory changes are looming on the ho…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep256",
+   "date": "2025-07-28",
+   "title": "Low-Riding Through Short Squeezes to Higher Highs",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep257",
+   "date": "2025-08-04",
+   "title": "Investing Through a Cloud of Dubious Data",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FRHC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Freedom Capital Markets"
+     ],
+     "snippets": [
+      "… highs behind a handful of the biggest stocks in the market yet again. Jay Woods, Chief Global Strategist for Freedom Capital Markets helps us find the right price levels even as the data we depend on becomes more dubious. Plus, we are enterin…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep258",
+   "date": "2025-08-11",
+   "title": "How to Climb the Ever-Rising Wealth Ladder",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep259",
+   "date": "2025-08-18",
+   "title": "Riding High on Optimistic Vibes",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "…s and less bite than bark from tariffs, they are leaning into their favorite stocks and ETFs. Kevin Gordon of Charles Schwab joins us for a vibes check and sets the scene for the rest of the year. Plus, IPOs are popping like it's 1995…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep260",
+   "date": "2025-08-26",
+   "title": "Inside the World’s Biggest Wealth Festival",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep261",
+   "date": "2025-09-02",
+   "title": "Over-Concentrated or Over-Diversified?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "…, ETFs now exceed single stocks, begging the question if we are over-diversified in a world where stocks like Nvidia dominate index funds. And, what to watch this week as the labor market faces its latest test."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep262",
+   "date": "2025-09-08",
+   "title": "Future-Proofing Wealth Management",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep263",
+   "date": "2025-09-15",
+   "title": "The Future of the Fed at a Crossroads",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep264",
+   "date": "2025-09-22",
+   "title": "The $16 Trillion Stock Rally",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep265",
+   "date": "2025-09-29",
+   "title": "Can the Relentless Bid be Stopped?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep266",
+   "date": "2025-10-06",
+   "title": "Shutdown Showdown Amid Record Highs",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SOFI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SoFi"
+     ],
+     "snippets": [
+      "… that government dysfunction won't hurt their portfolios, or will something else scare away their exuberance. SoFi's Liz Young Thomas shares her perspective on where we go from here, and which sectors are due for a little trim…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep267",
+   "date": "2025-10-06",
+   "title": "Chef Tom Colicchio on Innovation and Inspiration in and out of the Kitchen",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep268",
+   "date": "2025-10-13",
+   "title": "How Not To Invest",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep269",
+   "date": "2025-10-20",
+   "title": "The Truth About Our Financial Futures",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep270",
+   "date": "2025-10-27",
+   "title": "Playing Offense and Defense in Q4",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BYND",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Beyond Meat"
+     ],
+     "snippets": [
+      "…laybook on how to play offense and defense in the fourth quarter, and what to expect in 2026. Plus, shares of Beyond Meat are getting grilled after soaring on the meme stock express last week. Is this just a silly stock move or yet…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep271",
+   "date": "2025-11-03",
+   "title": "What Really Caused the Stock Market Crash of 1929?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AMZN",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Amazon"
+     ],
+     "snippets": [
+      "…pening today in the stock market and the economy. Plus, blowout earnings from the biggest tech companies like Amazon and Alphabet are keeping the bulls running into the best six months of the year."
+     ]
+    },
+    {
+     "ticker": "GOOGL",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Alphabet"
+     ],
+     "snippets": [
+      "…y in the stock market and the economy. Plus, blowout earnings from the biggest tech companies like Amazon and Alphabet are keeping the bulls running into the best six months of the year."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep272",
+   "date": "2025-11-10",
+   "title": "Separating Facts vs. Feelings as Investors",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep273",
+   "date": "2025-11-17",
+   "title": "Slip-Sliding Through Sector Rotation",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "…lus, don't call it a comeback, but bonds are having their best run in over a decade. And, all eyes will be on Nvidia this week as the chip giant reports its quarterly results, carrying the weight of investor expectations on it…"
+     ]
+    },
+    {
+     "ticker": "TFC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Truist"
+     ],
+     "snippets": [
+      "…ing of the risk trade that has propelled the stock market to multiple record highs this year? Keith Lerner of Truist Wealth helps us navigate these recent shockwaves and identifies new opportunities for investors seeking stabi…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep274",
+   "date": "2025-11-24",
+   "title": "Ripping Through a Risk Reversal",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep275",
+   "date": "2025-11-26",
+   "title": "The Power of the Plan in Family Finances",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep276",
+   "date": "2025-12-01",
+   "title": "The Most Important Charts in the Market Right Now",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep277",
+   "date": "2025-12-08",
+   "title": "Signals and Noises at the End of the Year",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep278",
+   "date": "2025-12-10",
+   "title": "The Power of Financial Coupling with Heather and Douglas Boneparth",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep279",
+   "date": "2025-12-16",
+   "title": "Diving Deep into Investor Sentiment",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "STT",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "State Street"
+     ],
+     "snippets": [
+      "…e. We take a deep dive into retail investors' portfolios, and then look ahead into 2026 with Michael Arone of State Street Investment Management. Plus, why Charles Dow would be particularly happy about this current rally, and what o…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep280",
+   "date": "2025-12-17",
+   "title": "Acorns Plants its Next Seeds for Growth",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep281",
+   "date": "2025-12-22",
+   "title": "Jim Cramer’s Lessons for Investing in Any Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep282",
+   "date": "2026-01-05",
+   "title": "Investing in the New World Order",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BRK-B",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Berkshire Hathaway"
+     ],
+     "snippets": [
+      "…isk factors that could challenge our faith in the momentum underlying recent trends. Plus, it's a new era for Berkshire Hathaway shareholders without Warren Buffett as CEO. We list just some of the accomplishments that made Buffett the gr…"
+     ]
+    },
+    {
+     "ticker": "SOFI",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "SoFi"
+     ],
+     "snippets": [
+      "…ion of Venezuela and a bull market charging into its fourth year testing investors' confidence. Liz Thomas of SoFi comes back aboard the Express to share her outlook for the new year and specific risk factors that could chal…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep283",
+   "date": "2026-01-12",
+   "title": "What’s Next For Bitcoin After the Fall?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep284",
+   "date": "2026-01-20",
+   "title": "The Real Deal Inside the Jobs Market",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "ADP",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "ADP"
+     ],
+     "snippets": [
+      "…d finally cool down the momentum in the stock market. Plus, is AI really going to eat our jobs in the future? ADP's Chief Economist, Nela Richardson forecasts the future of employment, and gives this current labor market a he…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep285",
+   "date": "2026-01-26",
+   "title": "The National and Economic Security Portfolio",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep286",
+   "date": "2026-02-02",
+   "title": "Debasement Trade About Face",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BLK",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Blackrock"
+     ],
+     "snippets": [
+      "… about which assets to hold in times of uncertainty. We sift through the smelting pot, and Gargi Chaudhuri of Blackrock breaks it down and helps us refocus on the themes that will actually matter to investors this year. Plus, ins…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep287",
+   "date": "2026-02-09",
+   "title": "What Is, and Isn’t Working in this Market",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep288",
+   "date": "2026-02-16",
+   "title": "Looking for a Reason to Believe",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep289",
+   "date": "2026-02-23",
+   "title": "The Vibe Economy is Not Vibing",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "BRK-B",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Berkshire Hathaway"
+     ],
+     "snippets": [
+      "…Economy?\", helps us decode the sour vibes in this current economy, and the challenges facing investors. Plus, Berkshire Hathaway shareholders are bracing for an earnings report and shareholder letter that won't be delivered by Warren Buff…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep290",
+   "date": "2026-03-02",
+   "title": "Fallout From the Attack on Iran",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FRHC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Freedom Capital Markets"
+     ],
+     "snippets": [
+      "…rael has global markets reeling as investors brace for more uncertainty in the oil-heavy region. Jay Woods of Freedom Capital Markets drops in to show us how traders and investors should evaluate the fallout, and what this means for major asse…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep291",
+   "date": "2026-03-09",
+   "title": "Wealth Management in the Age of AI",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep292",
+   "date": "2026-03-16",
+   "title": "Behind the Bitcoin Breakdown",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep293",
+   "date": "2026-03-23",
+   "title": "Rising Oil’s Ripple Effects",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "SCHW",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Charles Schwab"
+     ],
+     "snippets": [
+      "…oss sectors, and the dislocation inside the capital markets with Liz Ann Sonders, Chief Market Strategist for Charles Schwab. Plus, investors have turned decidedly bearish at last, just in time for the business news magazines to flash…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep294",
+   "date": "2026-03-30",
+   "title": "Stock Market Correction Therapy",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep295",
+   "date": "2026-04-06",
+   "title": "Crude Outlook for the Future of Oil",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep296",
+   "date": "2026-04-13",
+   "title": "The Rewiring of the Stock Market",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "STT",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "State Street"
+     ],
+     "snippets": [
+      "…, investors may need to get used to a broader rewiring of the capital markets, according to Matt Bartolini of State Street Investment Management. Yesterday's winners have no lock on the future, even though individual investors can't…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep297",
+   "date": "2026-04-21",
+   "title": "All-Time High Wire Act",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "HOOD",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Robinhood"
+     ],
+     "snippets": [
+      "…gth of the global economy and the hopes that companies can keep churning out higher profits. Stephanie Guild, Robinhood Markets Chief Investment Officer drops in with perspective for retail investors, and what sectors we should k…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep298",
+   "date": "2026-04-27",
+   "title": "Apple Faces the AI Future",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "AAPL",
+     "count": 3,
+     "sources": [
+      "title",
+      "description"
+     ],
+     "aliases": [
+      "Apple"
+     ],
+     "snippets": [
+      "Apple Faces the AI Future",
+      "With Tim Cook stepping down from Apple this Fall, the future of one of the world's most valuable companies and brands falls to John Ternus who must …",
+      "…any's AI future is bright and profitable. Gene Munster of Deepwater Asset Mgmt. drops in with a blueprint for Apple and puts the AI build-out for Big Tech in perspective. Plus, it's put up or shut up time for mega-cap tech ea…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep299",
+   "date": "2026-05-04",
+   "title": "Crypto’s Next Chapter",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep300",
+   "date": "2026-05-11",
+   "title": "The Convergence of Public and Private Markets",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep301",
+   "date": "2026-05-18",
+   "title": "Getting Future-Rich With “Mrs. Dow Jones”",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia's"
+     ],
+     "snippets": [
+      "…ng higher. Are higher for longer inflation and interest rates real threats to this aging bull market, or will Nvidia's earnings report this week spur a pre-summer rally?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep302",
+   "date": "2026-05-25",
+   "title": "The Risk v. Reward Paradox",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep303",
+   "date": "2026-06-01",
+   "title": "The Future of the American Economy",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "JPM",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "JPMorgan"
+     ],
+     "snippets": [
+      "…ansforming the U.S. economy. The Express goes inside the Reagan Economic Forum to hear from leaders including JPMorgan CEO Jamie Dimon and U.S. Treasury Secretary Scott Bessent on what economic power means in 2026. Plus, Mike Ro…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep304",
+   "date": "2026-06-08",
+   "title": "The Harder They Fall",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep305",
+   "date": "2026-06-15",
+   "title": "Empire of Trillions",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep306",
+   "date": "2026-06-22",
+   "title": "Bull Market Health Check",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FRHC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Freedom Capital Markets"
+     ],
+     "snippets": [
+      "As we near the mid-point of a tumultuous year, we give this market a health check with Jay Woods of Freedom Capital Markets. Plus, there's a new Fed Chair in town, and Kevin Warsh is focused squarely on inflation and recreating the c…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep307",
+   "date": "2026-06-29",
+   "title": "Guacamole, Money and Markets",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep308",
+   "date": "2026-07-06",
+   "title": "Breaking Investing Rules with the Ultimate Fool",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep309",
+   "date": "2026-07-13",
+   "title": "Is The Stock Market Too Big To Fail?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep310",
+   "date": "2026-07-20",
+   "title": "Why Credit Card Rewards Keep Shrinking",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep311",
+   "date": "2026-07-27",
+   "title": "The Gen-Z Approach to the Stock Market",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "META",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Instagram"
+     ],
+     "snippets": [
+      "…the personality behind \"Money with Mary\", shares her investing strategy and how she has navigated becoming an Instagram star and small business operator in her early 20's. Plus, a new round of tariffs and a spike in energy prices…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep312",
+   "date": "2026-08-03",
+   "title": "The U.S. Economy on the Precipice",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "MCO",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Moody's"
+     ],
+     "snippets": [
+      "…ndling economic confidence pull against productivity gains and capex spending? Mark Zandi, Chief Economist of Moody's Analytics shows us the possible pathways for the economy and households, and what to brace for. Plus, the Fed…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep313",
+   "date": "2026-08-10",
+   "title": "Investing Lessons from Invest Fest",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep314",
+   "date": "2026-08-17",
+   "title": "What Is the “Real Feel” of the Economy?",
+   "has_transcript": false,
+   "mentions": []
+  },
+  {
+   "id": "ep315",
+   "date": "2026-08-24",
+   "title": "THE GOOD, THE BAD, & THE UNBELIEVEABLE",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "NVDA",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Nvidia"
+     ],
+     "snippets": [
+      "…ket statistics and astounding compounding revelations that will keep us investing forever. Plus - all eyes on Nvidia this week as the chip giant reports results and tries to assuage investors that all this spending isn't just …"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep316",
+   "date": "2026-08-31",
+   "title": "The Global Bull Market Keeps Charging",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "FRHC",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Freedom Capital Markets"
+     ],
+     "snippets": [
+      "…es are at all time highs as investors hold on to hopes that rising earnings will keep on rising. Jay Woods of Freedom Capital Markets tells us what could go wrong, or keep going right in the last few months of the year. Plus, the Pentagon is b…"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep317",
+   "date": "2026-09-08",
+   "title": "What Might Topple the Private Capital Pyramid?",
+   "has_transcript": false,
+   "mentions": [
+    {
+     "ticker": "APO",
+     "count": 1,
+     "sources": [
+      "description"
+     ],
+     "aliases": [
+      "Apollo"
+     ],
+     "snippets": [
+      "… William D. Cohan, author of the newly released book, \"Money to Burn: The Unvarnished Truth About Leon Black, Apollo, and the Rise of a New Wall Street\", describes how we got here, and what dangerous roads private markets and …"
+     ]
+    }
+   ]
+  }
+ ],
+ "companies": {
+  "RELIANCE.NS": [
+   {
+    "episode": "ep003",
+    "date": "2020-09-14",
+    "title": "Navigating the widening disconnect between markets and the economy",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…the Federal Reserve at its last meeting before the U.S. elections, U.S. tech giants are cozying up to India's Reliance Industries, how individual investors should interpret volatility, with Liz Ann Sonders, the Chief Investment strategist …"
+   }
+  ],
+  "SCHW": [
+   {
+    "episode": "ep003",
+    "date": "2020-09-14",
+    "title": "Navigating the widening disconnect between markets and the economy",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ow individual investors should interpret volatility, with Liz Ann Sonders, the Chief Investment strategist at Charles Schwab, and why quadruple witching can scare this market this Friday."
+   },
+   {
+    "episode": "ep030",
+    "date": "2021-03-29",
+    "title": "Where in the World to Invest Right Now",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "On this week's show Jeff Kleintop, the Chief Global Investment Strategist for Charles Schwab joins the show to talk about which global markets still have strength, and where the recovery may have petere…"
+   },
+   {
+    "episode": "ep042",
+    "date": "2021-06-28",
+    "title": "The Mid-Year Money Check Up",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Liz Ann Sonders, the Chief Investment Strategist for Charles Schwab rejoins the Express to take the temperature of the economic recovery, inflation, stock prices and our portfol…"
+   },
+   {
+    "episode": "ep113",
+    "date": "2022-11-07",
+    "title": "A Wake-Up Call for Investors to the New, New Normal",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Liz Ann Sonders, the Chief Investment Strategist for Charles Schwab, rejoins the Express to explain why we need to stop hoping for a Fed pivot, and why we need good old-fashione…"
+   },
+   {
+    "episode": "ep115",
+    "date": "2022-11-21",
+    "title": "What Financial Advisors are Telling Their Clients Today",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…t time of the year? LINKS FOR SHOW NOTES: https://pressroom.aboutschwab.com/press-releases/press-release/2022/Schwab-Q4-Trader-Sentiment-Survey-A-Recession-May-Already-Be-Here-But-Traders-Say-It-Will-Be-Short-Lived/default.asp…"
+   },
+   {
+    "episode": "ep140",
+    "date": "2023-05-22",
+    "title": "What Cardboard Box Demand and Movie Tickets Tell Us About the Markets",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Jeff Kleintop, the Chief Global Investment Strategist for Charles Schwab rejoins The Express to share his favorite economic and market indicators, what to watch out for in the debt-c…"
+   },
+   {
+    "episode": "ep169",
+    "date": "2023-12-18",
+    "title": "Breaking out the 2024 Investing Playbook as Stocks Touch New Highs",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Liz Ann Sonders, the Chief Investment Strategist at Charles Schwab, tells us what to expect next year for the markets and the economy, and how investors should prepare. Plus, t…"
+   },
+   {
+    "episode": "ep200",
+    "date": "2024-07-28",
+    "title": "Political Chaos and Our Portfolios: What Investors Really Need to Pay Attention to in this Election",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…r weeks in U.S. political history, and the election is still over three months away. Michael Townsend, Chares Schwab's political analyst and a long-time Washington watcher, joins The Express to explain what's next in the politic…"
+   },
+   {
+    "episode": "ep255",
+    "date": "2025-07-21",
+    "title": "Investing Through a Regulatory Overhaul",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…market to new record highs. Michael Townsend, the Managing Director of Legislative and Regulatory Affairs for Charles Schwab tells us which policies will impact investors the most, and what new regulatory changes are looming on the ho…"
+   },
+   {
+    "episode": "ep259",
+    "date": "2025-08-18",
+    "title": "Riding High on Optimistic Vibes",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…s and less bite than bark from tariffs, they are leaning into their favorite stocks and ETFs. Kevin Gordon of Charles Schwab joins us for a vibes check and sets the scene for the rest of the year. Plus, IPOs are popping like it's 1995…"
+   },
+   {
+    "episode": "ep293",
+    "date": "2026-03-23",
+    "title": "Rising Oil’s Ripple Effects",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…oss sectors, and the dislocation inside the capital markets with Liz Ann Sonders, Chief Market Strategist for Charles Schwab. Plus, investors have turned decidedly bearish at last, just in time for the business news magazines to flash…"
+   }
+  ],
+  "PLTR": [
+   {
+    "episode": "ep005",
+    "date": "2020-09-29",
+    "title": "Election Anxiety Brings out the Animal Spirits",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…Jurrien Timmer to find out. 2020 has been a banner year for IPO's, and one of the biggest is about to drop as Palantir Technologies prepares for its debut. We'll tell you what you need to know about the data mining software company. Plus, wh…"
+   },
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate …"
+   },
+   {
+    "episode": "ep239",
+    "date": "2025-04-18",
+    "title": "Trying to Catch Falling Knives, Retail Investors Rush In",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ic lockdowns. Vanda Research reported record inflows into the Magnificent 7 and other widely-held stocks like Palantir after April 2nd, and buying the dip has proved very painful during this correction. Marco Iachini, the S.V.P.…"
+   },
+   {
+    "episode": "ep249",
+    "date": "2025-06-08",
+    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…cking up speed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Proximity to power is everything under this administration and in this stock m…"
+   }
+  ],
+  "ALLY": [
+   {
+    "episode": "ep007",
+    "date": "2020-10-12",
+    "title": "The Individual Investor Playbook as Sentiment See-Saws Around Risk",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…h Investopedia's James Chen, and how individual investors should embrace the uncertainty with Lindsey Bell of Ally Invest. Plus, how a contested U.S. presidential election impacted the stock market back in 1876, and what you need t…"
+   }
+  ],
+  "GS": [
+   {
+    "episode": "ep009",
+    "date": "2020-10-26",
+    "title": "The Paradox Facing Investors Preparing for Retirement, and the Future of Big Tech",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…d income securities, investors preparing for retirement are caught between risk and low returns. Joe Duran of Goldman Sachs Personal Financial Management helps us plot the course for the near term. Big Tech is back in the crosshairs …"
+   },
+   {
+    "episode": "ep174",
+    "date": "2024-01-29",
+    "title": "Looking Long Term Inside the Post Modern Economic Cycle for Investing Clues",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Peter Oppenheimer, the Chief Equity Global Strategist and head of Macro Research at Goldman Sachs in Europe, explains the new Post Modern Cycle investors are living in, and what it means for our future retur…"
+   },
+   {
+    "episode": "ep213",
+    "date": "2024-10-27",
+    "title": "What Actually Happened to the Investors Who Joined the Market During Meme Stock Mania?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…nterest rate regime. Plus, why are yields for long term bonds spiking just as the Fed lowers rates, what made Goldman Sachs curb our expectations for future equity returns, and where are the hedge fund whales swimming lately? LINKS F…"
+   }
+  ],
+  "GOOGL": [
+   {
+    "episode": "ep009",
+    "date": "2020-10-26",
+    "title": "The Paradox Facing Investors Preparing for Retirement, and the Future of Big Tech",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…rsonal Financial Management helps us plot the course for the near term. Big Tech is back in the crosshairs as Google faces an antitrust lawsuit, which is likely to be the first of many facing the mega-cap technology giants. Ra…"
+   },
+   {
+    "episode": "ep155",
+    "date": "2023-09-11",
+    "title": "What the Most Important Charts in the Stock Market are Telling Us Right Now",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…echnical indicators like the DeMark Indicator and MACD. Plus, it's a huge week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for the week ahe…"
+   },
+   {
+    "episode": "ep203",
+    "date": "2024-08-18",
+    "title": "WIll Regulators Really Break Up Big Tech, or Are They Already Too Late?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "With the Dept. of Justice's recent antitrust victory over Google and its online advertising practices ruled monopolistic, the breakup of the biggest technology companies in t…"
+   },
+   {
+    "episode": "ep271",
+    "date": "2025-11-03",
+    "title": "What Really Caused the Stock Market Crash of 1929?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…y in the stock market and the economy. Plus, blowout earnings from the biggest tech companies like Amazon and Alphabet are keeping the bulls running into the best six months of the year."
+   }
+  ],
+  "GBTC": [
+   {
+    "episode": "ep015",
+    "date": "2020-12-07",
+    "title": "Behind Bitcoin's Magical Rise and the Return of the Unicorns",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ashing all-time records along the way. We go behind the cryptocurrency's momentum with Michael Sonnenshein of Grayscale Investments to see who's buying Bitcoin, and what the future looks like. The unicorns have returned for winte…"
+   },
+   {
+    "episode": "ep156",
+    "date": "2023-09-18",
+    "title": "Jay Williams and Joe McLean on Investing in Sports and Building Brands Outside the Lines",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…esting in sports is exploding as teams and athletes become securities and the athlete is now the asset. Plus, Grayscale Investments prepares for the SEC to greenlight its ETF. Dave Lavalle, head of ETFs at Grayscale tells us what…"
+   }
+  ],
+  "DASH": [
+   {
+    "episode": "ep015",
+    "date": "2020-12-07",
+    "title": "Behind Bitcoin's Magical Rise and the Return of the Unicorns",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…stments to see who's buying Bitcoin, and what the future looks like. The unicorns have returned for winter as Doordash and AirBnB are set to make their public debuts at fantasy-level valuations. What investors need to know about…"
+   }
+  ],
+  "PFE": [
+   {
+    "episode": "ep016",
+    "date": "2020-12-14",
+    "title": "Investors Face High Anxiety on Vaccine Rollout, and the History of Pandemics and Markets",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "As the first truckloads of Pfizer's vaccine hit the highways, investors are feeling high anxiety as markets touch new records. Ben Carlson from R…"
+   }
+  ],
+  "MORN": [
+   {
+    "episode": "ep020",
+    "date": "2021-01-19",
+    "title": "The Great Reset and Your Investments in 2021",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…lding their plans and portfolios to take advantage of the economic recovery that is expected later this year? Morningstar's Christine Benz joins the show with strategies to adapt to the new reality. And it's a big week for corporate …"
+   },
+   {
+    "episode": "ep106",
+    "date": "2022-09-26",
+    "title": "The Great Portfolio Reset - Live from Investor Connection",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…e circling as asset prices are being reset amid higher interest rates. Christine Benz and John Rekenthaler of Morningstar, and Anastasia Amoroso of iCapital, join Caleb at Investor Connection, a live event last week, for a conversa…"
+   }
+  ],
+  "GME": [
+   {
+    "episode": "ep022",
+    "date": "2021-02-01",
+    "title": "How Will the GameStop Game End?",
+    "count": 1,
+    "sources": [
+     "title"
+    ],
+    "snippet": "How Will the GameStop Game End?"
+   }
+  ],
+  "HOOD": [
+   {
+    "episode": "ep024",
+    "date": "2021-02-15",
+    "title": "The Future for Cannabis Investing After the Day Trading Frenzy",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…gislative landscape looks like for cannabis and how long-term investors should value its most popular stocks. Robinhood, Citadel, and the hedge funds caught up in the recent short-selling frenzy are called to testify on Capitol H…"
+   },
+   {
+    "episode": "ep047",
+    "date": "2021-08-02",
+    "title": "Robinhood's IPO and the Future of Trading",
+    "count": 1,
+    "sources": [
+     "title"
+    ],
+    "snippet": "Robinhood's IPO and the Future of Trading"
+   },
+   {
+    "episode": "ep196",
+    "date": "2024-07-01",
+    "title": "How the Trolls Took Over Wall Street, and Where They are Now",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…unity in the stock market. Popper draws the through-line from the Great Financial Crisis through the birth of Robinhood, Reddit and ultimately wallstreetbets, where trolling is the language of trading. If you thought this communi…"
+   },
+   {
+    "episode": "ep297",
+    "date": "2026-04-21",
+    "title": "All-Time High Wire Act",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…gth of the global economy and the hopes that companies can keep churning out higher profits. Stephanie Guild, Robinhood Markets Chief Investment Officer drops in with perspective for retail investors, and what sectors we should k…"
+   }
+  ],
+  "BAC": [
+   {
+    "episode": "ep027",
+    "date": "2021-03-08",
+    "title": "Staying Grounded as Yields and Prices Rise",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…correction in tech stocks may have seemed like it came out of nowhere, but Savita Subramanian and her team at BofA Securities have been talking about it for months. Savita joins the show to make sense of the current market a…"
+   },
+   {
+    "episode": "ep055",
+    "date": "2021-09-27",
+    "title": "How Healthy is the Global Economic Recovery?",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Ethan Harris, Head of Global Economics at Bank of America Merrill Lynch, joins the show to take a stethoscope to economies around the world for health checks. Plus, th…"
+   },
+   {
+    "episode": "ep249",
+    "date": "2025-06-08",
+    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… ease and the headline economic data eases recession fears, a new bull market is picking up speed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Pr…"
+   }
+  ],
+  "META": [
+   {
+    "episode": "ep041",
+    "date": "2021-06-21",
+    "title": "Decoding the Massive Moves in Mass Media",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…, spinoffs and media platform launches in the past several months, and how tech giants like Apple, Amazon and Facebook are preparing for a long battle. Plus, we read between the lines of the Fed's latest statement as investor se…"
+   },
+   {
+    "episode": "ep311",
+    "date": "2026-07-27",
+    "title": "The Gen-Z Approach to the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…the personality behind \"Money with Mary\", shares her investing strategy and how she has navigated becoming an Instagram star and small business operator in her early 20's. Plus, a new round of tariffs and a spike in energy prices…"
+   }
+  ],
+  "AMZN": [
+   {
+    "episode": "ep041",
+    "date": "2021-06-21",
+    "title": "Decoding the Massive Moves in Mass Media",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ry of deals, spinoffs and media platform launches in the past several months, and how tech giants like Apple, Amazon and Facebook are preparing for a long battle. Plus, we read between the lines of the Fed's latest statement a…"
+   },
+   {
+    "episode": "ep060",
+    "date": "2021-11-01",
+    "title": "The Voice of American Business News",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…hears from Marketplace's 14 million listeners. Plus, the harder they come, the harder they fall, as Apple and Amazon fall victim to supply chain constraints, and consumers curb their enthusiasm. We look into what that means fo…"
+   },
+   {
+    "episode": "ep271",
+    "date": "2025-11-03",
+    "title": "What Really Caused the Stock Market Crash of 1929?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…pening today in the stock market and the economy. Plus, blowout earnings from the biggest tech companies like Amazon and Alphabet are keeping the bulls running into the best six months of the year."
+   }
+  ],
+  "AAPL": [
+   {
+    "episode": "ep041",
+    "date": "2021-06-21",
+    "title": "Decoding the Massive Moves in Mass Media",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…he flurry of deals, spinoffs and media platform launches in the past several months, and how tech giants like Apple, Amazon and Facebook are preparing for a long battle. Plus, we read between the lines of the Fed's latest sta…"
+   },
+   {
+    "episode": "ep053",
+    "date": "2021-09-13",
+    "title": "Inside the Mysterious Multi-Trillion World of Private Equity",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… through private equity right now, who's behind it, and where it is being deployed. Also, it's a big week for Apple, and an even bigger year for sports betting. Plus the investing term we need to know this week."
+   },
+   {
+    "episode": "ep060",
+    "date": "2021-11-01",
+    "title": "The Voice of American Business News",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…d what he hears from Marketplace's 14 million listeners. Plus, the harder they come, the harder they fall, as Apple and Amazon fall victim to supply chain constraints, and consumers curb their enthusiasm. We look into what th…"
+   },
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… stake of the recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the re…"
+   },
+   {
+    "episode": "ep155",
+    "date": "2023-09-11",
+    "title": "What the Most Important Charts in the Stock Market are Telling Us Right Now",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ough key technical indicators like the DeMark Indicator and MACD. Plus, it's a huge week for huge stocks like Apple and Alphabet given the new iPhone release and the DOJs antitrust suit against Google. We'll get you ready for…"
+   },
+   {
+    "episode": "ep201",
+    "date": "2024-08-05",
+    "title": "Market Meltdown: Is This 1999 All Over Again?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.investopedia.com/what-is-the-sahm-rule-8637564 https://www.investopedia.com…"
+   },
+   {
+    "episode": "ep298",
+    "date": "2026-04-27",
+    "title": "Apple Faces the AI Future",
+    "count": 3,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "Apple Faces the AI Future"
+   }
+  ],
+  "WE": [
+   {
+    "episode": "ep045",
+    "date": "2021-07-19",
+    "title": "The incredible rise and spectacular collapse of WeWork",
+    "count": 1,
+    "sources": [
+     "title"
+    ],
+    "snippet": "The incredible rise and spectacular collapse of WeWork"
+   }
+  ],
+  "AMP": [
+   {
+    "episode": "ep055",
+    "date": "2021-09-27",
+    "title": "How Healthy is the Global Economic Recovery?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… And, the term of the week that the educated investor needs to know. The Investopedia Express is sponsored by Ameriprise Financial"
+   },
+   {
+    "episode": "ep056",
+    "date": "2021-10-04",
+    "title": "How a Top Stock Picker Sees the Market Right Now",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ace yourselves for another wave of corporate debt to hit the market. The Investopedia Express is sponsored by Ameriprise Financial"
+   },
+   {
+    "episode": "ep057",
+    "date": "2021-10-11",
+    "title": "The World According to Gary Vaynerchuk",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…the capital markets as the economic warning signs continue to mount. The Investopedia Express is sponsored by Ameriprise Financial Services."
+   },
+   {
+    "episode": "ep058",
+    "date": "2021-10-18",
+    "title": "The Federal Reserve and the Future of Digital Currency",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…tually in it. All that and more on this week's Investopedia Express. The Investopedia Express is sponsored by Ameriprise Financial Services."
+   }
+  ],
+  "SOFI": [
+   {
+    "episode": "ep069",
+    "date": "2022-01-10",
+    "title": "The Great Portfolio Reset",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Liz Young, Head of Investment Strategy at SoFi, joins the show to help investors reset their portfolios in the face of rising interest rates, red-hot inflat…"
+   },
+   {
+    "episode": "ep127",
+    "date": "2023-02-20",
+    "title": "Why Investors May be Irrationally Exuberant Right Now",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Liz Young, Chief Investment Strategist at SoFi, climbs back aboard The Express to explain why investors may be overly optimistic right now, and what key sig…"
+   },
+   {
+    "episode": "ep198",
+    "date": "2024-07-14",
+    "title": "Investors' Great Expectations Meet the Economic Realities of the 2nd Half of 2024",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…estors have been reinvigorated by the prospect of interest rate cuts in September as inflation slows. But, as SoFi's Liz Young Thomas explains, interest rate cuts into a slowing economy are not always followed by great returns…"
+   },
+   {
+    "episode": "ep222",
+    "date": "2025-01-06",
+    "title": "What to Expect Across the Capital Markets in 2025",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "….S. economy continues to grow and consumers are feeling as confident as they have in years? Liz Young Thomas, SoFi's Head of Investment Strategy, rejoins The Express to share her outlook for 2025, including the biggest risks a…"
+   },
+   {
+    "episode": "ep266",
+    "date": "2025-10-06",
+    "title": "Shutdown Showdown Amid Record Highs",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… that government dysfunction won't hurt their portfolios, or will something else scare away their exuberance. SoFi's Liz Young Thomas shares her perspective on where we go from here, and which sectors are due for a little trim…"
+   },
+   {
+    "episode": "ep282",
+    "date": "2026-01-05",
+    "title": "Investing in the New World Order",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ion of Venezuela and a bull market charging into its fourth year testing investors' confidence. Liz Thomas of SoFi comes back aboard the Express to share her outlook for the new year and specific risk factors that could chal…"
+   }
+  ],
+  "LPLA": [
+   {
+    "episode": "ep079",
+    "date": "2022-03-21",
+    "title": "Breaking Down Walls of Worry with LPL's Ryan Detrick",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Ryan Detrick, The Chief Market Strategist for LPL Financial rejoins The Express to put the market's recent volatility into perspective... long term perspective, and why …"
+   }
+  ],
+  "IVZ": [
+   {
+    "episode": "ep080",
+    "date": "2022-03-28",
+    "title": "Decoding Mixed Signals in the Economy and Markets with Invesco's Kristina Hooper",
+    "count": 2,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "Decoding Mixed Signals in the Economy and Markets with Invesco's Kristina Hooper"
+   }
+  ],
+  "TWTR": [
+   {
+    "episode": "ep083",
+    "date": "2022-04-18",
+    "title": "The Price We Really Pay for College, with Ron Lieber",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… investment decisions a family can make, Plus, we unpack Elon Musk's crazy past two weeks amid his bid to buy Twitter and take it private, and how a new poison pill could derail his plans. Links for show notes: https://ronliebe…"
+   },
+   {
+    "episode": "ep084",
+    "date": "2022-04-25",
+    "title": "Charting the Hot Mess Inside the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Board#from_embed https://data-central.conference-board.org/ https://www.sec.gov/Archives/edgar/data/1418091/0…"
+   },
+   {
+    "episode": "ep095",
+    "date": "2022-07-11",
+    "title": "Introducing the Express-o Awards with Sam Ro",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…orst and most dynamic stories of the first half of the year. Plus, Elon Musk is pulling out of his bid to buy Twitter and the lawsuits are about to start flying. We break down what happened, and what's next for Musk and Twitter…"
+   },
+   {
+    "episode": "ep135",
+    "date": "2023-04-17",
+    "title": "Trading and Investing Goes Hyper-Social",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Callie Cox, eToro's Investment Analyst, joins the show to talk about the social online broker's new deal with Twitter to allow users to trade directly from the platform, how young investors are behaving, and why they are so mis…"
+   }
+  ],
+  "NFLX": [
+   {
+    "episode": "ep084",
+    "date": "2022-04-25",
+    "title": "Charting the Hot Mess Inside the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…stock market, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967…"
+   }
+  ],
+  "DIS": [
+   {
+    "episode": "ep084",
+    "date": "2022-04-25",
+    "title": "Charting the Hot Mess Inside the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…, and where to find relative strength and momentum, now. Also, streamers have lost their steam as Netflix and Disney face the reality of slower growth ahead. For show notes: https://www.scribd.com/document/571086967/Twitter-Bo…"
+   },
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…icture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdown in Chinese real estate, and the n…"
+   },
+   {
+    "episode": "ep183",
+    "date": "2024-04-01",
+    "title": "Claudia Sahm on the \"Sahm Rule\", and the Health of the Economy Today",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…/ https://www.investopedia.com/bitcoin-halving-4843769 https://restorethemagic.com/wp-content/uploads/2024/03/Disney-Trian-White-Paper-2024.pdf https://stayathomemacro.substack.com/ https://www.investopedia.com/what-to-expect-…"
+   }
+  ],
+  "BRK-B": [
+   {
+    "episode": "ep085",
+    "date": "2022-05-02",
+    "title": "Inside the Berkshire Hathaway Annual Meeting",
+    "count": 1,
+    "sources": [
+     "title"
+    ],
+    "snippet": "Inside the Berkshire Hathaway Annual Meeting"
+   },
+   {
+    "episode": "ep188",
+    "date": "2024-05-06",
+    "title": "Inside the 60th Berkshire Hathaway Annual Meeting Among the Buffett Faithful",
+    "count": 4,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "Inside the 60th Berkshire Hathaway Annual Meeting Among the Buffett Faithful"
+   },
+   {
+    "episode": "ep201",
+    "date": "2024-08-05",
+    "title": "Market Meltdown: Is This 1999 All Over Again?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… strengthens against the U.S. Dollar, and it's impacting other markets around the world, and Warren Buffett's Berkshire Hathaway has been aggressively selling some of its favorite stocks, including Apple. LINKS FOR SHOW NOTES https://www.…"
+   },
+   {
+    "episode": "ep244",
+    "date": "2025-05-04",
+    "title": "Inside the Berkshire Shareholder Meeting as Buffett Says He's Stepping Down",
+    "count": 3,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "Inside the Berkshire Shareholder Meeting as Buffett Says He's Stepping Down"
+   },
+   {
+    "episode": "ep282",
+    "date": "2026-01-05",
+    "title": "Investing in the New World Order",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…isk factors that could challenge our faith in the momentum underlying recent trends. Plus, it's a new era for Berkshire Hathaway shareholders without Warren Buffett as CEO. We list just some of the accomplishments that made Buffett the gr…"
+   },
+   {
+    "episode": "ep289",
+    "date": "2026-02-23",
+    "title": "The Vibe Economy is Not Vibing",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…Economy?\", helps us decode the sour vibes in this current economy, and the challenges facing investors. Plus, Berkshire Hathaway shareholders are bracing for an earnings report and shareholder letter that won't be delivered by Warren Buff…"
+   }
+  ],
+  "MS": [
+   {
+    "episode": "ep094",
+    "date": "2022-07-05",
+    "title": "Building a 2nd Half Playbook with Morgan Stanley's Mike Wilson",
+    "count": 2,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "Building a 2nd Half Playbook with Morgan Stanley's Mike Wilson"
+   }
+  ],
+  "CG": [
+   {
+    "episode": "ep103",
+    "date": "2022-09-06",
+    "title": "The Secret Sauce Behind the World's Greatest Investors",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…of the world's greatest investors that separate them from the rest of us? David Rubenstein, co-founder of The Carlyle Group, and best-selling author, joins The Express to talk about the legends of the game and his new book, \"Ho…"
+   }
+  ],
+  "FDX": [
+   {
+    "episode": "ep105",
+    "date": "2022-09-19",
+    "title": "Avoiding the Bear Trap - Live from Future Proof",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…s/countdown-to-fomc.html https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Reports-Preliminary-First-Quarter-Financial-Results-and-Provides-Update-on-Outlook/default.aspx https://futur…"
+   }
+  ],
+  "UAL": [
+   {
+    "episode": "ep112",
+    "date": "2022-11-02",
+    "title": "Bonus Episode - A Conversation with the Masters of Marketing",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "In this bonus episode of the Express, we sit down with the chief marketing officers of United Airlines, Reckitt and CVS Health, as well as Bob Liodice, the CEO of the Assoc. of National Advertisers, for their tak…"
+   }
+  ],
+  "CVS": [
+   {
+    "episode": "ep112",
+    "date": "2022-11-02",
+    "title": "Bonus Episode - A Conversation with the Masters of Marketing",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…s bonus episode of the Express, we sit down with the chief marketing officers of United Airlines, Reckitt and CVS Health, as well as Bob Liodice, the CEO of the Assoc. of National Advertisers, for their take on the advertising mar…"
+   }
+  ],
+  "ARKK": [
+   {
+    "episode": "ep114",
+    "date": "2022-11-14",
+    "title": "Investing in Innovation with Cathie Wood, and The Collapse of FTX",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Cathie Wood, the CEO and CIO of Ark Invest, joins the show to talk about her team's vision for a digital, decentralized future, and how she manages her …"
+   }
+  ],
+  "SIVB": [
+   {
+    "episode": "ep117",
+    "date": "2022-12-05",
+    "title": "Strategic Investing in the Home Stretch of 2022",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Shannon Sacoccia, the CIO of SVB Private Bank, helps us decipher the mixed signals in the economy and capital markets as we reset our portfoli…"
+   },
+   {
+    "episode": "ep130",
+    "date": "2023-03-13",
+    "title": "What Really Brought Down Silicon Valley Bank and What Happens Next",
+    "count": 2,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "What Really Brought Down Silicon Valley Bank and What Happens Next"
+   }
+  ],
+  "BLK": [
+   {
+    "episode": "ep120",
+    "date": "2023-01-03",
+    "title": "Barreling into 2023 with Bond ETFs",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…kets, and the outlook for the year ahead. Plus, Salim Ramji, Global Head of iShares and Index Investments for BlackRock, joins the show to talk about why 2023 will be big for bond ETFs, and why the overall market for exchange tra…"
+   },
+   {
+    "episode": "ep147",
+    "date": "2023-07-17",
+    "title": "Behind Bitcoin's Rise, and BlackRock's Bid to Launch an ETF",
+    "count": 2,
+    "sources": [
+     "title",
+     "description"
+    ],
+    "snippet": "Behind Bitcoin's Rise, and BlackRock's Bid to Launch an ETF"
+   },
+   {
+    "episode": "ep166",
+    "date": "2023-11-27",
+    "title": "As The Bulls Run Wild, Long-term Investors Stay the Course",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ement investors have mostly maintained their composure, according to Anne Ackerley, the Head of Retirement at Blackrock. She joins The Express to talk about how we have been behaving inside the $8.5 Trillion Asset Managers retire…"
+   },
+   {
+    "episode": "ep286",
+    "date": "2026-02-02",
+    "title": "Debasement Trade About Face",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… about which assets to hold in times of uncertainty. We sift through the smelting pot, and Gargi Chaudhuri of Blackrock breaks it down and helps us refocus on the themes that will actually matter to investors this year. Plus, ins…"
+   }
+  ],
+  "FRHC": [
+   {
+    "episode": "ep143",
+    "date": "2023-06-12",
+    "title": "Riding the Skinny Bull Market From the Floor of the NYSE",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Jay Woods, NYSE veteran and Chief Global Strategist for Freedom Capital Markets, joins the Express from the floor of the NYSE to examine the new bull market. It looks a little thin, but it …"
+   },
+   {
+    "episode": "ep205",
+    "date": "2024-09-03",
+    "title": "Investopedia Celebrates 25 Years, and The Investor Post-Summer Playbook",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ons, financial events and terms of the past quarter century. Plus, Jay Woods, the Chief Global Strategist for Freedom Capital Markets helps us prep our playbooks for the rest of the year as the stock market dances near record highs ahead of in…"
+   },
+   {
+    "episode": "ep257",
+    "date": "2025-08-04",
+    "title": "Investing Through a Cloud of Dubious Data",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… highs behind a handful of the biggest stocks in the market yet again. Jay Woods, Chief Global Strategist for Freedom Capital Markets helps us find the right price levels even as the data we depend on becomes more dubious. Plus, we are enterin…"
+   },
+   {
+    "episode": "ep290",
+    "date": "2026-03-02",
+    "title": "Fallout From the Attack on Iran",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…rael has global markets reeling as investors brace for more uncertainty in the oil-heavy region. Jay Woods of Freedom Capital Markets drops in to show us how traders and investors should evaluate the fallout, and what this means for major asse…"
+   },
+   {
+    "episode": "ep306",
+    "date": "2026-06-22",
+    "title": "Bull Market Health Check",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "As we near the mid-point of a tumultuous year, we give this market a health check with Jay Woods of Freedom Capital Markets. Plus, there's a new Fed Chair in town, and Kevin Warsh is focused squarely on inflation and recreating the c…"
+   },
+   {
+    "episode": "ep316",
+    "date": "2026-08-31",
+    "title": "The Global Bull Market Keeps Charging",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…es are at all time highs as investors hold on to hopes that rising earnings will keep on rising. Jay Woods of Freedom Capital Markets tells us what could go wrong, or keep going right in the last few months of the year. Plus, the Pentagon is b…"
+   }
+  ],
+  "CVNA": [
+   {
+    "episode": "ep148",
+    "date": "2023-07-24",
+    "title": "Hollywood is Burning as Dual Strikes and A.I. Threaten&nbsp;Tinseltown",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…index-special-rebalance-to-be-effective-july-24-2023-2023-07-07 https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/cvna-earning-release-q2-2023.pdf https://teamster.org/ https://www.investopedia.com/terms/p/payo…"
+   }
+  ],
+  "UPS": [
+   {
+    "episode": "ep148",
+    "date": "2023-07-24",
+    "title": "Hollywood is Burning as Dual Strikes and A.I. Threaten&nbsp;Tinseltown",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…nce is changing the industry forever. Plus, the summer of Big Labor's discontent heats up as auto workers and UPS employees threaten to strike just as the economy starts to stabilize. https://www.nasdaq.com/press-release/th…"
+   }
+  ],
+  "TSLA": [
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…of the recent sell-off in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent re…"
+   },
+   {
+    "episode": "ep249",
+    "date": "2025-06-08",
+    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…coin. Proximity to power is everything under this administration and in this stock market, and offenders like Tesla get punished when they cross the lines at Pennsylvania Ave. Plus, Silver prices hit a 13-year high as the Gol…"
+   }
+  ],
+  "GM": [
+   {
+    "episode": "ep152",
+    "date": "2023-08-21",
+    "title": "The Present and Future Prospects for Big Tech Stocks",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ff in tech stocks, and paints a picture of the A.I. future for companies including Apple, Tesla, Palantir and GM. Plus, why he thinks an Apple-ESPN merger is inevitable. Also... what's behind the recent real estate meltdow…"
+   }
+  ],
+  "MSFT": [
+   {
+    "episode": "ep174",
+    "date": "2024-01-29",
+    "title": "Looking Long Term Inside the Post Modern Economic Cycle for Investing Clues",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…re living in, and what it means for our future returns. Plus, we are investing in the land of giants again as Microsoft tops the $3 Trillion in market value and several other companies join the Trillionaires Club. But that's not …"
+   }
+  ],
+  "SMCI": [
+   {
+    "episode": "ep177",
+    "date": "2024-02-19",
+    "title": "Mining the Charts for Weaknesses in the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…l happen next to the stock market. Plus, are we witnessing Meme Stock 2.0 as stocks like Abercrombie & Fitch, Super Micro Computer, Texas Roadhouse and WingStop have been on head-spinning rallies? What's similar, but very different about th…"
+   }
+  ],
+  "ANF": [
+   {
+    "episode": "ep177",
+    "date": "2024-02-19",
+    "title": "Mining the Charts for Weaknesses in the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ries to know what will happen next to the stock market. Plus, are we witnessing Meme Stock 2.0 as stocks like Abercrombie & Fitch, Super Micro Computer, Texas Roadhouse and WingStop have been on head-spinning rallies? What's simila…"
+   }
+  ],
+  "NVDA": [
+   {
+    "episode": "ep178",
+    "date": "2024-02-26",
+    "title": "What the Non-Consensus View is Telling us About Capital Markets Today",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ypto with other frothy periods in history and explains how these usually play out. Plus, the meteoric rise of Nvidia and other chip stocks has brought out the options army in full force. They are calling for much higher prices…"
+   },
+   {
+    "episode": "ep191",
+    "date": "2024-05-27",
+    "title": "Why the U.S. Real Estate Market Might Be Healthier Than We Think",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…aults is sending our warning winds. And, while the stock market makes new record highs behind the strength of Nvidia, consumer discretionary stocks have not been invited to the party. Links for show notes: https://www.investop…"
+   },
+   {
+    "episode": "ep226",
+    "date": "2025-02-03",
+    "title": "DeepSeek, A.I., Tariffs, and the Future of Economic Security",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "A jam-packed January full of news also brought DeepSeek into the future of A.I. conversation, deep-seating Nvidia as the world's most valuable company, and calling into question the hundreds of billions of dollars of spendi…"
+   },
+   {
+    "episode": "ep249",
+    "date": "2025-06-08",
+    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…peed led by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Proximity to power is everything under this administration and in this stock market, a…"
+   },
+   {
+    "episode": "ep261",
+    "date": "2025-09-02",
+    "title": "Over-Concentrated or Over-Diversified?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…, ETFs now exceed single stocks, begging the question if we are over-diversified in a world where stocks like Nvidia dominate index funds. And, what to watch this week as the labor market faces its latest test."
+   },
+   {
+    "episode": "ep273",
+    "date": "2025-11-17",
+    "title": "Slip-Sliding Through Sector Rotation",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…lus, don't call it a comeback, but bonds are having their best run in over a decade. And, all eyes will be on Nvidia this week as the chip giant reports its quarterly results, carrying the weight of investor expectations on it…"
+   },
+   {
+    "episode": "ep301",
+    "date": "2026-05-18",
+    "title": "Getting Future-Rich With “Mrs. Dow Jones”",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ng higher. Are higher for longer inflation and interest rates real threats to this aging bull market, or will Nvidia's earnings report this week spur a pre-summer rally?"
+   },
+   {
+    "episode": "ep315",
+    "date": "2026-08-24",
+    "title": "THE GOOD, THE BAD, & THE UNBELIEVEABLE",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ket statistics and astounding compounding revelations that will keep us investing forever. Plus - all eyes on Nvidia this week as the chip giant reports results and tries to assuage investors that all this spending isn't just …"
+   }
+  ],
+  "SQ": [
+   {
+    "episode": "ep187",
+    "date": "2024-04-29",
+    "title": "How Short Sellers Look Through the Muddy Waters of Filings for Fraud",
+    "count": 2,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Carson Block, CEO of Muddy Waters Research, joins The Express to explain how one of the most influential short sellers ide…"
+   }
+  ],
+  "RDDT": [
+   {
+    "episode": "ep196",
+    "date": "2024-07-01",
+    "title": "How the Trolls Took Over Wall Street, and Where They are Now",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…e stock market. Popper draws the through-line from the Great Financial Crisis through the birth of Robinhood, Reddit and ultimately wallstreetbets, where trolling is the language of trading. If you thought this community of tr…"
+   }
+  ],
+  "JPM": [
+   {
+    "episode": "ep208",
+    "date": "2024-09-22",
+    "title": "The Fed's Big Recalibration, and the Most Important Macro Trends in the Economy Today",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…d highs last week - when the Fed gets this aggressive. Plus, Dr. David Kelly, the Chief Global Strategist for JP Morgan Asset Management, joins The Express from the Future Proof Wealth Festival, to share the most important macro …"
+   },
+   {
+    "episode": "ep248",
+    "date": "2025-06-01",
+    "title": "The New Age of Cryptocurrency is Here - Get On-Chain!",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…our trading partners and he's used them before. The tariff war is far from over, but CEOs like Jamie Dimon of JP Morgan are more worried about the war we are waging with the 'enemy within'. Listen to Dimon's comments from the Rea…"
+   },
+   {
+    "episode": "ep303",
+    "date": "2026-06-01",
+    "title": "The Future of the American Economy",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ansforming the U.S. economy. The Express goes inside the Reagan Economic Forum to hear from leaders including JPMorgan CEO Jamie Dimon and U.S. Treasury Secretary Scott Bessent on what economic power means in 2026. Plus, Mike Ro…"
+   }
+  ],
+  "STT": [
+   {
+    "episode": "ep217",
+    "date": "2024-11-25",
+    "title": "The ETF Industry in Search of the Next $10 Trillion",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "Anna Paglia, the Chief Business Officer for State Street Global Advisors, joins The Express to help uncover where the next $10 Trillion in assets under management for…"
+   },
+   {
+    "episode": "ep279",
+    "date": "2025-12-16",
+    "title": "Diving Deep into Investor Sentiment",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…e. We take a deep dive into retail investors' portfolios, and then look ahead into 2026 with Michael Arone of State Street Investment Management. Plus, why Charles Dow would be particularly happy about this current rally, and what o…"
+   },
+   {
+    "episode": "ep296",
+    "date": "2026-04-13",
+    "title": "The Rewiring of the Stock Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…, investors may need to get used to a broader rewiring of the capital markets, according to Matt Bartolini of State Street Investment Management. Yesterday's winners have no lock on the future, even though individual investors can't…"
+   }
+  ],
+  "QQQ": [
+   {
+    "episode": "ep243",
+    "date": "2025-04-30",
+    "title": "What is Behind Chef Kwame Onwuachi's Recipe for Innovation",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…place at Future Proof CityWide in Miami Beach in March, as part of the Recipe for Innovation Live series from Invesco QQQ, in partnership with Investopedia and Food and Wine. Resources: https://www.invesco.com/qqq-etf/en/recipe-for…"
+   }
+  ],
+  "MCO": [
+   {
+    "episode": "ep247",
+    "date": "2025-05-18",
+    "title": "A New Bull is Born and the U.S. Gets a Downgrade",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…, Is there any conviction behind this rally, or is it simply short covering ahead of the summer season? Plus, Moody's downgrades the U.S. credit rating on concerns about rising debt levels, but investors have plenty of other co…"
+   },
+   {
+    "episode": "ep312",
+    "date": "2026-08-03",
+    "title": "The U.S. Economy on the Precipice",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ndling economic confidence pull against productivity gains and capex spending? Mark Zandi, Chief Economist of Moody's Analytics shows us the possible pathways for the economy and households, and what to brace for. Plus, the Fed…"
+   }
+  ],
+  "COIN": [
+   {
+    "episode": "ep249",
+    "date": "2025-06-08",
+    "title": "The Bro Billionaire Basket of Stocks Leads a New Bull Stampede",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… by what Bank of America Securities calls the \"Bro Billionaire Basket of Stocks\", including Palantir, Nvidia, Coinbase and Bitcoin. Proximity to power is everything under this administration and in this stock market, and offende…"
+   }
+  ],
+  "BYND": [
+   {
+    "episode": "ep270",
+    "date": "2025-10-27",
+    "title": "Playing Offense and Defense in Q4",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…laybook on how to play offense and defense in the fourth quarter, and what to expect in 2026. Plus, shares of Beyond Meat are getting grilled after soaring on the meme stock express last week. Is this just a silly stock move or yet…"
+   }
+  ],
+  "TFC": [
+   {
+    "episode": "ep273",
+    "date": "2025-11-17",
+    "title": "Slip-Sliding Through Sector Rotation",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…ing of the risk trade that has propelled the stock market to multiple record highs this year? Keith Lerner of Truist Wealth helps us navigate these recent shockwaves and identifies new opportunities for investors seeking stabi…"
+   }
+  ],
+  "ADP": [
+   {
+    "episode": "ep284",
+    "date": "2026-01-20",
+    "title": "The Real Deal Inside the Jobs Market",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "…d finally cool down the momentum in the stock market. Plus, is AI really going to eat our jobs in the future? ADP's Chief Economist, Nela Richardson forecasts the future of employment, and gives this current labor market a he…"
+   }
+  ],
+  "APO": [
+   {
+    "episode": "ep317",
+    "date": "2026-09-08",
+    "title": "What Might Topple the Private Capital Pyramid?",
+    "count": 1,
+    "sources": [
+     "description"
+    ],
+    "snippet": "… William D. Cohan, author of the newly released book, \"Money to Burn: The Unvarnished Truth About Leon Black, Apollo, and the Rise of a New Wall Street\", describes how we got here, and what dangerous roads private markets and …"
+   }
+  ]
+ },
+ "summary": {
+  "episodes": 317,
+  "episodes_with_transcript": 0,
+  "episodes_with_mentions": 100,
+  "companies": 53,
+  "total_mentions": 127
+ }
+}
