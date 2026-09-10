@@ -12,7 +12,7 @@ from common import DATA, LOGOS, read_json, write_json, clean_description
 import companies as C
 
 
-def weekly(payload: dict, max_points: int = 200):
+def weekly(payload: dict, max_points: int = 130):
     """Downsample daily closes to weekly (last close of each ISO week)."""
     if not payload:
         return []
@@ -23,10 +23,10 @@ def weekly(payload: dict, max_points: int = 200):
         y, m, dd = day.split("-")
         key = dt.date(int(y), int(m), int(dd)).isocalendar()[:2]
         if key != last_key:
-            out.append([day, a[i]])
+            out.append([day, round(a[i], 2)])
             last_key = key
         else:
-            out[-1] = [day, a[i]]
+            out[-1] = [day, round(a[i], 2)]
     if len(out) > max_points:
         step = len(out) / max_points
         out = [out[int(i * step)] for i in range(max_points)]
