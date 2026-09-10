@@ -507,7 +507,10 @@ function renderEpisodes() {
   $('#count').textContent = `${eps.length} episodes · ${d3.sum(eps, e => e.mentions.length)} company mentions`;
   if (!eps.length) { el.innerHTML = '<div class="empty">No episodes match.</div>'; return; }
   const frag = document.createDocumentFragment();
-  for (const e of eps) {
+  const PAGE = 40;
+  const showAllEps = state.showAllEps || state.q;
+  const epSlice = showAllEps ? eps : eps.slice(0, PAGE);
+  for (const e of epSlice) {
     const card = document.createElement('article'); card.className = 'ep';
     const dt = document.createElement('div'); dt.className = 'date';
     const b = document.createElement('b'); b.textContent = fmtDate(parseDate(e.date)); dt.appendChild(b);
@@ -536,6 +539,12 @@ function renderEpisodes() {
     card.append(dt, body); frag.appendChild(card);
   }
   el.appendChild(frag);
+  if (!showAllEps && eps.length > PAGE) {
+    const more = document.createElement('button'); more.type = 'button'; more.className = 'iconbtn morebtn';
+    more.textContent = `Show all ${eps.length} episodes`;
+    more.addEventListener('click', () => { state.showAllEps = true; renderEpisodes(); });
+    el.appendChild(more);
+  }
 }
 
 // ---------- table ----------
