@@ -12,7 +12,7 @@ from common import DATA, LOGOS, read_json, write_json, clean_description
 import companies as C
 
 
-def weekly(payload: dict, max_points: int = 130):
+def weekly(payload: dict, max_points: int = 100):
     """Downsample daily closes to weekly (last close of each ISO week)."""
     if not payload:
         return []
@@ -83,7 +83,7 @@ def main() -> int:
             "priceFile": f"data/prices/{base.replace('^', 'IDX_')}.json" if payload else None,
             "priceSource": pm.get("src"), "firstPrice": first_price, "lastPrice": last_price,
             "changePct": change, "sinceFirstPct": since_first, "spark": spark,
-            "mentions": [{"ep": m["episode"], "date": m["date"], "n": m["count"], "src": m["sources"], "snippet": m["snippet"][:200], "times": m.get("times", [])[:8]} for m in mlist],
+            "mentions": [{"ep": m["episode"], "date": m["date"], "n": m["count"], "src": m["sources"], "snippet": m["snippet"][:170], "times": m.get("times", [])[:8]} for m in mlist],
             "mentionCount": len(mlist),
         })
     companies.sort(key=lambda c: (-c["mentionCount"], c["name"]))

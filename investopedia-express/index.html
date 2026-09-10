@@ -574,10 +574,17 @@ function renderView() {
 
 // ---------- detail drawer & chart ----------
 const drawer = $('#drawer'), scrim = $('#scrim');
+function decodePrices(t) {
+  // Single-file build: prices are packed against a shared trading calendar.
+  const P = window.__PRICES__; const j = P && P.series && P.series[t]; if (!j) return null;
+  const cal = P.calendar;
+  const d = j.i ? j.i.map(k => cal[k]) : cal.slice(j.d0, j.d0 + j.n);
+  return { d, c: j.c || j.a, a: j.a, src: j.src, yf: j.yf };
+}
 async function loadPrices(c) {
   if (!c.priceFile) return null;
   if (state.priceCache.has(c.t)) return state.priceCache.get(c.t);
-  const j = window.__PRICES__ ? window.__PRICES__[c.t] : await (await fetch(c.priceFile)).json();
+  const j = window.__PRICES__ ? decodePrices(c.t) : await (await fetch(c.priceFile)).json();
   if (!j) return null;
   const series = { dates: j.d.map(parseDate), close: j.c, adj: j.a, src: j.src, yf: j.yf };
   state.priceCache.set(c.t, series); return series;
@@ -586,7 +593,7 @@ async function loadBench() {
   const b = state.data.benchmarks && state.data.benchmarks['^GSPC'];
   if (!b) return null;
   if (state.priceCache.has('^GSPC')) return state.priceCache.get('^GSPC');
-  const j = window.__PRICES__ ? window.__PRICES__['^GSPC'] : await (await fetch(b.priceFile)).json();
+  const j = window.__PRICES__ ? decodePrices('^GSPC') : await (await fetch(b.priceFile)).json();
   if (!j) return null;
   const series = { dates: j.d.map(parseDate), adj: j.a };
   state.priceCache.set('^GSPC', series); return series;
