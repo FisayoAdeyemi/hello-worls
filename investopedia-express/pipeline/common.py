@@ -53,3 +53,30 @@ def strip_html(s: str | None) -> str:
 def slugify(s: str, maxlen: int = 60) -> str:
     s = re.sub(r"[^a-zA-Z0-9]+", "-", s.lower()).strip("-")
     return s[:maxlen].rstrip("-") or "episode"
+
+
+_BOILER = [
+    r"Learn more about your ad choices\.?\s*Visit\s*(?:podcastchoices|megaphone)\.\S*",
+    r"Subscribe to Value Add by Investopedia on Substack:?\s*\S*",
+    r"See omnystudio\.com/listener for privacy information\.?",
+    r"Hosted on Acast\. See acast\.com/privacy for more information\.?",
+    r"See acast\.com/privacy for privacy and opt-out information\.?",
+    r"Want The Express every day\? Sign up for the daily morning newsletter at Investopedia\.com\.?",
+]
+
+
+def clean_description(text: str) -> str:
+    """Strip ad/boilerplate lines, show-note link dumps and bare URLs."""
+    if not text:
+        return ""
+    for pat in _BOILER:
+        text = re.sub(pat, " ", text, flags=re.I)
+    # "LINKS FOR SHOW NOTES: http..." style sections – drop from the marker to the end
+    text = re.sub(r"(?is)\b(?:links?\s+for\s+show\s+notes|show\s+notes\s+links?|links?)\s*:?\s*(?=(?:https?://|www\.|[a-z0-9.-]+\.(?:com|org|net|co)/))[\s\S]*$", " ", text)
+    text = re.sub(r"https?://\S+|www\.\S+", " ", text)
+    text = re.sub(r"(?i)\s*\blinks?(?:\s+(?:mentioned|referenced|for\s+show\s+notes))?\s*:?\s*$", "", text)
+    text = text.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\s+([.,;:!?])", r"\1", text)
+    text = re.sub(r"\n\s*\n+", "\n", text)
+    return text.strip(" \n-–—")

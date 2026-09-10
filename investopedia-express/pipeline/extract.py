@@ -11,7 +11,7 @@ import re
 import sys
 from collections import defaultdict
 
-from common import DATA, PIPE, read_json, write_json
+from common import DATA, PIPE, read_json, write_json, clean_description
 import companies as C
 
 BOILERPLATE = [
@@ -26,11 +26,7 @@ EXCL_RE = [re.compile(p) for p in C.EXCLUDE_PATTERNS]
 
 
 def clean(text: str) -> str:
-    for pat in BOILERPLATE:
-        text = re.sub(pat, " ", text, flags=re.I)
-    text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
-    text = re.sub(r"[ \t]+", " ", text)
-    return text.strip()
+    return clean_description(text)
 
 
 def compile_aliases():

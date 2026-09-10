@@ -8,7 +8,7 @@ from __future__ import annotations
 import datetime as dt
 import sys
 
-from common import DATA, LOGOS, read_json, write_json
+from common import DATA, LOGOS, read_json, write_json, clean_description
 import companies as C
 
 
@@ -49,7 +49,7 @@ def main() -> int:
         m = ep_mentions.get(e["id"], {"mentions": [], "has_transcript": False})
         episodes.append({
             "id": e["id"], "n": e["index"], "date": e["date"], "title": e["title"],
-            "description": e["description"], "duration": e["duration"], "audio": e["audio"],
+            "description": clean_description(e["description"]), "duration": e["duration"], "audio": e["audio"],
             "link": e["link"], "hasTranscript": m.get("has_transcript", False),
             "mentions": [{"t": r["ticker"], "n": r["count"], "src": r["sources"], "snippets": r["snippets"]} for r in m["mentions"]],
         })
@@ -65,8 +65,15 @@ def main() -> int:
         first_price = payload["d"][0] if payload and payload["d"] else None
         last_price = payload["d"][-1] if payload and payload["d"] else None
         change = None
+        since_first = None
         if payload and len(payload["a"]) > 1 and payload["a"][0]:
             change = round((payload["a"][-1] / payload["a"][0] - 1) * 100, 1)
+            first_mention = mlist[0]["date"] if mlist else None
+            if first_mention:
+                import bisect
+                i = bisect.bisect_left(payload["d"], first_mention)
+                if i < len(payload["a"]) and payload["a"][i]:
+                    since_first = round((payload["a"][-1] / payload["a"][i] - 1) * 100, 1)
         lm = logos_meta.get(ticker, {})
         companies.append({
             "t": ticker, "name": name, "sector": opt.get("sector", "Other"), "country": opt.get("country", "US"),
@@ -75,7 +82,7 @@ def main() -> int:
             "logoMono": f"logos/mono/{base}.png" if lm.get("has_mono") else None,
             "priceFile": f"data/prices/{base.replace('^', 'IDX_')}.json" if payload else None,
             "priceSource": pm.get("src"), "firstPrice": first_price, "lastPrice": last_price,
-            "changePct": change, "spark": spark,
+            "changePct": change, "sinceFirstPct": since_first, "spark": spark,
             "mentions": [{"ep": m["episode"], "date": m["date"], "n": m["count"], "src": m["sources"], "snippet": m["snippet"]} for m in mlist],
             "mentionCount": len(mlist),
         })
