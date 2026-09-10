@@ -12,21 +12,14 @@ import requests
 from common import RAW, DATA, UA, ensure_dirs, read_json, write_json, strip_html
 
 CANDIDATES = [
-    "https://rephonic.com/podcasts/the-investopedia-express",
-    "https://podscripts.co/sitemap.xml",
-    "https://podscripts.co/search?q=investopedia+express",
-    "https://podcasts.musixmatch.com/search?q=investopedia%20express",
-    "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947",
-    "https://www.investopedia.com/podcast",
-    "https://www.investopedia.com/search?q=investopedia%20express",
-    "https://podcasts.apple.com/us/podcast/the-investopedia-express-with-caleb-silver/id1529322197",
-    "https://open.spotify.com/show/1TwnoxxgCIGK8mF7szI6j9",
-    "https://app.podscribe.ai/series?query=investopedia",
-    "https://app.podscribe.ai/api/series/search?q=investopedia",
-    "https://steno.ai/search?q=investopedia%20express",
-    "https://www.listennotes.com/podcasts/the-investopedia-express-with-caleb-silver-R0tNVmrUcBC/",
-    "https://podtail.com/en/podcast/the-investopedia-express/",
-    "https://www.podbean.com/podcast-detail/fmryq-e2ce0/The-Investopedia-Express-with-Caleb-Silver-Podcast",
+    "https://rephonic.com/episodes/a7xye-the-investopedia-express-with-caleb-silver-t",
+    "https://rephonic.com/episodes/mfg6d-the-investopedia-express-with-caleb-silver-t",
+    "https://rephonic.com/podcasts/the-investopedia-express/episodes",
+    "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/what-might-topple-the-private-308376370",
+    "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/what-might-topple-the-private-308376370/transcript",
+    "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/recent",
+    "https://podcasts.musixmatch.com/podcast/the-investopedia-express-with-caleb-silver-01hhx5xpzrz6r3vgfd2xkvwq3s",
+    "https://app.podscribe.ai/series/1529322197",
 ]
 
 
@@ -112,8 +105,7 @@ def main() -> int:
         }
         report["pages"].append(rec)
         print(json.dumps({k: rec[k] for k in ("url", "status", "length", "transcript_word_count", "text_length")}), "links:", len(rec["links"]))
-    report["youtube"] = youtube_probe()
-    print("youtube:", json.dumps(report["youtube"])[:800])
+    report["youtube"] = "skipped"
     write_json(RAW / "probe_report.json", report)
     return 0
 
