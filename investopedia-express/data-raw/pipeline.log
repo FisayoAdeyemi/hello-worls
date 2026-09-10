@@ -1,7 +1,7 @@
 
 === stage: fetch_feed ===
 Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
-=== fetch_feed: ok in 0.3s
+=== fetch_feed: ok in 0.4s
 
 === stage: probe_pages ===
 {"url": "https://rephonic.com/episodes/a7xye-the-investopedia-express-with-caleb-silver-t", "status": 200, "length": 12477, "transcript_word_count": 0, "text_length": 7168} links: 0
@@ -12,7 +12,7 @@ Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
 {"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/recent", "status": 200, "length": 459920, "transcript_word_count": 28, "text_length": 325682} links: 9
 {"url": "https://podcasts.musixmatch.com/podcast/the-investopedia-express-with-caleb-silver-01hhx5xpzrz6r3vgfd2xkvwq3s", "status": 200, "length": 32126, "transcript_word_count": 0, "text_length": 28831} links: 0
 {"url": "https://app.podscribe.ai/series/1529322197", "status": 200, "length": 19102, "transcript_word_count": 1, "text_length": 3340} links: 0
-=== probe_pages: ok in 0.8s
+=== probe_pages: ok in 1.7s
 
 Summary:
   fetch_feed         ok
