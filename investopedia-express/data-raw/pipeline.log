@@ -3,43 +3,17 @@
 Fetched 317 episodes (2020-08-26 → 2026-09-08); 0 carry a transcript tag
 === fetch_feed: ok in 0.7s
 
-=== stage: fetch_transcripts ===
-transcripts on disk: 2
-=== fetch_transcripts: ok in 0.0s
-
-=== stage: extract ===
-episodes: 317 with transcript: 2 with mentions: 101 companies: 55 mentions: 132
-top: SCHW=11, NVDA=8, AAPL=7, SOFI=6, BRK-B=6, FRHC=6, PLTR=4, GOOGL=4, HOOD=4, AMP=4, TWTR=4, BLK=4, TSLA=3, GS=3, BAC=3, AMZN=3, DIS=3, JPM=3, STT=3, GM=2, PFE=2, GBTC=2, MORN=2, META=2, SIVB=2
-=== extract: ok in 4.2s
-
-=== stage: fetch_prices ===
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
-$NKLA: possibly delisted; no timezone found
-
-1 Failed download:
-['NKLA']: possibly delisted; no timezone found
-$TWTR: possibly delisted; no timezone found
-$WE: possibly delisted; no timezone found
-$SIVB: possibly delisted; no timezone found
-
-3 Failed downloads:
-['TWTR', 'WE', 'SIVB']: possibly delisted; no timezone found
-Fetching prices for 57 symbols since 2020-06-01
-prices: yahoo=53 stooq=0 missing=4 ['NKLA', 'SIVB', 'TWTR', 'WE']
-=== fetch_prices: ok in 10.7s
-
-=== stage: fetch_logos ===
-logos: colour 53 mono 50 of 55
-=== fetch_logos: ok in 13.0s
-
-=== stage: build_index ===
-app.json: 317 episodes, 55 companies, 2 benchmarks
-=== build_index: ok in 0.2s
+=== stage: probe_pages ===
+{"url": "https://rephonic.com/episodes/a7xye-the-investopedia-express-with-caleb-silver-t", "status": 200, "length": 12477, "transcript_word_count": 0, "text_length": 7168} links: 0
+{"url": "https://rephonic.com/episodes/mfg6d-the-investopedia-express-with-caleb-silver-t", "status": 200, "length": 12477, "transcript_word_count": 0, "text_length": 7168} links: 0
+{"url": "https://rephonic.com/podcasts/the-investopedia-express/episodes", "status": 404, "length": 14882, "transcript_word_count": 0, "text_length": 7860} links: 0
+{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/what-might-topple-the-private-308376370", "status": 200, "length": 407991, "transcript_word_count": 31, "text_length": 309317} links: 7
+{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/what-might-topple-the-private-308376370/transcript", "status": 200, "length": 323691, "transcript_word_count": 14, "text_length": 226160} links: 8
+{"url": "https://www.podchaser.com/podcasts/the-investopedia-express-with-1416947/episodes/recent", "status": 200, "length": 459920, "transcript_word_count": 28, "text_length": 325682} links: 9
+{"url": "https://podcasts.musixmatch.com/podcast/the-investopedia-express-with-caleb-silver-01hhx5xpzrz6r3vgfd2xkvwq3s", "status": 200, "length": 32126, "transcript_word_count": 0, "text_length": 28831} links: 0
+{"url": "https://app.podscribe.ai/series/1529322197", "status": 200, "length": 19102, "transcript_word_count": 1, "text_length": 3340} links: 0
+=== probe_pages: ok in 2.4s
 
 Summary:
   fetch_feed         ok
-  fetch_transcripts  ok
-  extract            ok
-  fetch_prices       ok
-  fetch_logos        ok
-  build_index        ok
+  probe_pages        ok
