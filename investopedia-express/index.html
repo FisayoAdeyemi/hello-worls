@@ -619,7 +619,7 @@ async function renderDetail(t, keepZoom) {
     if (i0 < series.adj.length) kpis.push(['Since first mention', fmtPct((last / series.adj[i0] - 1) * 100), `from ${fmtUSD(series.adj[i0])} on ${fmtDate(series.dates[i0])}`]);
     // average 30-trading-day reaction after a mention
     const reacts = [];
-    for (const m of vm) { const i = nearestIndex(series.dates, parseDate(m.date)); if (i + 21 < series.adj.length && series.dates[i] >= parseDate(m.date) - 7 * 864e5) reacts.push(series.adj[i + 21] / series.adj[i] - 1); }
+    for (const m of vm) { const d0 = parseDate(m.date); if (d0 < series.dates[0] || d0 > series.dates[series.dates.length - 1]) continue; const i = nearestIndex(series.dates, d0); if (i + 21 < series.adj.length) reacts.push(series.adj[i + 21] / series.adj[i] - 1); }
     if (reacts.length) kpis.push(['Avg. move, next 30 days', fmtPct(d3.mean(reacts) * 100), `${reacts.length} mention${reacts.length > 1 ? 's' : ''} with 30 days of data after`]);
     kpis.push(['Price source', series.src === 'yahoo' ? 'Yahoo Finance' : 'Stooq', `${series.yf} · adjusted close`]);
   } else kpis.push(['Price history', 'Unavailable', c.delisted ? 'delisted before data window' : 'no data returned']);
@@ -644,6 +644,7 @@ function buildMentionList(ml, c, series, vm) {
     const b = document.createElement('b'); b.textContent = fmtDate(parseDate(m.date)); md.appendChild(b); md.appendChild(document.createTextNode(`Episode #${e?.n ?? ''}`));
     const mid = document.createElement('div');
     const mt = document.createElement('div'); mt.className = 'mt'; mt.textContent = e?.title || m.ep;
+    if (m.n > 1) { const k = document.createElement('span'); k.className = 'pill'; k.style.marginLeft = '8px'; k.textContent = `×${m.n} in this episode`; mt.appendChild(k); }
     const ms = document.createElement('div'); ms.className = 'ms'; ms.textContent = m.snippet || '';
     mid.append(mt, ms);
     const links = document.createElement('div'); links.className = 'links';
@@ -653,8 +654,11 @@ function buildMentionList(ml, c, series, vm) {
     timeChips(m, e, mid);
     const mp = document.createElement('div'); mp.className = 'mp';
     if (series) {
-      const i = nearestIndex(series.dates, parseDate(m.date));
-      if (i < series.adj.length) {
+      const md0 = parseDate(m.date);
+      const i = nearestIndex(series.dates, md0);
+      if (md0 < series.dates[0]) { mp.textContent = 'before listing'; }
+      else if (md0 > series.dates[series.dates.length - 1]) { mp.textContent = 'after last trading day'; }
+      else if (i < series.adj.length) {
         const pb = document.createElement('b'); pb.textContent = fmtUSD(series.close[i]); mp.appendChild(pb);
         mp.appendChild(document.createTextNode(`close ${fmtDate(series.dates[i])}`));
         if (i + 21 < series.adj.length) { const r = (series.adj[i + 21] / series.adj[i] - 1) * 100; const s = document.createElement('div'); s.textContent = `${fmtPct(r)} next 30d`; s.className = r >= 0 ? 'up' : 'down'; mp.appendChild(s); }
@@ -695,8 +699,10 @@ function buildChart(cc, c, series, bench, vm, prevZoom) {
   const x0 = d3.scaleTime().domain([dates[0], dates[dates.length - 1]]).range([0, iw]);
   let x = x0.copy();
   const y = d3.scaleLinear().range([ih, 0]);
-  const mentionIdx = vm.map(mm => { const d = parseDate(mm.date); const i = nearestIndex(dates, d); return { m: mm, i, d, onChart: d >= dates[0] && d <= dates[dates.length - 1] }; });
+  const lastDate = dates[dates.length - 1];
+  const mentionIdx = vm.map(mm => { const d = parseDate(mm.date); const i = nearestIndex(dates, d); return { m: mm, i, d, onChart: d >= dates[0] && d <= lastDate }; });
   const before = mentionIdx.filter(o => !o.onChart && o.d < dates[0]);
+  const after = mentionIdx.filter(o => !o.onChart && o.d > lastDate);
   // benchmark aligned to dates
   let benchAligned = null;
   if (bench) { benchAligned = dates.map(d => { const i = nearestIndex(bench.dates, d); return bench.adj[Math.min(i, bench.adj.length - 1)]; }); }
@@ -715,7 +721,7 @@ function buildChart(cc, c, series, bench, vm, prevZoom) {
   const crossDotB = cross.append('circle').attr('r', 3.5).attr('fill', 'var(--bench)').attr('stroke', 'var(--surface)').attr('stroke-width', 2).style('display', 'none');
   const endLabel = g.append('text').attr('font-size', 11).attr('fill', 'var(--ink-2)').attr('text-anchor', 'start').attr('dy', '0.35em');
   const beforeNote = g.append('text').attr('x', 4).attr('y', 12).attr('font-size', 11).attr('fill', 'var(--muted)');
-  if (before.length) beforeNote.text(`${before.length} mention${before.length > 1 ? 's' : ''} predate the listing (see list below)`);
+  const notes = []; if (before.length) notes.push(`${before.length} mention${before.length > 1 ? 's' : ''} predate the listing`); if (after.length) notes.push(`${after.length} mention${after.length > 1 ? 's' : ''} came after the last trading day`); if (notes.length) beforeNote.text(notes.join(' · ') + ' (see list below)');
 
   function valueAt(i) { return mode === 'indexed' ? (adj[i] / adj[visStart] * 100) : adj[i]; }
   function benchAt(i) { return benchAligned ? benchAligned[i] / benchAligned[visStart] * 100 : null; }

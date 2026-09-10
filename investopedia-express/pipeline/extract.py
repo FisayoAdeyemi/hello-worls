@@ -42,7 +42,9 @@ def compile_aliases():
             ambiguous = raw.startswith("?")
             if ambiguous:
                 raw = raw[1:]
-            valid_from = None
+            valid_from = valid_until = None
+            if "<" in raw:
+                raw, valid_until = raw.split("<", 1)
             if "@" in raw:
                 raw, valid_from = raw.split("@", 1)
             alias = raw
@@ -53,7 +55,7 @@ def compile_aliases():
                 pat += r"(?:'s)?"
             # Word boundaries that tolerate punctuation like & and .
             regex = re.compile(r"(?<![A-Za-z0-9])" + pat + r"(?![A-Za-z0-9])")
-            out.append((ticker, alias, regex, ambiguous, valid_from))
+            out.append((ticker, alias, regex, ambiguous, valid_from, valid_until))
     # Longer aliases first so "Bank of America" wins over "America"
     out.sort(key=lambda x: -len(x[1]))
     return out
@@ -87,8 +89,10 @@ def scan(text: str, date: str, source: str):
     """Yield (ticker, alias, start, end) for every accepted match."""
     found = []
     taken = [False] * (len(text) + 1)
-    for ticker, alias, regex, ambiguous, valid_from in ALIASES:
+    for ticker, alias, regex, ambiguous, valid_from, valid_until in ALIASES:
         if valid_from and date < valid_from:
+            continue
+        if valid_until and date >= valid_until:
             continue
         for m in regex.finditer(text):
             s, e = m.start(), m.end()
